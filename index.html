@@ -34,16 +34,48 @@
     <script src="js/html5shiv.js"></script>
     <script src="js/html5element.js"></script>
 <![endif]-->
-
+<script>
+var looper;
+var degrees = 0;
+function rotateAnimation(el,speed){
+	var elem = document.getElementById(el);
+	if(navigator.userAgent.match("Chrome")){
+		elem.style.WebkitTransform = "rotate("+degrees+"deg)";
+	} else if(navigator.userAgent.match("Firefox")){
+		elem.style.MozTransform = "rotate("+degrees+"deg)";
+	} else if(navigator.userAgent.match("MSIE")){
+		elem.style.msTransform = "rotate("+degrees+"deg)";
+	} else if(navigator.userAgent.match("Opera")){
+		elem.style.OTransform = "rotate("+degrees+"deg)";
+	} else {
+		elem.style.transform = "rotate("+degrees+"deg)";
+	}
+	looper = setTimeout('rotateAnimation(\''+el+'\','+speed+')',speed);
+	degrees++;
+	if(degrees > 359){
+		degrees = 1;
+	}
+	document.getElementById("status").innerHTML = "rotate("+degrees+"deg)";
+}
+</script>
 
 </head>
 <body>
 <div style="overflow:hidden;">
 <header class="header" id="header"><!--header-start-->
 	<div class="container">
-       	<a href="#"><img src="img/logo.png" alt="" style="width:350px;height:200px;"></a>
+		<a href="#">
+		   <div>
+			  <img id="logo" src="img/bi0s0.png" alt="logo">
+			  <img id="logo_name" src="img/bi0s_name.png" alt="">
+		   </div>
+	    </a>
+
         <ul class="we-create animated fadeInUp delay-1s">
         	<!--<h1>bi<b>0</b>s</h1>-->
+					<a href="#service"><b class="arrow-down wow fadeInDown delay-01s ease-in-out"><i class="fa fa-arrow-down" aria-hidden="true"></i>
+</b></a>
+
         </ul>
           <!--  <a class="link animated fadeInUp delay-1s" href="#">Get Started</a>-->
     </div>
@@ -119,10 +151,11 @@
 	                    </div>
 										</div>
                 </div>
+								<figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
+									<img src="img/macbook-pro.png" alt="" style="width:350px;height:350px;" align="right">
+								</figure>
             </div>
-            <figure class="col-lg-1 col-sm-12  text-right wow fadeInUp delay-02s">
-            	<img src="img/macbook-pro.png" alt="" style="width:300px;height:300px;">
-            </figure>
+
 
         </div>
 	</div>
@@ -193,60 +226,77 @@ Today Team bi0s is the top ranked Indian team.</P>
       <div class="portfolioFilter">
         <ul class="Portfolio-nav wow fadeIn delay-02s">
         	<li><a href="#" data-filter="*" class="current" >bi0s</a></li>
-            <li><a href="#" data-filter=".branding" >Binary Exploitation</a></li>
-            <li><a href="#" data-filter=".webdesign" >Web Application Security</a></li>
-            <li><a href="#" data-filter=".printdesign" >Forensics</a></li>
-            <li><a href="#" data-filter=".photography" >Android Security</a></li>
+            <li><a href="#" data-filter=".binary" >Binary Exploitation</a></li>
+            <li><a href="#" data-filter=".web" >Web Application Security</a></li>
+            <li><a href="#" data-filter=".forensics" >Forensics</a></li>
+            <li><a href="#" data-filter=".android" >Android Security</a></li>
         </ul>
        </div>
 
 	</div>
     <div class="portfolioContainer wow fadeInUp delay-04s">
-								<div class="Portfolio-box webdesign">
-	                <a href="#"><img src="img/Portfolio-pic20.jpg" alt="" style="width:100px;height:100px;"></a>
+								<div class="Portfolio-box web">
+	                <a href="#"><img class="img-circle" src="img/Portfolio-pic20.jpg" alt="" ></a>
 	                <h3>Anirudh Anand</h3>
 	                  <p>Web Application Security</p>
 	              </div>
-                <div class="Portfolio-box webdesign">
-                	<a href="#"><img src="img/Portfolio-pic2.jpg" alt=""></a>
+                <div class="Portfolio-box web">
+                	<a href="#"><img class="img-circle" src="img/Portfolio-pic2.jpg" alt="" ></a>
                 	<h3>Heeraj</h3>
                     <p>Server Side Exploitation</p>
                 </div>
-								<div class="Portfolio-box webdesign">
-                	<a href="#"><img src="img/Portfolio-pic8.jpg" alt=""></a>
+								<div class="Portfolio-box web">
+                	<a href="#"><img class="img-circle" src="img/Portfolio-pic8.jpg" alt="" ></a>
                 	<h3>Gokul Krishna P</h3>
                     <p>Client Side Exploitation</p>
                 </div>
-                <div class=" Portfolio-box branding">
-                	<a href="#"><img src="img/Portfolio-pic3.jpg" alt=""></a>
+								<div class=" Portfolio-box web">
+										<a href="#"><img class="img-circle" src="img/Portfolio-pic15.jpg" alt="" ></a>
+										<h3>Akhil Mahindra</h3>
+											<p>Server Side Security</p>
+								</div>
+								<div class=" Portfolio-box web">
+										<a href="#"><img class="img-circle" src="img/Portfolio-pic14.jpg" alt="" ></a>
+										<h3>Arjun Vijay</h3>
+											<p>Web Application Security</p>
+								</div>
+								<div class=" Portfolio-box android">
+									<a href="#"><img class="img-circle" src="img/Portfolio-pic5.jpg" alt="" ></a>
+									<h3>Abhishek J M</h3>
+										<p>Android Exploitation</p>
+								</div>
+                <div class=" Portfolio-box binary">
+                	<a href="#"><img class="img-circle" src="img/Portfolio-pic3.jpg" alt="" ></a>
                 	<h3>Jayakrishna Menon</h3>
                     <p>Heap based Exploitation</p>
                 </div>
-								<div class=" Portfolio-box branding">
-                	<a href="#"><img src="img/Portfolio-pic11.jpg" alt=""></a>
+								<div class=" Portfolio-box binary">
+                	<a href="#"><img class="img-circle" src="img/Portfolio-pic11.jpg" alt="" ></a>
                 	<h3>Akshay Krishnan R</h3>
                     <p>Return Oriented Programming</p>
                 </div>
-                <div class=" Portfolio-box photography" >
-                	<a href="#"><img src="img/Portfolio-pic4.jpg" alt=""></a>
-                	<h3>Abhishek J M</h3>
-                    <p>Android Exploitation</p>
-                </div>
-                <div class=" Portfolio-box branding">
-                	<a href="#"><img src="img/Portfolio-pic5.jpg" alt="" style="width:100px;height:100px;"></a>
+                <div class=" Portfolio-box binary" >
+                	<a href="#"><img class="img-circle" src="img/Portfolio-pic4.jpg" alt="" ></a>
                 	<h3>Rakesh Parchuri</h3>
                     <p>Binary Exploitation</p>
                 </div>
-								<div class=" Portfolio-box printdesign">
-										<a href="#"><img src="img/Portfolio-pic1.jpg" alt=""></a>
+								<div class=" Portfolio-box forensics">
+										<a href="#"><img class="img-circle" src="img/Portfolio-pic1.jpg" alt="" ></a>
 										<h3>Shivkrishna A</h3>
 											<p>Memory Forensics</p>
 									</div>
-									<div class=" Portfolio-box printdesign">
-											<a href="#"><img src="img/Portfolio-pic12.jpg" alt=""></a>
+									<div class=" Portfolio-box forensics">
+											<a href="#"><img class="img-circle" src="img/Portfolio-pic12.jpg" alt="" ></a>
 											<h3>Ajay Menon</h3>
 												<p>Network Forensics</p>
 									</div>
+									<div class=" Portfolio-box forensics">
+											<a href="#"><img class="img-circle" src="img/Portfolio-pic13.jpg" alt="" ></a>
+											<h3>Arjun T U</h3>
+												<p>Reverse Engineering</p>
+									</div>
+
+
     </div>
 </section><!--main-section-end-->
 
@@ -261,7 +311,7 @@ Today Team bi0s is the top ranked Indian team.</P>
         </div>
     	<ul class="client wow fadeIn delay-05s">
         	<li><a href="#">
-            	<img src="img/client-pic1.jpg" alt="">
+            	<img src="img/client-pic1.jpg" alt="" style="height:200px; width:200px;">
                 <h3>Vipin Pavithran</h3>
                 <span>Chief Mentor, bi0s.</span>
             </a></li>
@@ -273,7 +323,7 @@ Today Team bi0s is the top ranked Indian team.</P>
     	<ul>
         	<!--<li><a href="#"><img src="img/c-liogo1.png" alt=""></a></li>
             <li><a href="#"><img src="img/c-liogo2.png" alt=""></a></li>-->
-            <!--<li><a href="https://amritabi0s.wordpress.com/"><img src="img/c-liogo3.png" alt=""></a></li>-->
+            <!--<li><a href="https://amritabi0s.wordpress.com/"><img src="img/c-liogo3.png" alt=""></a></li>
             <!--<li><a href="#"><img src="img/c-liogo4.png" alt=""></a></li>
             <li><a href="#"><img src="img/c-liogo5.png" alt=""></a></li>-->
     	</ul>
@@ -287,11 +337,11 @@ Today Team bi0s is the top ranked Indian team.</P>
             <div class="team-leader-box">
                 <div class="team-leader wow fadeInDown delay-03s">
                     <div class="team-leader-shadow"><a href="#"></a></div>
-                    <img src="img/team-leader-pic1.jpg" alt="" style="width:320px;height:200px";>
+                    <img src="img/team-leader-pic1.jpg" alt="" style="width:300px;height:250px";>
                     <ul>
-                        <!--<li><a href="https://twitter.com/VipinUvacha/followers" class="fa-twitter"></a></li>-->
+                        <li><a href="https://www.linkedin.com/in/seshagiri-prabhu-8ab1721b?authType=NAME_SEARCH&authToken=dXfo&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A69076355%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1472456973256%2Ctas%3Aseshagiri" class="fa-linkedin"></a></li>
                         <!--<li><a href="" class="fa-facebook"></a></li>-->
-                        <li><a href="https://plus.google.com/+Seshagiriprabhu" class="fa-google-plus"></a></li>
+                        <!--<li><a href="https://plus.google.com/+Seshagiriprabhu" class="fa-google-plus"></a></li>-->
                     </ul>
                 </div>
                 <h3 class="wow fadeInDown delay-03s">Seshagiri N Prabhu</h3>
@@ -301,10 +351,10 @@ Today Team bi0s is the top ranked Indian team.</P>
             <div class="team-leader-box">
                 <div class="team-leader  wow fadeInDown delay-06s">
                     <div class="team-leader-shadow"><a href="#"></a></div>
-                    <img src="img/team-leader-pic2.jpg" alt="" style="width:320px;height:200px;">
+                    <img src="img/team-leader-pic2.jpg" alt="" style="width:300px;height:250px;">
                     <ul>
-                        <!--<li><a href="#" class="fa-twitter"></a></li>
-                        <li><a href="#" class="fa-facebook"></a></li>
+                        <li><a href="https://www.linkedin.com/in/arvind-s-raj-95738222?authType=NAME_SEARCH&authToken=-rvw&locale=en_US&srchid=4227231271472457216565&srchindex=1&srchtotal=15&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A4227231271472457216565%2CVSRPtargetId%3A78552787%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH" class="fa-linkedin"></a></li>
+                        <!--<li><a href="#" class="fa-facebook"></a></li>
                         <li><a href="#" class="fa-pinterest"></a></li>
                         <li><a href="#" class="fa-google-plus"></a></li>-->
                     </ul>
@@ -316,21 +366,36 @@ Today Team bi0s is the top ranked Indian team.</P>
             <div class="team-leader-box">
                 <div class="team-leader wow fadeInDown delay-09s">
                     <div class="team-leader-shadow"><a href="#"></a></div>
-                    <img src="img/team-leader-pic3.jpg" alt="" style="width:320px;height:200px;">
+                    <img src="img/team-leader-pic3.jpg" alt="" style="width:300px;height:250px;">
                     <ul>
-                        <li><a href="https://twitter.com/bithin2007" class="fa-twitter"></a></li>
-                        <li><a href="https://www.facebook.com/bithin.alangot?fref=ts" class="fa-facebook"></a></li>
-                        <!--<li><a href="#" class="fa-pinterest"></a></li>-->
-                        <li><a href="https://plus.google.com/110642866185135350816/posts" class="fa-google-plus"></a></li>
+                        <li><a href="https://www.linkedin.com/in/bithin2007?authType=name&authToken=RXJg&trk=Skyline_click_NBM&sl=NBM%3B422723127%3A1472456976411%3B0%3B69076355%3B" class="fa-linkedin"></a></li>
+                        <!--<li><a href="https://www.facebook.com/bithin.alangot?fref=ts" class="fa-facebook"></a></li>
+                        <!--<li><a href="#" class="fa-pinterest"></a></li>-
+                        <li><a href="https://plus.google.com/110642866185135350816/posts" class="fa-google-plus"></a></li>-->
                     </ul>
+                </div>
                 <h3 class="wow fadeInDown delay-09s">Bithin Alangot</h3>
-							</div>
                 <span class="wow fadeInDown delay-09s">Research Scholar</span>
                 <p class="wow fadeInDown delay-09s">PhD research scholar in Cyber Security.</p>
+            </div>
+						<div class="team-leader-box" style="margin-left: 33.5%;">
+                <div class="team-leader wow fadeInDown delay-09s">
+                    <div class="team-leader-shadow"><a href="#"></a></div>
+                    <img src="img/team-leader-pic4.jpg" alt="" style="width:300px;height:250px;">
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/renorobert?authType=NAME_SEARCH&authToken=Ymyo&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A71856241%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1472457301910%2Ctas%3Areno%20" class="fa-linkedin"></a></li>
+                        <!--<li><a href="https://www.facebook.com/bithin.alangot?fref=ts" class="fa-facebook"></a></li>
+                        <!--<li><a href="#" class="fa-pinterest"></a></li>
+                        <li><a href="https://plus.google.com/110642866185135350816/posts" class="fa-google-plus"></a></li>-->
+                    </ul>
+                </div>
+                <h3 class="wow fadeInDown delay-09s">Reno Robert</h3>
+                <span class="wow fadeInDown delay-09s">Security Engineer</span>
             </div>
         </div>
     </div>
 </section><!--main-section team-end-->
+
 
 
 
@@ -362,8 +427,9 @@ Today Team bi0s is the top ranked Indian team.</P>
                 </div>-->
                 <ul class="social-link">
                 	<li class="twitter"><a href="https://www.twitter.com/teambi0s"><i class="fa-twitter"></i></a></li>
-                    <li class="facebook"><a href="https://amritabi0s.wordpress.com/"><i class="fa-wordpress"></i></a></li>
-                    <!--<li class="pinterest"><a href="#"><i class="fa-pinterest"></i></a></li>
+									<li class="twitter"><a href="https://amritabi0s.wordpress.com/"><i class="fa-wordpress"></i></a></li>
+                    <!--<li class="facebook"><a href="https://www.facebook.com/teambi0s"><i class="fa-facebook"></i></a></li>
+                    <li class="pinterest"><a href="#"><i class="fa-pinterest"></i></a></li>
                     <li class="gplus"><a href="#"><i class="fa-google-plus"></i></a></li>
                     <li class="dribbble"><a href="#"><i class="fa-dribbble"></i></a></li>-->
                 </ul>
@@ -484,5 +550,77 @@ $(window).load(function(){
 });
 
 </script>
+
+<script>rotateAnimation("logo",70);</script>
+
+<style>
+
+
+
+@media screen and (max-width:400px) {
+	#logo {
+		width: 90%;
+		height: 90%;
+	}
+	#logo_name {
+		width: 35%;
+		height: 35%;
+		position: absolute;
+    	left: 35%;
+    	top: 10%;
+
+	}
+}
+
+@media screen and (min-width:401px) {
+	#logo {
+		width: 90%;
+		height: 90%;
+	}
+	#logo_name {
+		width: 40%;
+		height: 40%;
+		position: absolute;
+    	left: 30%;
+    	top: 11%;
+
+	}
+}
+
+@media screen and (min-width:700px) {
+	#logo {
+		width: 50%;
+		height: 50%;
+	}
+
+	#logo_name {
+		width: 40%;
+		height: 40%;
+		position: absolute;
+    	left: 30%;
+    	top: 15%;
+
+	}
+}
+
+
+@media screen and (min-width:900px) {
+	#logo {
+		width: 50%;
+		height: 50%;
+	}
+
+	#logo_name {
+		width: 35%;
+		height: 50%;
+		position: absolute;
+    	left: 33%;
+    	top: 12%;
+
+	}
+}
+
+
+</style>
 </body>
 </html>
