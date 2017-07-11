@@ -99,7 +99,7 @@ a, a:hover, a:active{ outline:0px !important}
 ---------------------------------*/
 body {
 	background:#fff;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', serif;
 	font-size:14px;
 	font-weight:normal;
 	color:#888888;
@@ -108,13 +108,14 @@ body {
 h2{
 	font-size:34px;
 	color:#222222;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', serif;
 	font-weight:700;
 	letter-spacing: -1px;
 	margin:0 0 15px 0;
 	text-align:center;
 	text-transform:uppercase;
 }
+
 h3{
 	font-family: 'Montserrat', sans-serif;
 	color:#222222;
@@ -205,7 +206,7 @@ color: #fff;
 
 .link{
 	padding:15px 35px;
-	background:#7cc576;
+	background:#76bcc5;
 	color:#fff !important;
 	font-size:16px;
 	font-weight:400;
