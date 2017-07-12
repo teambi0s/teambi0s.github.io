@@ -17,9 +17,9 @@
  * limitations under the License.
  * ======================================================================== */
 
- $(".typed").typewriter({
+ /*$(".typed").typewriter({
    speed: 60
- });
+ });*/
 +function ($) { "use strict";
 
   // ALERT CLASS DEFINITION
