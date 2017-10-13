@@ -118,7 +118,7 @@ h2{
 
 h3{
 	font-family: 'Montserrat', sans-serif;
-	color:#222222;
+	color:#711d1d;
 	font-size:16px;
 	margin:0 0 5px 0;
 	text-transform:uppercase;
@@ -379,6 +379,10 @@ color: #fff;
     border-radius: 50%;
 }
 
+.img-circle:hover {
+	border-radius: 25%;
+}
+
 .Portfolio-nav{
 	padding:0;
 	margin:0 0 45px 0;
@@ -394,11 +398,11 @@ color: #fff;
 	padding:10px 22px;
 	font-size:12px;
 	line-height:20px;
-	color:#222222;
+	color:#FFFFFF;
 	border-radius:4px;
 	text-transform:uppercase;
 	font-family: 'Montserrat', sans-serif;
-	background:#f7f7f7;
+	background:#636363;
 	margin-bottom:5px;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
@@ -432,9 +436,6 @@ color: #fff;
 	-webkit-transition:all 0.3s ease-in-out;
 }
 
-.Portfolio-box img:hover {
-	opacity: 0.6;
-}
 
 .Portfolio-nav li a.current{
 	background:#7cc576;
