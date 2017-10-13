@@ -243,7 +243,7 @@ color: #fff;
 }
 .main-nav{
 	text-align:center;
-	margin:10px 0 0px;
+	margin:5px 0 0px;
 	padding:0;
 	list-style:none;
 }
@@ -818,6 +818,11 @@ border: 2px solid #fff;
 .input-btn:hover{
 	background: #111;
 	color: #fff;
+}
+.menu-a {
+	font-family: Roboto, sans-serif;
+	font-size:18px;
+	font-weight: 300;
 }
 
 /* Footer
