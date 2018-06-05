@@ -1,0 +1,69 @@
+/* code for animated blinking cursor */
+.brand-heading-typed-container {
+    background: rgba(0,0,0,.7);
+    max-width: 650px;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 40px;
+    font-family: monospace, sans-serif !important;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+}
+.brand-heading-typed-container-2 {
+    max-width: 80%;
+    margin: 0 auto;
+    font-size: 25px;
+    font-family: monospace, sans-serif !important;
+    text-align: left;
+    line-height: 30px;
+    padding-left: 50px;
+    float: left;
+    position: absolute;
+    top: 0;
+}
+@media (max-width: 768px) {
+  .brand-heading-typed-container-2 {
+    font-size: 50%;
+}
+}
+.typed-string p {
+    font-family: 'Cutive', serif !important;
+}
+#typed-string-2 p {
+    font-family: monospace, sans-serif !important;
+}
+.typed-cursor{
+    opacity: 1;
+    font-weight: 100;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    -ms-animation: blink 0.7s infinite;
+    -o-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-ms-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-o-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}

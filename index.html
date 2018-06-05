@@ -1,619 +1,728 @@
-<!--a-->
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, maximum-scale=1">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Homepage</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta charset="utf-8">
+        <meta name="author" content="Harry Boo">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
-<title>Homepage</title>
-<link rel="icon" href="favicon.png" type="image/png">
-<link rel="shortcut icon" href="favicon.ico" type="img/x-icon">
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="assets/img/logo/bi0s-favicon.png">
+        <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.png">
 
-<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600' rel='stylesheet' type='text/css'>
+        <!-- Load Core CSS
+        =====================================-->
+        <link rel="stylesheet" href="assets/css/core/bootstrap.css">
+        <link rel="stylesheet" href="assets/css/core/animate.min.css">
 
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-<link href="css/style.css" rel="stylesheet" type="text/css">
-<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
-<link href="css/responsive.css" rel="stylesheet" type="text/css">
-<link href="css/animate.css" rel="stylesheet" type="text/css">
+        <!-- Load Main CSS
+        =====================================-->
+        <link rel="stylesheet" href="assets/css/main/main.css">
+        <link rel="stylesheet" href="assets/css/main/setting.css">
+        <link rel="stylesheet" href="assets/css/main/hover.css">
 
-<!--[if IE]><style type="text/css">.pie {behavior:url(PIE.htc);}</style><![endif]-->
+        <!-- Load Magnific Popup CSS
+        =====================================-->
+        <link rel="stylesheet" href="assets/css/magnific/magic.min.css">
+        <link rel="stylesheet" href="assets/css/magnific/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/magnific/magnific-popup-zoom-gallery.css">
 
-<script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.js"></script>
-<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
-<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="js/jquery.isotope.js"></script>
-<script type="text/javascript" src="js/wow.js"></script>
-<script type="text/javascript" src="js/classie.js"></script>
+        <!-- Load OWL Carousel CSS
+        =====================================-->
+        <link rel="stylesheet" href="assets/css/owl-carousel/owl.carousel.css">
+        <link rel="stylesheet" href="assets/css/owl-carousel/owl.theme.css">
+        <link rel="stylesheet" href="assets/css/owl-carousel/owl.transitions.css">
 
+        <!-- Load Color CSS - Please uncomment to apply the color.
+        =====================================
+        <link rel="stylesheet" href="assets/css/color/blue.css">
+        <link rel="stylesheet" href="assets/css/color/brown.css">
+        <link rel="stylesheet" href="assets/css/color/cyan.css">
+        <link rel="stylesheet" href="assets/css/color/dark.css">
+        <link rel="stylesheet" href="assets/css/color/green.css">
+        <link rel="stylesheet" href="assets/css/color/orange.css">
+        <link rel="stylesheet" href="assets/css/color/purple.css">
+        <link rel="stylesheet" href="assets/css/color/pink.css">
+        <link rel="stylesheet" href="assets/css/color/red.css">
+        <link rel="stylesheet" href="assets/css/color/yellow.css">-->
+        <link rel="stylesheet" href="assets/css/color/pasific.css">
 
-<!--[if lt IE 9]>
-    <script src="js/respond-1.1.0.min.js"></script>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/html5element.js"></script>
-<![endif]-->
-<script>
-var looper;
-var degrees = 0;
-function rotateAnimation(el,speed){
-	var elem = document.getElementById(el);
-	if(navigator.userAgent.match("Chrome")){
-		elem.style.WebkitTransform = "rotate("+degrees+"deg)";
-	} else if(navigator.userAgent.match("Firefox")){
-		elem.style.MozTransform = "rotate("+degrees+"deg)";
-	} else if(navigator.userAgent.match("MSIE")){
-		elem.style.msTransform = "rotate("+degrees+"deg)";
-	} else if(navigator.userAgent.match("Opera")){
-		elem.style.OTransform = "rotate("+degrees+"deg)";
-	} else {
-		elem.style.transform = "rotate("+degrees+"deg)";
-	}
-	looper = setTimeout('rotateAnimation(\''+el+'\','+speed+')',speed);
-	degrees++;
-	if(degrees > 359){
-		degrees = 1;
-	}
-	//document.getElementById("status").innerHTML = "rotate("+degrees+"deg)";
-}
-</script>
-
-</head>
-<body>
-<div style="overflow:hidden;">
-<a style="position: absolute; right: 0;" class="link animated fadeInUp delay-1s" href="https://bi0s.typeform.com/to/hmQhlS" data-mode="1" target="_blank">Join Us</a>
-<header class="header" id="header"><!--header-start-->
-	<div class="container">
-		<a href="#">
-		   <div>
-			  <img id="logo" src="img/bi0s0.png" alt="logo">
-			  <img id="logo_name" src="img/bi0s_name.png" alt="">
-		   </div>
-	    </a>
-
-        <ul class="we-create animated fadeInUp delay-1s">
-        	<!--<h1>bi<b>0</b>s</h1>-->
-					<a href="#service"><b class="arrow-down wow fadeInDown delay-01s ease-in-out"><i class="fa fa-arrow-down"></i>
-</b></a>
-
-        </ul>
-
-					
-    </div>
-</div>
-</header>
+        <!-- Load Fontbase Icons - Please Uncomment to use linea icons
+        =====================================
+        <link rel="stylesheet" href="assets/css/icon/linea-arrows-10.css">
+        <link rel="stylesheet" href="assets/css/icon/linea-basic-10.css">
+        <link rel="stylesheet" href="assets/css/icon/linea-basic-elaboration-10.css">
+        <link rel="stylesheet" href="assets/css/icon/linea-ecommerce-10.css">
+        <link rel="stylesheet" href="assets/css/icon/linea-music-10.css">
+        <link rel="stylesheet" href="assets/css/icon/linea-software-10.css">
+        <link rel="stylesheet" href="assets/css/icon/linea-weather-10.css">-->
+        <link rel="stylesheet" href="assets/css/icon/font-awesome.css">
+        <link rel="stylesheet" href="assets/css/icon/et-line-font.css">
 
 
+        <!-- Load JS
+        HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+        WARNING: Respond.js doesn't work if you view the page via file://
+        =====================================-->
 
-<!--header-end-->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body  id="page-top" data-spy="scroll" data-target=".navbar" data-offset="100">
+
+        <!-- Page Loader
+        ===================================== -->
+		<div id="pageloader">
+			<div class="loader-item">
+                <img src="assets/img/other/puff.svg" alt="page loader">
+            </div>
+		</div>
+
+        <a href="#page-top" class="go-to-top">
+            <i class="fa fa-long-arrow-up"></i>
+        </a>
+
+        <!-- Navigation Area
+        ===================================== -->
+        <nav class="navbar navbar-pasific navbar-op navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#page-top"><img src="assets/img/logo/logo-default.png" width=30px height=30px alt="logo">bi0s</a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse navbar-right">
+                    <ul class="nav navbar-nav mr20">
+                        <li class="hidden"><a href="#page-top"></a></li>
+                        <li><a href="index.html#welcome">About</a></li>
+                        <li><a href="index.html#fields">Fields</a></li>
+                        <li><a href="team.html" onclick="parent.location='team.html'">Team</a></li>
+                        <li><a href="index.html#portfolioGrid">Mentors</a></li>
+                        <li><a href="trainings.html" onclick="parent.location='trainings.html'">Trainings</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+			<li><a href="https://bi0s.typeform.com/to/hmQhlS" onclick="window.open('https://bi0s.typeform.com/to/hmQhlS')">JOIN US</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
 
-<nav class="main-nav-outer" id="test"><!--main-nav-start-->
-	<div class="container">
-        <ul class="main-nav">
-        	<li><a style="font-family:serif;font-size:18px" href="#header"><strong>Home</strong></a></li>
-            <li><a style="font-family:serif;font-size:18px" href="#service"><strong>bi0s</strong></a></li>
-            <li><a style="font-family:serif;font-size:18px" href="#Portfolio"><strong>Team</strong></a></li>
-            <li><a style="font-family:serif;font-size:18px" href="#client"><strong>Chief</strong></a></li>
-            <li><a style="font-family:serif;font-size:18px" href="#team"><strong>Mentors</strong></a></li>
-            <li><a style="font-family:serif;font-size:18px" href="#contact"><strong>Contact</strong></a></li>
-        </ul>
-        <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
-    </div>
-</nav><!--main-nav-end-->
+<!--Login Modal Dialogue Box DELETED-->
 
+<!--Search Modal Dialogue Box DELETED-->
 
-
-<section class="main-section" id="service"><!--main-section-start-->
-	<div class="container">
-    	<h2>bi0s</h2>
-    	<h6>Amrita University CTF team.</h6>
-        <div class="row">
-        	<div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
-            	<div class="service-list">
-                	<div class="service-list-col1">
-                    	<i class="fa-gear"></i>
-                    </div>
-                	<div class="service-list-col2">
-                        <h3>Web Application Security</h3>
-                        <p>A group of people who have proven their worth through multiple CVEs &amp; Bug-Bounties</p>
+        <!-- Canvas Area
+        ===================================== -->
+        <header class="intro" style="background:url(assets/img/bg/logo.png) 50% 50% no-repeat;background-size:79% 78%;background-color:black;">
+	<div id="particles-js1"></div>
+	<!--
+            <div class="intro-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <h1 class="brand-hea	ding-big2 text-capitalize font-pacifico mt-100 color-light animated" data-animation="fadeInUp" data-animation-delay="100">
+                                <span class="rotate">Pasific Winter Season, Modern Web Template, Responsive Ready</span>
+                            </h1>
+                            <p class="intro-text mt25 color-gray animated" data-animation="fadeInUp" data-animation-delay="200">The simplest way to create website <br>and make your dream live.</p>
+                            <a class="button button-pasific button-lg hover-ripple-out animated" data-animation="fadeInUp" data-animation-delay="300">Purchase Now</a>
+                        </div>
                     </div>
                 </div>
-                <div class="service-list">
-                	<div class="service-list-col1">
-                    	<i class="fa-code"></i>
+	-->
+                <div class="intro-direction">
+                    <a href="#welcome">
+                        <div class="mouse-icon"><div class="wheel"></div></div>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- Welcome Area
+        ===================================== -->
+        <div id="welcome" class="pt75 bg-dark31" style="background-image: url(assets/img/bg/14.jpeg);background-repeat: no-repeat;background-size: cover; ">
+                <div class="container">
+                    <div class="row">
+                        <!-- title start -->
+                        <div class="col-md-12 text-center">
+                            <h1 class="font-size-normal color-light">
+                                <small class="color-pasific alpha10">Welcome to bi0s</small>
+                                ABOUT bi0s
+                                <small class="heading heading-solid center-block"></small>
+                            </h1>
+                        </div>
+                        <!-- title end -->
+
+                        <!-- title description start -->
+                        <div class="col-md-8 col-md-offset-2 text-center">
+                            <p class="color-light alpha6">
+                                <p class="color-">
+                                <span class="lead color-light" style="font-size: 2em;font-family: 'Lato';"><br>Team bi0s from  Amrita Vishwa Vidyapeetham is a well-established group of computer security enthusiasts
+                                    focusing on various areas including but not limited to web application security, computer forensics, binary exploitation, reverse
+                                    engineering, hardware security, cryptography and Android security. bi0s is largely a CTF team actively taking part in the international CTFs round the
+                                    year besides carrying out research on security issues in the real world. Fuelled by the urge for community service, bi0s has been
+                                    organizing workshops and educating the masses about the need for cyber security.</span><br><br>
+
+                            </p>
+                        </div>
+                        <!-- title description end -->
                     </div>
-                	<div class="service-list-col2">
-                        <h3>Binary Exploitation</h3>
-                        <p>Team of aggressive tacklers apprehending the vulnerabilities at the depths of softwares and libraries</p>
+
+                    <div class="row mt50">
+
                     </div>
                 </div>
-                <div class="service-list">
-                	<div class="service-list-col1">
-                    	<i class="fa-android"></i>
-                    </div>
-                	<div class="service-list-col2">
-                        <h3>Android Security</h3>
-                        <p>League of enthusiasts unmasking the issues in Android applications and internals</p>
-                    </div>
-                </div>
-                <div class="service-list">
-                	<div class="service-list-col1">
-                    	<i class="fa fa-cogs"></i>
-                    </div>
-                	<div class="service-list-col2">
-                        <h3>Reverse Engineering</h3>
-                        <p>A group of insane people who crack binaries apart 1 bit at a time to uncover the hidden secrets</p>
-                    </div>
-									</div>
-										<div class="service-list">
-		                	<div class="service-list-col1">
-		                    	<i class="fa fa-search"></i>
-		                    </div>
-										<div class="service-list-col2">
-	                        <h3>Forensics</h3>
-	                        <p>Unravelling the mysteries of the footprints left behind by the attacks</p>
-	                    </div>
-										</div>
-                </div>
-								<figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
-									<img src="img/macbook-pro.png" alt="" style="width:350px;height:350px;" align="right">
-								</figure>
             </div>
 
 
+
+        <!-- Portfolio Area
+        ===================================== -->
+        <!-- Fields Area
+        ===================================== -->
+        <div id="logo ">
+            <link href="assets/css/core/decorate.css" rel="stylesheet">
+            <div class="c-logo1-part"><!--c-logo-part-start-->
+                <div class="container">
+                    <ul>
+
+                    </ul>
+                </div>
+            </div>
         </div>
-	</div>
-</section><!--main-section-end-->
-
-
-
-<section class="main-section alabaster"><!--main-section alabaster-start-->
-	<div class="container">
-    	<div class="row">
-			<figure class="col-lg-5 col-sm-4 wow fadeInLeft">
-            	<img  src="img/iphone.png" alt="">
-            </figure>
-        	<div class="col-lg-7 col-sm-8 featured-work">
-            	<h2>About bi0s</h2>
-            	<p class="padding-b">Team bi0s from Amrita University is a well-established group of computer security enthusiasts focusing on various areas including web application security, computer forensics, binary exploitation, reverse engineering, cryptography and Android security.</p><p>
-							bi0s is largely a CTF team actively taking part in the international CTFs round the year besides carrying out research on security issues in the real world. Fuelled by the urge for community service, bi0s has been organizing workshops and educating the masses to spread awareness about the need for cyber security</p><br>
-            	<div class="featured-box">
-                	<div class="featured-box-col1 wow fadeInRight delay-02s">
-                    	<i class="fa-arrow-circle-right"></i>
+        <div id="fields" class="bg-dark3 pt75 pb100">
+            <div class="container">
+                <div class="row">
+                    <!-- title start -->
+                    <div class="col-md-12 text-center">
+                        <h1 class="font-size-normal color-light">
+                            <small class="color-pasific alpha10"></small>
+                            Fields<br>
+                            <small class="heading heading-solid center-block"></small>
+                        </h1>
                     </div>
-                	<div class="featured-box-col2 wow fadeInRight delay-02s">
-                        <h3>Achievements</h3>
-                        <p>First team from India, formed in 2007.
-													 bi0s was invited to compete in PHDays CTF, Russia.
-												   Conducts InCTF, Exclusively for Indian students. So far, has conducted 6 editions.
-													 bi0s was ranked 68th globally in Google CTF 2016 amongst 2500 teams
-												   Finished CSAW 2016 finals at 2nd position</p>
-                    </div>
+                    <!-- title end -->
+
+                    <!-- title description start -->
+                    <!--<div class="col-md-8 col-md-offset-2 text-center">
+                        <p class="color-light alpha6">
+                            <span class="lead color-light"><strong>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam
+                            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.</strong></span>
+                        </p>
+                    </div>-->
+                    <!-- title description end -->
                 </div>
-                <div class="featured-box">
-                	<div class="featured-box-col1 wow fadeInRight delay-04s">
-                    	<i class="fa-bookmark"></i>
-                    </div>
-                	<div class="featured-box-col2 wow fadeInRight delay-04s">
-                        <h3>At present</h3>
-                        <p><b>Zubin Mitra</b> is in Google Android Security Team,
-													<b>Avinash Joshi</b> in 2M,
-													<b>Varun Ramani</b>, <b>Reno Robert</b> and <b>Akshay Krishnan</b> in VMware,
-													Many of others are working in Flipkart &amp; DRDO
-													<!--<b>Anirudh</b> is in Microsoft Hall of Fame and has found many vulnerabilities in real world softwares.--> </p>
-                    </div>
-                </div>
-              <!--  <div class="featured-box">
-                	<div class="featured-box-col1 wow fadeInRight delay-06s">
-                    	<i class="fa-dashboard"></i>
-                    </div>
-                	<div class="featured-box-col2 wow fadeInRight delay-06s">
-                        <h3>SEO optimized</h3>
-                        <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
+                <!-- title and short description end -->
+
+                <!--<div class="row">
+                    <div class="col-md-10 col-md-offset-1 pt50 pb75">
+                        <img src="assets/img/other/img-other-18.png" alt="service" class="img-responsive center-block">
                     </div>
                 </div>-->
-                <a class="Learn-More" href="#">Learn More</a>
+
+
+                <div class="row">
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 mb35">
+                        <div class="content-box content-box-icon-o content-box-left-icon">
+                            <i class="fa fa-gear color-pasific"></i>
+                            <h5 class="color-light">WEB APPLICATION SECURITY
+                            </h5>
+                            <p>A group of people who have proven their worth through multiple CVEs & Bug-Bountie.</p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 mb35">
+                        <div class="content-box content-box-icon-o content-box-left-icon">
+                            <i class="fa fa-code color-green"></i>
+                            <h5 class="color-light">
+                                BINARY EXPLOITATION</h5>
+                            <p>Team of aggressive tacklers finding the vulnerabilities at the depths of softwares and libraries.</p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 mb35">
+                        <div class="content-box content-box-icon-o content-box-left-icon">
+                            <i class="fa fa-android color-blue"></i>
+                            <h5 class="color-light">ANDROID SECURITY
+                            </h5>
+                            <p>League of enthusiasts unmasking the issues in Android applications and internals.<br><br></p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 mb35">
+                        <div class="content-box content-box-icon-o content-box-left-icon">
+                            <i class="fa fa-cogs color-yellow"></i>
+                            <h5 class="color-light">REVERSE ENGINEERING
+
+                            </h5>
+                            <p>A group of insane people who crack binaries apart 1 bit at a time to uncover the hidden secrets.</p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 mb35">
+                        <div class="content-box content-box-icon-o content-box-left-icon">
+                            <i class="fa fa-search color-purple"></i>
+                            <h5 class="color-light">FORENSICS
+                            </h5>
+                            <p>Unravelling the mysteries of the footprints left behind by the attacks.</p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 mb35">
+                        <div class="content-box content-box-icon-o content-box-left-icon">
+                            <i class="fa fa-wrench color-white"></i>
+                            <h5 class="color-light">HARDWARE
+                            </h5>
+                            <p>A group of hardware enthusiasts breaking and making electronics, perhaps anything with solder in it.</p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 mb35">
+                        <div class="content-box content-box-icon-o content-box-left-icon">
+                            <i class="fa fa-lock color-blue"></i>
+                            <h5 class="color-light">CRYPTO
+
+                            </h5>
+                            <p>A group of insane people who crack binaries apart 1 bit at a time to uncover the hidden secrets.</p>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div><!-- container end -->
+        </div><!-- section service end -->
+
+
+        <!-- Info Area
+        ===================================== -->
+        <div id="info-1" class="pt50 pb50 parallax-window" data-parallax="scroll" data-speed="0.5" data-image-src="assets/img/bg/teambi0s.jpg">
+<!--
+            <div class="container">
+                <div class="row pt75">
+                    <div class="col-md-12 text-center">
+                        <h1 class="color-black">
+                            <small class="color-black">The best way to be success</small>
+                            Are you ready to be success with us?
+                        </h1>
+                        <a class="button button-md button-red hover-ripple-out mt25">Start Project</a>
+                        <a class="button button-md button-primary hover-fade mt25"><span class="color-light">Contact Us</span></a>
+                    </div>
+                </div>
             </div>
+-->
         </div>
-	</div>
-</section><!--main-section alabaster-end-->
+
+        <!-- Skill Area
+        ===================================== -->
+
+        <!-- Fun Fact Area
+        ===================================== -->
+        <div id="portfolioGrid" class="bg-black">
+            <div align="center" class="container-fluid bg-dark-video pt30">
+                <h1 style="color: red">MENTORS</h1>
+                <h3 style="color: white">Take a closer look into our Mentors.</h3>
+                <div class="row" style="height: 550px;width: 1288px">
+                    <br>
+                    <div class="col-md-12">
+
+                        <!-- filters start -->
+
+                        <!-- filters end -->
+
+
+                        <div class="portfolio center-block">
+
+
+                            <!-- portfolio item five start -->
+                            <div class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-xs-12 html joomla wordpress" style="height: 260px;width: 500">
+                                <a href="https://www.linkedin.com/in/seshagiri-prabhu-8ab1721b?authType=NAME_SEARCH&authToken=dXfo&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A69076355%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1472456973256%2Ctas%3Aseshagiri" class="fa fa-linkedin" style="height: 322px;width: 313px; >
+                                    <span class=""></span>
+                                </a>
+                                <img src="assets/img/portfolio/thumbs/%20PRABHU.jpg" alt="portfolio woocommerce" class="img-responsive" style="border-radius: 10px;height: 322px;width: 300px;">
+                                <br><br><h3 style="color: #a6e1ec">SESHAGIRI N PRABHU</h3>
+                                <h6 style="color: #a6e1ec">Advisor</h6>
+                                <h5 style="color: #a6e1ec">Research Scholar with 5+ years of experience in Binary Exploitation.</h5>
+                            </div>
+
+                            <div class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-xs-12 html joomla wordpress">
+                                <a href="https://www.linkedin.com/in/arvind-s-raj-95738222/" class="fa fa-linkedin" style="height: 322px;width: 313px;>
+                                    <span class=""></span>
+                                </a>
+                                <img src="assets/img/portfolio/thumbs/arvind.jpg" alt="portfolio woocommerce" class="img-responsive" style="border-radius: 10px;height: 322px;width: 300px;">
+                                <br><br><h3 style="color: #a6e1ec">ARVIND S RAJ</h3>
+                                <h6 style="color: #a6e1ec">Research Scholar</h6>
+                                <h5 style="color: #a6e1ec">Research Scholar with 5+ experience in Reverse Engineering and Binary Exploitation.</h5>
+                            </div>
+                            <div class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-xs-12 html joomla wordpress">
+                                <a href="https://www.linkedin.com/in/bithin2007/?authType=name&authToken=RXJg&trk=Skyline_click_NBM&sl=NBM%3B422723127%3A1472456976411%3B0%3B69076355%3B" class="fa fa-linkedin" style="height: 322px;width: 313px;>
+                                    <span class=""></span>
+                                </a>
+                                <img src="assets/img/portfolio/thumbs/bithin1.jpg" alt="portfolio woocommerce" class="img-responsive" style="border-radius: 10px;height: 322px;width: 300px;">
+                                <br><br><h3 style="color: #a6e1ec">BITHIN ALANGOT</h3>
+                                <h6 style="color: #a6e1ec">Research Scholar</h6>
+                                <h5 style="color: #a6e1ec">PhD research scholar in Cyber Security.</h5>
+                            </div>
+                            <div class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-xs-12 html joomla wordpress">
+                                <a href="https://www.linkedin.com/in/renorobert/?authType=NAME_SEARCH&authToken=Ymyo&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A71856241%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1472457301910%2Ctas%3Areno%20" class="fa fa-linkedin" style="height: 322px;width: 313px;>
+                                    <span class=""></span>
+                                </a>
+                                <img src="assets/img/portfolio/thumbs/robort.jpg" alt="portfolio woocommerce" class="img-responsive" style="border-radius: 10px;height: 322px;width: 300px;">
+                                <br><br><h3 style="color: #a6e1ec">RENO ROBERT</h3>
+                                <h6 style="color: #a6e1ec ">Security Engineer</h6>
+                                <h5 style="color: #a6e1ec">Working as Security Analyst</h5>
+                            </div>
 
 
 
-<section class="main-section paddind" id="Portfolio"><!--main-section-start-->
-	<div class="container">
-    	<h2>Battalion</h2>
-    	<h6>More about Team <b>bi0s</b>.</h6>
-      <div class="portfolioFilter">
-        <ul class="Portfolio-nav wow fadeIn delay-02s">
-        	<li><a href="#" data-filter="*" class="current" >bi0s</a></li>
-						<li><a href="#" data-filter=".web" >Web Application Security</a></li>
-            <li><a href="#" data-filter=".binary" >Binary Exploitation</a></li>
-            <li><a href="#" data-filter=".android" >Android Security</a></li>
-						<li><a href="#" data-filter=".reverse" >Reverse Engineering</a></li>
-						<li><a href="#" data-filter=".forensics" >Forensics</a></li>
-        </ul>
-       </div>
 
-	</div>
-    <div class="portfolioContainer wow fadeInUp delay-04s">
-								<div class="Portfolio-box web">
-	                <a href="#"><img class="img-circle" src="img/Portfolio-pic20.jpg" alt="" ></a>
-	                <h3>Anirudh Anand</h3>
-	                  <p>Web Application Security</p>
-	              </div>
-                <div class="Portfolio-box web">
-                	<a href="#"><img class="img-circle" src="img/Portfolio-pic2.jpg" alt="" ></a>
-                	<h3>Heeraj</h3>
-                    <p>Server Side Security</p>
-                </div>
-								<div class="Portfolio-box web">
-                	<a href="#"><img class="img-circle" src="img/gkc.jpg" alt="" ></a>
-                	<h3>Gokul Krishna P</h3>
-                    <p>Client Side Security</p>
-                </div>
-								<div class=" Portfolio-box web">
-										<a href="#"><img class="img-circle" src="img/akic.jpg" alt="" ></a>
-										<h3>Akhil Mahendra</h3>
-											<p>Server Side Security</p>
-								</div>
-								<div class=" Portfolio-box web">
-										<a href="#"><img class="img-circle" src="img/Portfolio-pic14.jpg" alt="" ></a>
-										<h3>Arjun Vijay</h3>
-											<p>Web Application Security</p>
-								</div>
-								<div class=" Portfolio-box android">
-									<a href="#"><img class="img-circle" src="img/abhic.jpg" alt="" ></a>
-									<h3>Abhishek J M</h3>
-										<p>Android Security</p>
-								</div>
-                <div class=" Portfolio-box binary">
-                	<a href="#"><img class="img-circle" src="img/jkc.jpg" alt="" ></a>
-                	<h3>Jayakrishna Menon</h3>
-                    <p>Heap based Exploitation</p>
-                </div>
-                <div class=" Portfolio-box binary" >
-                	<a href="#"><img class="img-circle" src="img/Portfolio-pic4.jpg" alt="" ></a>
-                	<h3>Rakesh Parchuri</h3>
-                    <p>Binary Exploitation</p>
-                </div>
-								<div class=" Portfolio-box forensics">
-										<a href="#"><img class="img-circle" src="img/shivac.jpg" alt="" ></a>
-										<h3>Shivkrishna A</h3>
-											<p>Memory Forensics</p>
-									</div>
-									<div class=" Portfolio-box reverse">
-											<a href="#"><img class="img-circle" src="img/Portfolio-pic13.jpg" alt="" ></a>
-											<h3>Arjun T U</h3>
-												<p>Reverse Engineering</p>
-									</div>
+                        </div><!-- portfolio end -->
 
-    </div>
-</section><!--main-section-end-->
+                    </div><!-- col-md-12 end -->
+                </div><!-- row end -->
+            </div><!-- container end -->
+        </div><!-- section portfolio end -->
 
 
-<section class="main-section client-part" id="client"><!--main-section client-part-start-->
-	<div class="container">
-		<b class="quote-right wow fadeInDown delay-03"><i class="fa-quote-right"></i></b>
+        <!-- Features Area
+        ===================================== -->
+            
+        <div id="client area1">
+          <link href="assets/css/core/decorate.css" rel="stylesheet">
+        <section class="main-section client-part" id="client"><!--main-section client-part-start-->
+	    <div class="container">
+		<b class="quote-right wow fadeInDown delay-03 animated" style="visibility: visible; animation-name: fadeInDown;"><i class="fa-quote-right"></i></b>
     	<div class="row">
         	<div class="col-lg-12">
-            	<p class="client-part-haead wow fadeInDown delay-05">"While solving problems, dig at the roots instead of just hacking at the leaves! "</p>
+            	<p class="client-part-haead wow fadeInDown delay-05 animated" style="visibility: visible; animation-name: fadeInDown;">"While solving problems, dig at the roots instead of just hacking at the leaves! "</p>
             </div>
         </div>
-    	<ul class="client wow fadeIn delay-05s">
-        	<li><a href="#">
-            	<img src="img/client-pic1.jpg" alt="" style="height:200px; width:200px;">
+    	<ul class="client wow fadeIn delay-05s animated" style="visibility: visible; animation-name: fadeIn;">
+        	<li><a>
+            	<img src="assets/img/portfolio/vipin_sir.jpg" alt="" style="height:200px; width:200px;">
                 <h3>Vipin Pavithran</h3>
                 <span>Chief Mentor, bi0s.</span>
             </a></li>
         </ul>
-    </div>
-</section><!--main-section client-part-end-->
-<div class="c-logo-part"><!--c-logo-part-start-->
-	<div class="container">
-    	<ul>
-        	<!--<li><a href="#"><img src="img/c-liogo1.png" alt=""></a></li>
-            <li><a href="#"><img src="img/c-liogo2.png" alt=""></a></li>-->
-            <!--<li><a href="https://amritabi0s.wordpress.com/"><img src="img/c-liogo3.png" alt=""></a></li>
-            <!--<li><a href="#"><img src="img/c-liogo4.png" alt=""></a></li>
-            <li><a href="#"><img src="img/c-liogo5.png" alt=""></a></li>-->
-    	</ul>
-	</div>
-</div><!--c-logo-part-end-->
-<section class="main-section team" id="team"><!--main-section team-start-->
-	<div class="container">
-        <h2>team</h2>
-        <h6>Take a closer look into our mentors.</h6>
-        <div class="team-leader-block clearfix">
-            <div class="team-leader-box">
-                <div class="team-leader wow fadeInDown delay-03s">
-                    <div class="team-leader-shadow"><a href="#"></a></div>
-                    <img src="img/giric.jpg" alt="" style="width:300px;height:250px";>
-                    <ul>
-                        <li><a href="https://www.linkedin.com/in/seshagiri-prabhu-8ab1721b?authType=NAME_SEARCH&authToken=dXfo&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A69076355%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1472456973256%2Ctas%3Aseshagiri" class="fa-linkedin"></a></li>
-                        <!--<li><a href="" class="fa-facebook"></a></li>-->
-                        <!--<li><a href="https://plus.google.com/+Seshagiriprabhu" class="fa-google-plus"></a></li>-->
-                    </ul>
+        </div>
+        </section>
+        </div>
+        <div id="logo ">
+          <link href="assets/css/core/decorate.css" rel="stylesheet">
+        <div class="c-logo-part"><!--c-logo-part-start-->
+          <div class="container">
+            <ul>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+        <!-- General Content Area
+        ===================================== -->
+        <div id="general-content-1" class="bg-dark3 pt100 pb100" style="border-bottom: 1px solid #293648">
+            <div class="container">
+                <div class="row">
+
+                    <!-- left content start -->
+                    <div class="col-md-5">
+                        <div class="general-content">
+                            <h3 class="mb25 color-light">
+                                Meet up
+                            </h3>
+                            <p class="color-light alpha8">The aim of meetups is to bring together cyber security speakers, researchers and enthusiasts to present and share their findings in their respective areas of expertise. The prime focus being cyber security education and awareness, it is community-driven and is always free for both the speakers and the audience. If you are looking for a platform to unveil your explorations, here it is!</p>
+                            <br><br>
+                            <a href="https://meetup.bi0s.in" class="button button-md button-pasific1 hover-ripple-out">Meetup</a>
+
+                            <div class="clearfix">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- left content end -->
+
+                    <!-- right content start -->
+                    <div class="col-md-5 col-md-push-1">
+                        <img src="assets/img/other/meetup.png"  alt="Meetup image" class="img-responsive pull-right">
+                    </div>
+                    <!-- right content end -->
+
                 </div>
-                <h3 class="wow fadeInDown delay-03s">Seshagiri N Prabhu</h3>
-                <span class="wow fadeInDown delay-03s">Advisor</span>
-                <p class="wow fadeInDown delay-03s">Research Scholar with 5+ years of experience in Binary Exploitation.</p>
-            </div>
-            <div class="team-leader-box">
-                <div class="team-leader  wow fadeInDown delay-06s">
-                    <div class="team-leader-shadow"><a href="#"></a></div>
-                    <img src="img/arvindc.jpg" alt="" style="width:300px;height:250px;">
-                    <ul>
-                        <li><a href="https://www.linkedin.com/in/arvind-s-raj-95738222?authType=NAME_SEARCH&authToken=-rvw&locale=en_US&srchid=4227231271472457216565&srchindex=1&srchtotal=15&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A4227231271472457216565%2CVSRPtargetId%3A78552787%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH" class="fa-linkedin"></a></li>
-                        <!--<li><a href="#" class="fa-facebook"></a></li>
-                        <li><a href="#" class="fa-pinterest"></a></li>
-                        <li><a href="#" class="fa-google-plus"></a></li>-->
-                    </ul>
-                </div>
-                <h3 class="wow fadeInDown delay-06s">Arvind S Raj</h3>
-                <span class="wow fadeInDown delay-06s">Research Scholar</span>
-                <p class="wow fadeInDown delay-06s">Research Scholar with 5+ experience in Reverse Engineering and Binary Exploitation.</p>
-            </div>
-            <div class="team-leader-box">
-                <div class="team-leader wow fadeInDown delay-09s">
-                    <div class="team-leader-shadow"><a href="#"></a></div>
-                    <img src="img/bittuc.jpg" alt="" style="width:300px;height:250px;">
-                    <ul>
-                        <li><a href="https://www.linkedin.com/in/bithin2007?authType=name&authToken=RXJg&trk=Skyline_click_NBM&sl=NBM%3B422723127%3A1472456976411%3B0%3B69076355%3B" class="fa-linkedin"></a></li>
-                        <!--<li><a href="https://www.facebook.com/bithin.alangot?fref=ts" class="fa-facebook"></a></li>
-                        <!--<li><a href="#" class="fa-pinterest"></a></li>-
-                        <li><a href="https://plus.google.com/110642866185135350816/posts" class="fa-google-plus"></a></li>-->
-                    </ul>
-                </div>
-                <h3 class="wow fadeInDown delay-09s">Bithin Alangot</h3>
-                <span class="wow fadeInDown delay-09s">Research Scholar</span>
-                <p class="wow fadeInDown delay-09s">PhD research scholar in Cyber Security.</p>
-            </div>
-						<div class="team-leader-box" style="margin-left: 33.5%;">
-                <div class="team-leader wow fadeInDown delay-09s">
-                    <div class="team-leader-shadow"><a href="#"></a></div>
-                    <img src="img/team-leader-pic4.jpg" alt="" style="width:300px;height:250px;">
-                    <ul>
-                        <li><a href="https://www.linkedin.com/in/renorobert?authType=NAME_SEARCH&authToken=Ymyo&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A71856241%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1472457301910%2Ctas%3Areno%20" class="fa-linkedin"></a></li>
-                        <!--<li><a href="https://www.facebook.com/bithin.alangot?fref=ts" class="fa-facebook"></a></li>
-                        <!--<li><a href="#" class="fa-pinterest"></a></li>
-                        <li><a href="https://plus.google.com/110642866185135350816/posts" class="fa-google-plus"></a></li>-->
-                    </ul>
-                </div>
-                <h3 class="wow fadeInDown delay-09s">Reno Robert</h3>
-                <span class="wow fadeInDown delay-09s">Security Engineer</span>
             </div>
         </div>
-    </div>
-</section><!--main-section team-end-->
+        <!-- General Content Area
+            ===================================== -->
+            <div id="general-content-2" class="bg-dark31 pt100 pb100">
+                <div class="container">
+                    <div class="row">
+                        
+                        <!-- left content start -->
+                        <div class="col-md-6">
+                            <img src="assets/img/other/InCTF_Logo.png" alt="browser iphone" class="img-responsive center-block">
+                        </div>
+                        <!-- left content end -->
+                        
+                        <!-- right content start -->
+                        <div class="col-md-5 col-md-push-1">
+                            <div class="general-content">
+                                <h3 class="mb25 color-light">
+                                    <small class="color-red alpha10"></small>
+                                    InCTF
+                                </h3>
+                                <p class="color-light alpha8">InCTF, a Capture-The-Flag style contest, is to be viewed as a security exercise which provides an opportunity to learn the fundamentals of Information Security and put them into practice. Hopefully you will have as much fun participating, as we have in organizing the event.</p>
+                                <a href="https://inctf.in/" class="button button-md button-pasific1 hover-ripple-out">InCTF</a>
+                                
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <!-- right content end -->                    
+                        
+                    </div><!-- row end -->
+                </div><!-- container end -->
+            </div><!-- section general info end -->
 
 
+            <div id="general-content-1" class="bg-dark3 pt100 pb100" style="border-bottom: 1px solid #293648">
+                <div class="container">
+                    <div class="row">
+    
+                        <!-- left content start -->
+                        <div class="col-md-5">
+                            <div class="general-content">
+                                <h3 class="mb25 color-light">
+                                    InCTF Junior
+                                </h3>
+                                <p class="color-light alpha8">A recent report has revealed that a miniscule 0.6% of graduate students are currently working in cyber security while cyber attacks and breaches are manifesting in the country. In order to encourage the youth to participate, they need to be taught at a young age about the importance of computer security. A lot of research have been proven to be the best way to approach this is Capture the Flag style contests. These contests typically simulate real life scenarios that enable participants to develop real world security skills. Many of the countries like USA and China have realized the need for cyber security education and are conducting CTF contests for school students. Having realized the dire need for such a training culture in India, Amrita University is organizing Amrita InCTF Junior, an online Capture the Flag style contest specifically designed to introduce cyber security awareness and training in high school students.</p>
+                                <br><br>
+                                <a href="https://junior.inctf.in/" class="button button-md button-pasific1 hover-ripple-out">InCTF Junior</a>
+    
+                                <div class="clearfix">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- left content end -->
+    
+                        <!-- right content start -->
+                        <div class="col-md-5 col-md-push-1">
+                            <img src="assets/img/other/INCTFj.png"  alt="I" class="img-responsive pull-right">
+                        </div>
+                        <!-- right content end -->
+    
+                    </div>
+                </div>
+            </div>
+
+        <!-- General Content Area
+        ===================================== -->
+<!--Price Area DELETED-->
 
 
-<section class="business-talking"><!--business-talking-start-->
-	<div class="container">
-        <h2>Amrita University, Amritapuri.</h2>
-    </div>
-</section><!--business-talking-end-->
-<div class="container">
-<section class="main-section contact" id="contact">
+<!--Blog Area DELETED-->
+<div id="blogs" class="bg-gray0 pt75 pb75">
+    <div class="container">
+
+            <!-- title start -->
+        <div class="row text-center mb25">
+            <h1 class="font-size-normal">
+            Our Tweets
+                <small class="heading heading-solid center-block"></small>
+            </h1>
+        </div>
+        <!-- title end -->
 
         <div class="row">
-        	<div class="col-lg-6 col-sm-7 wow fadeInLeft">
-            	<div class="contact-info-box address clearfix">
-                	<h3><i class=" icon-map-marker"></i>Address:</h3>
-                	<span>Amrita University,<br>Amritapuri, Kollam, Kerala.</span>
-                </div>
-                <!--<div class="contact-info-box phone clearfix">
-                	<h3><i class="fa-phone"></i>Phone:</h3>
-                	<span>1-800-BOO-YAHH</span>
-                </div>-->
-                <div class="contact-info-box email clearfix">
-                	<h3><i class="fa-pencil"></i>email:</h3>
-                	<span>amritabi0s1@gmail.com</span>
-                </div>
-            	<!--<div class="contact-info-box hours clearfix">
-                	<h3><i class="fa-clock-o"></i>Hours:</h3>
-                	<span><strong>Monday - Thursday:</strong> 10am - 6pm<br><strong>Friday:</strong> People work on Fridays now?<br><strong>Saturday - Sunday:</strong> Best not to ask.</span>
-                </div>-->
-                <ul class="social-link">
-                	<li class="twitter"><a href="https://www.twitter.com/teambi0s"><i class="fa-twitter"></i></a></li>
-									<li class="twitter"><a href="https://amritabi0s.wordpress.com/"><i class="fa-wordpress"></i></a></li>
-                    <!--<li class="facebook"><a href="https://www.facebook.com/teambi0s"><i class="fa-facebook"></i></a></li>
-                    <li class="pinterest"><a href="#"><i class="fa-pinterest"></i></a></li>
-                    <li class="gplus"><a href="#"><i class="fa-google-plus"></i></a></li>
-                    <li class="dribbble"><a href="#"><i class="fa-dribbble"></i></a></li>-->
-                </ul>
-            </div>
-        	<div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
-            	<div class="form">
-			<form action="https://formspree.io/amritabi0s1@gmail.com" method="POST">
-                	<input class="input-text" type="text" name="" value="Your Name *" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
-                    <input class="input-text" type="text" name="_replyto" value="Your E-mail *" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
-                	<textarea class="input-text text-area" cols="0" rows="0" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
-                    <input class="input-btn" type="submit" value="send message">
-		    </form>
-                </div>
-            </div>
+
+            <!-- blog post start -->
+            <div class="col-md-41 col-sm-6 col-xs-121 mb50">
+                <div class="blog-one">
+                        <div class="blog-one-header">
+                        <a class="twitter-timeline" data-height="600" data-theme="dark" href="https://twitter.com/teambi0s?ref_src=twsrc%5Etfw">Tweets by teambi0s</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>                </div>    
+                        </div>
+            </div> 
         </div>
-</section>
-</div>
-<footer class="footer">
-    <div class="container">
-        <div class="footer-logo"><a href="#"><img src="img/footer-logo.png" alt=""></a></div>
-        <span class="copyright">Copyright © 2016 | <a href="https://www.twitter.com/teambi0s">Teambi<b>0</b>s</a></span>
-    </div>
-    <!--
-        All links in the footer should remain intact.
-        Licenseing information is available at: http://bootstraptaste.com/license/
-        You can buy this theme without footer links online at: http://bootstraptaste.com/buy/?theme=Knight
-    -->
-</footer>
+    </div>   
+</div>                        
 
+<!--Newsletter Area Deleted-->
+<!--Testimonial Area DELETED-->
 
-<script type="text/javascript">
-    $(document).ready(function(e) {
-        $('#test').scrollToFixed();
-        $('.res-nav_click').click(function(){
-            $('.main-nav').slideToggle();
-            return false
+        <!-- Contact Us Area
+        =====================================-->
 
-        });
+            <div id="contact" class="pt100 pb100" style="background-color: black;">
+            <div class="container">
+                <div class="row">
 
-    });
-</script>
+                    <div class="col-md-6">
+                        <div class="row">
 
-  <script>
-    wow = new WOW(
-      {
-        animateClass: 'animated',
-        offset:       100
-      }
-    );
-    wow.init();
+                            <!-- title start -->
+                            <div class="col-md-12 mb50">
+                                <h1 class="font-size-normal color-white">
+                                    <small class="color-white">Contact Us</small>
+                                    Drop Us a Message
+                                </h1>
+                                <h5 class="color-white">Please feel free to say anything to us</h5>
+                            </div>
+                            <!-- title end -->
 
-  </script>
+                            <!-- contact info start -->
+                            <div class="col-md-3 col-sm-3 col-xs-12">
+                                <span class="icon-map color-white el-icon2x"></span>
+                                <h5 class="color-white"><strong>Address</strong></h5>
+                                <p class="color-white">Amrita University, Amritapuri, Kollam, Kerala.</p>
+                            </div>
 
+			<!--
+                            <div class="col-md-3 col-sm-3 col-xs-6">
+                                <span class="icon-megaphone color-white el-icon2x"></span>
+                                <h5 class="color-white"><strong>Phone</strong></h5>
+                                <p class="color-white">123-456-789</p>
+                            </div>
+			-->
 
-<script type="text/javascript">
-	$(window).load(function(){
+                            <div class="col-md-3 col-sm-3 col-xs-6">
+                                <span class="icon-envelope color-white el-icon2x"></span>
+                                <h5 class="color-white"><strong>Email</strong></h5>
+                                <p class="color-white">amritabi0s1@gmail.com</p>
+                            </div>
+                            <!-- contact info end -->
 
-		$('.main-nav li a').bind('click',function(event){
-			var $anchor = $(this);
+                        </div><!-- row left end -->
+                    </div><!-- col left end -->
 
-			$('html, body').stop().animate({
-				scrollTop: $($anchor.attr('href')).offset().top - 102
-			}, 1500,'easeInOutExpo');
-			/*
-			if you don't want to use the easing effects:
-			$('html, body').stop().animate({
-				scrollTop: $($anchor.attr('href')).offset().top
-			}, 1000);
-			*/
-			event.preventDefault();
-		});
-	})
-</script>
+                    <div class="col-md-6">
+                        <div class="contact contact-us-one">
+                            <div class="col-sm-12 col-xs-12 text-center mb20">
+                                <h4 class="pb25 bb-solid-1 text-uppercase">
+                                    Get in Touch
+                                    <small class="text-lowercase">Please complete the form and we will get back to you.</small>
+                                </h4>
+                            </div>
 
-<script type="text/javascript">
+                            <form  action="https://formspree.io/amritabi0s1@gmail.com" method="POST">
 
-$(window).load(function(){
+                                <!-- fullname start -->
+                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                    <input class="input-md input-rounded form-control" type="text" name="fname" id="fname" placeholder="Fullname" maxlength="100" required>
+                                </div>
+                                <!-- fullname end -->
 
+				<!-- email start -->
+                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                    <input class="input-md input-rounded form-control" type="email" name="email" id="email" placeholder="Email Address" maxlength="100" required>
+                                </div>
+                                 <!-- email end -->
 
-  var $container = $('.portfolioContainer'),
-      $body = $('body'),
-      colW = 375,
-      columns = null;
+				<!--Website and Security part DELETED-->
 
+                                <!-- textarea start -->
+                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                   <textarea class="form-control" rows="7" placeholder="Your message" name="msg" id="msg" required></textarea>
+                                </div>
+                                <!-- textarea end -->
 
-  $container.isotope({
-    // disable window resizing
-    resizable: true,
-    masonry: {
-      columnWidth: colW
-    }
-  });
+                                <!-- button start -->
+                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                    <input type="submit" name="sendMessage" id="sendMessage" class="button button-md button-block button-grad-stellar" value="Submit">
+                                </div>
+                                <!-- button end -->
 
-  $(window).smartresize(function(){
-    // check if columns has changed
-    var currentColumns = Math.floor( ( $body.width() -30 ) / colW );
-    if ( currentColumns !== columns ) {
-      // set new column count
-      columns = currentColumns;
-      // apply width to container manually, then trigger relayout
-      $container.width( columns * colW )
-        .isotope('reLayout');
-    }
+                            </form>
+                        </div><!-- div contact end -->
+                    </div><!-- col end -->
 
-  }).smartresize(); // trigger resize to set container width
-  $('.portfolioFilter a').click(function(){
-        $('.portfolioFilter .current').removeClass('current');
-        $(this).addClass('current');
-
-        var selector = $(this).attr('data-filter');
-        $container.isotope({
-
-            filter: selector,
-         });
-         return false;
-    });
-
-});
-
-</script>
-
-<script>rotateAnimation("logo",70);</script>
-
-<style>
+                </div><!-- row end -->
+            </div><!-- container end -->
+        </div><!-- section contact end -->
 
 
 
-@media screen and (max-width:400px) {
-	#logo {
-		width: 90%;
-		height: 90%;
-	}
-	#logo_name {
-		width: 35%;
-		height: 35%;
-		position: absolute;
-    	left: 35%;
-    	top: 10%;
+<!--Client Area DELETED-->
+ <!-- footer Area
+        ===================================== -->
+        <div id="footer" class="footer-two pt50 bg-black">
+           
+<!--
+	 
+                        <div class="col-md-2 col-sm-3 col-xs-12">
+                            <h6 class="font-montserrat text-uppercase color-dark">Social Media</h6>
+                            
+                        </div>
 
-	}
-}
+--> 
 
-@media screen and (min-width:401px) {
-	#logo {
-		width: 90%;
-		height: 90%;
-	}
-	#logo_name {
-		width: 40%;
-		height: 40%;
-		position: absolute;
-    	left: 30%;
-    	top: 11%;
-
-	}
-}
-
-@media screen and (min-width:700px) {
-	#logo {
-		width: 50%;
-		height: 50%;
-	}
-
-	#logo_name {
-		width: 40%;
-		height: 40%;
-		position: absolute;
-    	left: 30%;
-    	top: 15%;
-
-	}
-}
+            <div class="container-fluid pt20">
+                <div class="container">
+                    <div class="row">
+			
+			<center>
+			<div class="social social-two">
+                                <a href="https://twitter.com/teambi0s"><i class="fa fa-twitter color-gray"></i></a>
+                                <a href="https://www.facebook.com/teambi0s"><i class="fa fa-facebook color-gray"></i></a>
+                                <a href="https://github.com/teambi0s"><i class="fa fa-github color-gray"></i></a>
+			</div><br>                   
+			<div>
+                            <p><a href="#" style="color:white;font-size:1em;">bi0s.in</a></p>
+                        </div>
+			</center>
+                    </div><!-- row end -->
+                </div><!-- container end -->
+            </div><!-- container-fluid end -->
+        </div><!-- footer end -->
+<!--Copyright DELETED-->
 
 
-@media screen and (min-width:900px) {
-	#logo {
-		width: 50%;
-		height: 50%;
-	}
+        <!-- JQuery Core
+        =====================================-->
+        <script src="assets/js/core/jquery.min.js"></script>
+        <script src="assets/js/core/bootstrap.min.js"></script>
 
-	#logo_name {
-		width: 35%;
-		height: 50%;
-		position: absolute;
-    	left: 33%;
-    	top: 12%;
+        <!-- Magnific Popup
+        =====================================-->
+        <script src="assets/js/magnific-popup/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/magnific-popup/magnific-popup-zoom-gallery.js"></script>
 
-	}
-}
+        <!-- Progress Bars
+        =====================================-->
+        <script src="assets/js/progress-bar/bootstrap-progressbar.js"></script>
+        <script src="assets/js/progress-bar/bootstrap-progressbar-main.js"></script>
 
+        <!-- Text Rotator
+        =====================================-->
+        <script src="assets/js/text-rotator/jquery.simple-text-rotator.min.js"></script>
 
-</style>
-</body>
+        <!-- Particle JS
+        =====================================-->
+	<script src="assets/js/particle/particles.min.js"></script>
+        <script src="assets/js/particle/particles.main1.js"></script>
+
+        <!-- JQuery Main
+        =====================================-->
+        <script src="assets/js/main/jquery.appear.js"></script>
+        <script src="assets/js/main/isotope.pkgd.min.js"></script>
+        <script src="assets/js/main/parallax.min.js"></script>
+        <script src="assets/js/main/jquery.countTo.js"></script>
+        <script src="assets/js/main/owl.carousel.min.js"></script>
+        <script src="assets/js/main/jquery.sticky.js"></script>
+        <script src="assets/js/main/imagesloaded.pkgd.min.js"></script>
+        <script src="assets/js/main/main.js"></script>
+
+    </body>
 </html>

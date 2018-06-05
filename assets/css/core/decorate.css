@@ -1,0 +1,149 @@
+.client-part {
+    background: url(../../../assets/img/portfolio/section-bg1.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 55px 0;
+    text-align: center;
+    
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+client area1{
+	background:#fff;
+	font-family: 'Open Sans', serif;
+	font-size:14px;
+	font-weight:normal;
+	color:#888888;
+	margin:0;
+}
+.container1 {
+    position: relative;
+    z-index: 1;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 900px;
+    overflow: hidden;
+    min-height: 0px !important;
+}
+@media (min-width: 1200px)
+.container {
+    width: 1170px;
+}
+element.style {
+    visibility: visible;
+    animation-name: fadeInDown;
+}
+.quote-right {
+    font-style: normal;
+    width: 68px;
+    height: 68px;
+    margin: 0 auto;
+    border: 2px solid #7cc576;
+    border-radius: 50%;
+    display: block;
+    line-height: 68px;
+    text-align: center;
+    font-size: 27px;
+    color: #7cc576;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+i {
+    font-family: 'FontAwesome';
+    font-weight: normal;
+    font-style: normal;
+}
+Style Attribute {
+    visibility: visible;
+    animation-name: fadeInDown;
+}
+@keyframes fadeInDown
+0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+}
+100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+}
+.fa-quote-right:before {
+    content: "\f10e";
+}
+.client-part-haead {
+    color: #fdfdfd;
+    font-size: 28px;
+    line-height: 41px;
+    margin: 30px 0 10px;
+    font-family: ''Open Sans',sans-serif';
+    font-style: italic;
+}
+.client li a img {
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+a:hover, a:focus {
+    color: #2a6496;
+    text-decoration: underline;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.client li a span {
+    color: #f1f1f1;
+}
+.client li a h3 {
+    color: #ffffff;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #711d1d;
+    font-size: 16px;
+    margin: 0 0 5px 0;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.c-logo-part {
+    background: #7cc576;
+    padding: 25px 0;
+    filter: alpha(opacity=60);
+
+}
+.c-logo1-part {
+    background: #808080;
+    padding: 25px 0;
+    filter: alpha(opacity=60);
+}
+#client img:hover {
+    -webkit-filter: opacity(50%);
+    filter: opacity(100%);
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}

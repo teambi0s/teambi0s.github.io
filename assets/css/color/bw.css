@@ -1,0 +1,168 @@
+/*  --------------------------------------------------------
+This CSS Only for Black and White Template Style
+-------------------------------------------------------- */
+/*  --------------------------------------------------------
+SELECTION COLOR
+-------------------------------------------------------- */
+::-moz-selection { /* Code for Firefox */
+    background: #111111;
+}
+::selection {
+    background: #111111;
+}
+
+/*  --------------------------------------------------------
+BACKGROUND COLOR
+-------------------------------------------------------- */
+.mouse-icon .wheel,
+.navbar-pasific .navbar-toggle .icon-bar,
+.bg-pasific,
+.button-pasific-o:hover,
+.button.button-pasific,
+.button-3d.button-pasific,
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus,
+.nav-pills-vertical li.active a,
+a.add-to-cart:hover,
+#blog form.blog-form-search button,
+.badge-pasific,
+.price-three .price-badge,
+#sidebar ul.tag li:hover,
+.irs-from, .irs-to, .irs-single,
+input[type=checkbox]:checked + label:before,
+.button-pasific.hover-fade:hover, .button-pasific.hover-fade:focus, .button-pasific.hover-fade:active,
+.button-pasific.hover-back-pulse:hover, .button-pasific.hover-back-pulse:focus, .button-pasific.hover-back-pulse:active,
+.button-pasific.hover-sweep-to-right:before,
+.button-pasific.hover-sweep-to-left:before,
+.button-pasific.hover-sweep-to-bottom:before,
+.button-pasific.hover-sweep-to-top:before,
+.button-pasific.hover-bounce-to-right:before,
+.button-pasific.hover-bounce-to-left:before,
+.button-pasific.hover-bounce-to-top:before,
+.button-pasific.hover-bounce-to-bottom:before,
+.button-pasific.hover-radial-out:before,
+.button-pasific.hover-rectangle-out:before,
+.button-pasific.hover-shutter-out-horizontal:before,
+.button-pasific.hover-shutter-out-vertical:before {
+    background-color: #111111 !important;
+}
+
+/*  --------------------------------------------------------
+BORDER COLOR
+-------------------------------------------------------- */
+.heading-icon,
+.heading-icon-o,
+.button-o.button-pasific,
+blockquote,
+blockquote.blockquote-reverse,
+blockquote.blockquote-pasific,
+blockquote.blockquote-pasific-reverse,
+.navbar-pasific .navbar-toggle,
+.nav-tabs-vertical li a:hover,
+.nav-tabs-vertical li.active,
+.nav-tabs-vertical li.active a,
+.testimonial-triangle-isosceles-has-bg.bottom-center .testimonial-body.bg-pasific:after,
+.button-pasific-o,
+.button-pasific-o:hover,
+.heading-divider,
+.hover-ripple-out:before,
+.hover-ripple-in:before,
+.button-pasific.hover-ripple-out:before,
+.button-pasific.hover-ripple-in:before,
+a.add-to-cart:hover,
+input[type=checkbox]:checked + label:before,
+#sidebar ul.tag li:hover,
+.copyright a:hover {        
+    border-color: #111111;
+}
+
+
+/*  --------------------------------------------------------
+TEXT COLOR
+-------------------------------------------------------- */
+a:hover,
+a[class*="color-"]:hover,
+.heading,
+.heading-icon-o,
+.button-o.button-pasific,
+.header-search:hover,
+.color-pasific,
+.button-o.button-pasific,
+.w3_megamenu .dropdown-menu .withoutdesc ul li a:hover,
+.nav-tabs-vertical li a:hover,
+.nav-tabs-vertical li.active,
+.nav-tabs-vertical li.active a,
+.testimonial .testimonial-header i,
+.testimonial .testimonial-footer,
+.box-content a:hover,
+.modal-footer a:hover,
+.testimonial-container a:hover,
+.shop-item-price,
+.shop-layout:hover,
+.shop-control-prev:hover,
+.shop-control-next:hover,
+#portfolio .portfolio-mask p a,
+#portfolio .portfolio-mask .portfolio-mask-attr span a:hover,
+#portfolioGrid .portfolio .portfolio-item a span:hover,
+#portfolioMasonry .portfolio-masonry-one-item .portfolio-mask a,
+#portfolioGrid .portfolio .portfolio-item a span:hover,
+#shop .shop-layout ul li.active a,
+#shop ul.pagination li a:hover,
+#shop ul.shop-sidebar li.active a,
+#shop ul.shop-sidebar li a:hover,
+.feature-container-in:hover > div.feature-icon,
+.copyright i.fa,
+.typed-cursor {
+    color: #111111;
+}
+
+#blog a:hover i.fa,
+#blog nav ul li a:hover,
+#blog nav ul li.active a,
+#blog ul.pagination li a:hover,
+.blog-one .blog-one-attrib .blog-author-name,
+.blog-one .blog-one-footer i,
+.blog-one .blog-one-footer a:hover,
+.blog-attrib-container a:hover,
+.blog-post-read-tag a:hover,
+#blog .blog-sidebar-popular-post-container a:hover {
+    color: #111111;
+}
+
+#portfolio ul li a.active,
+#portfolioNoGutter ul li a.active,
+#portfolioMasonry ul li a.active,
+#portfolioGrid ul li a.active,
+.top-nav-collapse-inverse .navbar-nav li a:hover,
+.top-nav-collapse-inverse .navbar-nav li a.active,
+.top-nav-collapse-inverse .navbar-nav li a.active:hover,
+.top-nav-collapse-inverse .navbar-nav li.active a,
+.navbar-pasific .navbar-brand:hover,
+.navbar-pasific .navbar-brand:focus,
+a.color-light:hover,
+.blog-title a:hover,
+.megamenu .dropdown .dropdown-menu li a:hover,
+#footer ul li a:hover {
+    color: #ccc !important;
+}
+/*  --------------------------------------------------------
+OTHER
+-------------------------------------------------------- */
+.irs-from:after, .irs-to:after, .irs-single:after {
+    border-top-color: #111111;
+}
+.heading,
+.heading-solid-icon div,
+.heading-dotted-icon div,
+.heading-dashed-icon div,
+.heading-solid-icon div div,
+.heading-dotted-icon div div,
+.heading-dashed-icon div div,
+.heading-double-icon div,
+.heading-double-icon div div {
+    border-top-color: #111111 !important;
+}
+.megamenu .dropdown-submenu:hover>a:after{
+	border-left-color:#111111;
+}

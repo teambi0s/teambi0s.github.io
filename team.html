@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Team Members</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta charset="utf-8">
+        <meta name="author" content="Harry Boo">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="assets/img/logo/bi0s-favicon.png">
+        <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.png">
+
+        <!-- Load Core CSS
+        =====================================-->
+        <link rel="stylesheet" href="assets/css/core/bootstrap.css">
+        <link rel="stylesheet" href="assets/css/core/animate.min.css">
+
+        <!-- Load Main CSS
+        =====================================-->
+        <link rel="stylesheet" href="assets/css/main/main.css">
+        <link rel="stylesheet" href="assets/css/main/setting.css">
+        <link rel="stylesheet" href="assets/css/main/hover.css">
+
+        <!-- Load Magnific Popup CSS
+        =====================================-->
+        <link rel="stylesheet" href="assets/css/magnific/magic.min.css">
+        <link rel="stylesheet" href="assets/css/magnific/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/magnific/magnific-popup-zoom-gallery.css">
+
+        <!-- Load OWL Carousel CSS
+        =====================================-->
+        <link rel="stylesheet" href="assets/css/owl-carousel/owl.carousel.css">
+        <link rel="stylesheet" href="assets/css/owl-carousel/owl.theme.css">
+        <link rel="stylesheet" href="assets/css/owl-carousel/owl.transitions.css">
+
+        <!-- Load Color CSS - Please uncomment to apply the color.
+        =====================================
+        <link rel="stylesheet" href="assets/css/color/blue.css">
+        <link rel="stylesheet" href="assets/css/color/brown.css">
+        <link rel="stylesheet" href="assets/css/color/cyan.css">
+        <link rel="stylesheet" href="assets/css/color/dark.css">
+        <link rel="stylesheet" href="assets/css/color/green.css">
+        <link rel="stylesheet" href="assets/css/color/orange.css">
+        <link rel="stylesheet" href="assets/css/color/purple.css">
+        <link rel="stylesheet" href="assets/css/color/pink.css">
+        <link rel="stylesheet" href="assets/css/color/red.css">
+        <link rel="stylesheet" href="assets/css/color/yellow.css">-->
+        <link rel="stylesheet" href="assets/css/color/pasific.css">
+
+        <!-- Load Fontbase Icons - Please Uncomment to use linea icons
+        =====================================
+        <link rel="stylesheet" href="assets/css/icon/linea-arrows-10.css">
+        <link rel="stylesheet" href="assets/css/icon/linea-basic-10.css">
+        <link rel="stylesheet" href="assets/css/icon/linea-basic-elaboration-10.css">
+        <link rel="stylesheet" href="assets/css/icon/linea-ecommerce-10.css">
+        <link rel="stylesheet" href="assets/css/icon/linea-music-10.css">
+        <link rel="stylesheet" href="assets/css/icon/linea-software-10.css">
+        <link rel="stylesheet" href="assets/css/icon/linea-weather-10.css">-->
+        <link rel="stylesheet" href="assets/css/icon/font-awesome.css">
+        <link rel="stylesheet" href="assets/css/icon/et-line-font.css">
+
+
+        <!-- Load JS
+        HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+        WARNING: Respond.js doesn't work if you view the page via file://
+        =====================================-->
+
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+        <script type="text/javascript">
+    $(document).ready(function(){
+        $(".button").click(function(){
+            var value = $(this).attr("data-filter");
+            if (value == "all")
+            {
+                $(".filter").show("1000");
+            }
+            else
+            {
+                $(".filter").not("."+value).hide("1000");
+                $(".filter").filter("."+value).show("1000");
+            }
+        })
+    })
+
+</script>
+    </head>
+    <body  id="page-top" data-spy="scroll" data-target=".navbar" data-offset="100">
+
+        <!-- Page Loader
+        ===================================== -->
+		<div id="pageloader">
+			<div class="loader-item">
+                <img src="assets/img/other/puff.svg" alt="page loader">
+            </div>
+		</div>
+
+        <a href="#page-top" class="go-to-top">
+            <i class="fa fa-long-arrow-up"></i>
+        </a>
+
+        <!-- Navigation Area
+        ===================================== -->
+        <nav class="navbar navbar-pasific navbar-op navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html" onclick="parent.location='index.html'"><img src="assets/img/logo/logo-default.png" width=30px height=30px alt="logo">bi0s</a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse navbar-right">
+                    <ul class="nav navbar-nav mr20">
+                        <li class="hidden"><a href="#page-top"></a></li>
+                        <li><a href="index.html#welcome" onclick="parent.location='index.html#welcome'"">About</a></li>
+                        <li><a href="index.html#fields" onclick="parent.location='index.html#fields'">Fields</a></li>
+                        <li><a href="team.html" onclick="parent.location='team.html'">Team</a></li>
+                        <li><a href="index.html#portfolioGrid" onclick="parent.location='index.html#portfolioGrid'">Mentors</a></li>
+                        <li><a href="trainings.html" onclick="parent.location='trainings.html'">Trainings</a></li>
+                        <li><a href="index.html#contact" onclick="parent.location='index.html#contact'">Contact</a></li>
+			<li><a href="https://bi0s.typeform.com/to/hmQhlS" onclick="window.open('https://bi0s.typeform.com/to/hmQhlS')">JOIN US</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        
+<!--Login Modal Dialogue Box DELETED-->
+
+<!--Search Modal Dialogue Box DELETED-->
+
+        <!-- Canvas Area
+        ===================================== -->
+        <div id="team" class="bg-dark3 pt75">
+            <div class="container">
+
+                <!-- title and short description start -->
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 class="font-size-normal color-light">
+                            <small class="color-pasific alpha10">Amazing Team</small>
+                            We have a lot of Smart People
+                            <small class="heading heading-solid center-block"></small>
+                        </h1>
+                    </div>
+
+                    <!--- Portfolio filter buttons
+        ===================================== -->
+        <section><!--main-section-start-->
+        <div id="containr">
+    <center>
+        
+            <button class="button active" data-filter="all">Team bi0s</a></button><br><br>
+            <button class="button" data-filter="current">Current Team</button></a>&nbsp;
+            <button class="button" data-filter="girl">Girls Team</button></a>&nbsp;
+            <button class="button" data-filter="alumini">Alumini</a></button>&nbsp;
+            <button class="button" data-filter="web">Web Security</a></button><br><br>&nbsp;
+            <button class="button" data-filter="binary">Binary Exploitation</a></button>&nbsp;
+            <button class="button" data-filter="android">Android Security</a></button>&nbsp;
+            <button class="button" data-filter="reverse">Reverse Engineering</a></button>&nbsp;
+            <button class="button" data-filter="crypto">CryptoGraphy</a></button>&nbsp;
+            <button class="button" data-filter="forensics">Forensics</a></button>&nbsp;
+            <button class="button" data-filter="hardware">Hardware Security</a></button>&nbsp;
+        
+    </center>        
+    </div>
+        
+
+                    <!-- team member one start -->
+                    <div class="box filter alumini">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                        <div class="team team-four bg-pasific ">
+                            <h5>ANIRUDH ANAND<small class="color-light alpha7">Web Application Security</small></h5>
+                            <img src="assets/img/team/anirud.jpg" alt="" class="img-responsive">
+                            <div class="team-social">
+                                <a href="https://twitter.com/a0xnirudh"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/a0xnirudh?ref=br_rs"><i class="fa fa-facebook"></i></a>
+                                <a href="https://in.linkedin.com/in/anirudhanand"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://github.com/a0xnirudh"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- team member one end -->
+
+
+                    <!-- team member two start -->
+                    <div class="box filter alumini">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30 alumini">
+                            <div class="team team-four bg-blue">
+                                <h5>ARJUN TU<small class="color-light alpha7">Reverse Engineering
+                                </small></h5>
+                                <img src="assets/img/team/arjun.jpg" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    <a href="https://twitter.com/ArjunKikz"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                    <a href="https://github.com/TUArjun"><i class="fa fa-github"></i></a>
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+                    <!-- team member two end -->
+
+                    <!-- team member three start -->
+                    <div class="box filter alumini">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30 alumini">        
+                            <div class="team team-four bg-cyan">
+                                <h5>RAKESH PARCHURI<small class="color-light alpha7">Binary Exploitation
+                                </small></h5>
+                                <img src="assets/img/team/rakesh.jpg" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    <a href="https://twitter.com/Rakesh13044"><i class="fa fa-twitter"></i></a>
+                                    <a href="https://www.facebook.com/rakesh.paruchuri.7"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://in.linkedin.com/in/rakesh-paruchuri-24442992"><i class="fa fa-linkedin"></i></a>
+                                    <a href="#"><i class="fa fa-github"></i></a>
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+                    <!-- team member three end -->
+
+                    <!-- team member four start -->
+                    <div class="box filter alumini">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30 web">
+                            <div class="team team-four bg-green">
+                                <h5>GOKUL KRISHNA<small class="color-light alpha7">Client Side Security</small></h5>
+                                <img src="assets/img/team/gk.jpg" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    <a href="https://twitter.com/gkgkrishna33"><i class="fa fa-twitter"></i></a>
+                                    <a href="https://www.facebook.com/profile.php?id=1656126990"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://in.linkedin.com/pub/gokul-krishna/b9/69b/553"><i class="fa fa-linkedin"></i></a>
+                                    <a href="https://github.com/gokulkrishna01"><i class="fa fa-github"></i></a>
+                                </div>
+                            </div>
+                    </div>
+                    </div>  
+                    <!-- team member four end -->
+
+                    <!-- team member five start -->
+                    <div class="box filter android alumini">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                        <div class="team team-four bg-purple">
+                            <h5>ABHISHEK J M<small class="color-light alpha7">Android Security</small></h5>
+                            <img src="assets/img/team/abhishek.jpg" alt="" class="img-responsive">
+                            <div class="team-social">
+                                <a href="https://twitter.com/abhi_r3v0"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/abhir3v0"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://github.com/abhi-r3v0"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- team member five end -->
+
+
+                
+
+                    <!-- team member one start -->
+                    <div class="box filter alumini">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                        <div class="team team-four bg-pasific">
+                            <h5>JAYAKRISHNA MENON<small class="color-light alpha7">Heap Based exploitation</small></h5>
+                            <img src="assets/img/team/jk.jpg" alt="" class="img-responsive">
+                            <div class="team-social">
+                                <a href="https://twitter.com/jkrshnmenon"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://github.com/jkrshnmenon"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- team member one end -->
+
+
+                    <!-- team member two start -->
+                    <div class="box filter alumini">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                            <div class="team team-four bg-cyan">
+                                <h5>HEERAJ<small class="color-light alpha7">Sever Side Security</small></h5>
+                                <img src="assets/img/team/heeraj.jpg" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    <a href="https://twitter.com/heerajnair"><i class="fa fa-twitter"></i></a>
+                                    <a href="https://www.facebook.com/heeraj123"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://in.linkedin.com/in/heeraj-nair-320831b9"><i class="fa fa-linkedin"></i></a>
+                                    <a href="https://github.com/h33raj"><i class="fa fa-github"></i></a>
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+                    <!-- team member two end -->
+
+                    <!-- team member three start -->
+                    <div class="box filter alumini">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                        <div class="team team-four bg-green">
+                            <h5>SHIVKRISHNA A<small class="color-light alpha7">Memory Forensics
+                            </small></h5>
+                            <img src="assets/img/team/sivkrishna.jpg" alt="" class="img-responsive">
+                            <div class="team-social">
+                                <a href="https://twitter.com/shivnambiar1"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- team member three end -->
+
+                    <!-- team member four start -->
+                    <div class="box filter alumini">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                        <div class="team team-four bg-blue">
+                            <h5>AKHIL MAHENDRA<small class="color-light alpha7">Server Side Security</small></h5>
+                            <img src="assets/img/team/akhil.jpg" alt="" class="img-responsive">
+                            <div class="team-social">
+                                <a href="https://twitter.com/Akhil_Mahendra"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/aki1197"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://github.com/th3-j0k3r"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- team member four end -->
+
+                    <!-- team member five start -->
+                    <div class="box filter web current">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                        <div class="team team-four bg-purple">
+                            <h5>ASWIN M GUPTHA<small class="color-light alpha7">Web Security
+                            </small></h5>
+                            <img src="assets/img/team/aswin-guptha.jpg" alt="" class="img-responsive">
+                            <div class="team-social">
+                                <a href="https://twitter.com/aswinmguptha"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/aswinmguptha?hc_ref=ARR0KoS3QRcfwyZtUGqGWljmmh7bBU7j4oqIP9hXAg_EdA-E0e0l2Fa1twR3v8l6DlU&fref=nf"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://github.com/aswinmguptha"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- team member five end -->
+
+
+                
+
+                    <!-- team member one start -->
+                   <div class="box filter web current">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                        <div class="team team-four bg-green">
+                            <h5>TARUNKANT GUPTA<small class="color-light alpha7">Web Exploitation
+                            </small></h5>
+                            <img src="assets/img/team/tarun.jpg" alt="" class="img-responsive">
+                            <div class="team-social">
+                                <a href="https://twitter.com/tarunkantg"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/tarunkant.gupta"><i class="fa fa-facebook"></i></a>
+                                <a href="http://linkedin.com/in/tarunkant-g-215830129/"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://github.com/tarunkant"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- team member one end -->
+
+
+                    <!-- team member two start -->
+                    <div class="box filter web current">
+                        <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                            <div class="team team-four bg-purple">
+                                <h5>ASHWIN SHENOI<small class="color-light alpha7">Web Exploitation
+                                </small></h5>
+                                <img src="assets/img/team/default.png" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    <a href="https://twitter.com/__c3rb3ru5__"><i class="fa fa-twitter"></i></a>
+                                    <a href="https://www.facebook.com/ashwin.shenoi"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                    <a href="https://github.com/ashwinshenoi99"><i class="fa fa-github"></i></a>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                    <!-- team member two end -->
+
+                    <!-- team member three start -->
+                    <div class="box filter web current">
+                        <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                            <div class="team team-four bg-pasific">
+                                <h5>ADARSH K<small class="color-light alpha7">Web Exploitation
+                                </small></h5>
+                                <img src="assets/img/team/adarsh.png" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    <a href="https://twitter.com/adarsh_k_"><i class="fa fa-twitter"></i></a>
+                                    <a href="https://www.facebook.com/adarsh.kunnamagalam"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://www.linkedin.com/in/adarsh-k-706220166/"><i class="fa fa-linkedin"></i></a>
+                                    <a href="https://github.com/r4pt3r"><i class="fa fa-github"></i></a>
+                                </div>
+                            </div>
+                    </div>
+					</div>
+                    <!-- team member three end -->
+
+                    <!-- team member four start -->
+                    <div class="box filter web current girl">
+                            <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                                <div class="team team-four bg-purple">
+                                    <h5>NIMISHA DUGYALA<small class="color-light alpha7">Web Exploitation
+                                    </small></h5>
+                                    <img src="assets/img/team/nimisha.jpg" alt="" class="img-responsive">
+                                    <div class="team-social">
+                                        <a href="https://twitter.com/nimisha_dugyala"><i class="fa fa-twitter"></i></a>
+                                        <a href="https://www.facebook.com/nimisha.dugyala"><i class="fa fa-facebook"></i></a>
+                                        <a href="https://www.linkedin.com/in/nimisha-dugyala-1b3217144/"><i class="fa fa-linkedin"></i></a>
+                                        <a href="https://github.com/Nimisha17"><i class="fa fa-github"></i></a>
+                                    </div>
+                                 </div>
+                            </div>      
+					</div>
+                    <!-- team member four end -->
+
+                    <!-- team member five start -->
+					<div class="box filter binary current">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                        <div class="team team-four bg-blue">
+                            <h5>SIDHANT GUPTA<small class="color-light alpha7">Binary Exploitation
+                            </small></h5>
+                            <img src="assets/img/team/siddhanth.jpg" alt="" class="img-responsive">
+                            <div class="team-social">
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=100011382869414"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://github.com/sidhant-gupta-004"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- team member five end -->
+
+
+                
+                
+                    <!-- team member one start -->
+                    <div class="box filter binary current">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                        <div class="team team-four bg-purple">
+                            <h5>VIGNESH S RAO<small class="color-light alpha7">Binary Exploitation
+                            </small></h5>
+                            <img src="assets/img/team/vignesh.jpg" alt="" class="img-responsive">
+                            <div class="team-social">
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://github.com/vigneshsrao"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- team member one end -->
+
+
+                    <!-- team member two start -->
+                    <div class="box filter binary current">
+                        <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                            <div class="team team-four bg-cyan">
+                                <h5>VISHNU DEV TJ<small class="color-light alpha7">Binary Exploitation
+                                </small></h5>
+                                <img src="assets/img/team/default.png" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    <a href="https://twitter.com/vishnudevtj"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                    <a href="#"><i class="fa fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    <!-- team member two end -->
+
+                    <!-- team member three start -->
+                    <div class="box filter binary current">
+                        <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                            <div class="team team-four bg-green">
+                                <h5>MAHESH HARI SHARMA<small class="color-light alpha7">Binary Exploitation
+                                </small></h5>
+                                <img src="assets/img/team/default.png" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    <a href="https://twitter.com/HerMahesh"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                    <a href="#"><i class="fa fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+                    <!-- team member three end -->
+
+                    <!-- team member four start -->
+					<div class="box filter reverse current">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                        <div class="team team-four bg-pasific">
+                            <h5>AKSHAY AJAYAN<small class="color-light alpha7">Reverse Engineering
+                            </small></h5>
+                            <img src="assets/img/team/akshay.jpg" alt="" class="img-responsive">
+                            <div class="team-social">
+                                <a href="https://twitter.com/r00tus3r"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="https://in.linkedin.com/in/akshay-ajayan"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://github.com/r00tus3r"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+					<!-- team member four end -->
+
+                    <!-- team member five start -->
+					<div class="box filter reverse current">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                        <div class="team team-four bg-cyan">
+                            <h5>SIDDHARTH MURALEE<small class="color-light alpha7">Reverse Engineering
+                            </small></h5>
+                            <img src="assets/img/team/siddharth.jpg" alt="" class="img-responsive">
+                            <div class="team-social">
+                                <a href="https://twitter.com/Tr3x__"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://github.com/R3x"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- team member five end -->
+
+
+
+                
+                    <!-- team member one start -->
+                    <div class="box filter reverse current">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                        <div class="team team-four bg-pasific">
+                            <h5>SAASTHA VASAN<small class="color-light alpha7">Reverse Engineering
+                            </small></h5>
+                            <img src="assets/img/team/saastha.jpg" alt="" class="img-responsive">
+                            <div class="team-social">
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://github.com/saasthavasan"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- team member one end -->
+    
+    
+					<!-- team member two start -->
+					<div class="box filter reverse current">
+						<div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                            <div class="team team-four bg-blue">
+                                <h5>AKUL PILLAI<small class="color-light alpha7">Reverse Engineering
+                                </small></h5>
+                                <img src="assets/img/team/default.png" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    <a href="https://twitter.com/akulpillai"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                    <a href="#"><i class="fa fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+					<!-- team member two end -->
+		
+					<!-- team member three start -->
+					<div class="box filter reverse current">
+						<div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+							<div class="team team-four bg-purple">
+								<h5>AMITH VENUGOPAL<small class="color-light alpha7">Reverse Engineering
+								</small></h5>
+								<img src="assets/img/team/default.png" alt="" class="img-responsive">
+								<div class="team-social">
+									<a href="https://twitter.com/a_m3th"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-linkedin"></i></a>
+									<a href="#"><i class="fa fa-github"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- team member three end -->
+    
+					<!-- team member four start -->
+					<div class="box filter reverse current girl">
+						<div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+							<div class="team team-four bg-blue">
+								<h5>AYUSHI SHARMA<small class="color-light alpha7">Reverse Engineering
+								</small></h5>
+								<img src="assets/img/team/ayushi.jpg" alt="" class="img-responsive">
+								<div class="team-social">
+									<a href="https://twitter.com/Ais2397Ayushi?s=03"><i class="fa fa-twitter"></i></a>
+									<a href="https://www.facebook.com/AyUsHi.sharma23"><i class="fa fa-facebook"></i></a>
+									<a href="https://www.linkedin.com/in/ayushi-sharma-264a6210a/"><i class="fa fa-linkedin"></i></a>
+									<a href="https://github.com/ais2397"><i class="fa fa-github"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+                        <!-- team member four end -->
+    
+                        <!-- team member five start -->
+                        <div class="box filter reverse current girl">
+                            <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                                <div class="team team-four bg-cyan">
+                                    <h5>GEETHNA TK<small class="color-light alpha7">Reverse Engineering
+                                    </small></h5>
+                                    <img src="assets/img/team/geethna.jpeg" alt="" class="img-responsive">
+                                    <div class="team-social">
+                                        <a href="https://twitter.com/GeethnaTk"><i class="fa fa-twitter"></i></a>
+                                        <a href="https://www.facebook.com/geethna.tk.5"><i class="fa fa-facebook"></i></a>
+                                        <a href="https://www.linkedin.com/in/geethna-t-k-a51047166/"><i class="fa fa-linkedin"></i></a>
+                                        <a href="https://github.com/geethna/"><i class="fa fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- team member five end -->
+
+                        <!-- team member one start -->
+						<div class="box filter crypto current">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                        <div class="team team-four bg-cyan">
+                            <h5>ASHUTOSH AHELLEYA<small class="color-light alpha7">Cryptography
+                            </small></h5>
+                            <img src="assets/img/team/ashtosh.jpg" alt="" class="img-responsive">
+                            <div class="team-social">
+                                <a href="https://twitter.com/s0rc3r3r12"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/ashutosh.ahelleya"><i class="fa fa-facebook"></i></a>
+                                <a href="https://in.linkedin.com/in/ashutosh1206"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://github.com/ashutosh1206"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                        <!-- team member one end -->
+    
+    
+                        <!-- team member two start -->
+                        <div class="box filter crypto current">
+                        <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                            <div class="team team-four bg-pasific">
+                                <h5>SAYOOJ SAMUEL<small class="color-light alpha7">Cryptography
+                                </small></h5>
+                                <img src="assets/img/team/default.png" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    <a href="https://twitter.com/sayoojsamuel"><i class="fa fa-twitter"></i></a>
+                                    <a href="https://www.facebook.com/sayoojsamuelgreat"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                    <a href="#"><i class="fa fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- team member two end -->
+    
+                        <!-- team member three start -->
+                        <div class="box filter crypto current">
+                        <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                            <div class="team team-four bg-cyan">
+                                <h5>VIVEK NJ<small class="color-light alpha7">Cryptography
+                                </small></h5>
+                                <img src="assets/img/team/default.png" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                    <a href="#"><i class="fa fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- team member three end -->
+    
+                        <!-- team member four start -->
+                        <div class="box filter crypto current girl">
+                            <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                                <div class="team team-four bg-pasific">
+                                    <h5>SHRUTI DIXIT<small class="color-light alpha7">Cryptography
+                                    </small></h5>
+                                    <img src="assets/img/team/sruti.jpg" alt="" class="img-responsive">
+                                    <div class="team-social">
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="https://twitter.com/ShrutiD76057668"><i class="fa fa-facebook"></i></a>
+                                        <a href="https://www.linkedin.com/in/shruti-dixit-489047166"><i class="fa fa-linkedin"></i></a>
+                                        <a href="https://github.com/rudyerudite/"><i class="fa fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        <!-- team member four end -->
+    
+                        <!-- team member five start -->
+						<div class="box filter hardware current">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                        <div class="team team-four bg-blue">
+                            <h5>ASHWIN NAMBIAR<small class="color-light alpha7">Hardware Security
+                            </small></h5>
+                            <img src="assets/img/team/aswin_n.jpg" alt="" class="img-responsive">
+                            <div class="team-social">
+                                <a href="https://twitter.com/0xsilipwn"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/ashwin.nambiar2?ref=br_rs"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://github.com/Silipwn"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                        <!-- team member five end -->
+
+                        <!-- team member one start -->
+                        <div class="box filter forensics current">
+                    <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                        <div class="team team-four bg-green">
+                            <h5>KARTHIK NAMBIAR<small class="color-light alpha7">Forensics
+                            </small></h5>
+                            <img src="assets/img/team/karthik.jpg" alt="" class="img-responsive">
+                            <div class="team-social">
+                                <a href="https://twitter.com/nambiar_kartuzz"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/kartik.nambiar.9"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                            <!-- team member one end -->
+        
+        
+                            <!-- team member two start -->
+                           <div class="box filter forensics current">
+                        <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                            <div class="team team-four bg-green">
+                                <h5>HARIKRISHNAN<small class="color-light alpha7">Forensics
+                                </small></h5>
+                                <img src="assets/img/team/default.png" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                    <a href="#"><i class="fa fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                            <!-- team member two end -->
+        
+                            <!-- team member three start -->
+							 <div class="box filter forensics current">
+                        <div class="col-md-2 col-sm-4 col-xs-12 hover-wobble-vertical mt30">
+                            <div class="team team-four bg-blue">
+                                <h5>ABHIRAM KUMAR<small class="color-light alpha7">Network Forensics
+                                </small></h5>
+                                <img src="assets/img/team/abhiram.jpeg" alt="" class="img-responsive">
+                                <div class="team-social">
+                                    <a href="https://twitter.com/Stuxn3t_787?s=03"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://www.linkedin.com/in/abhiram-kumar-90026214a/"><i class="fa fa-linkedin"></i></a>
+                                    <a href="https://github.com/stuxnet999"><i class="fa fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                            <!-- team member three end -->
+
+                        
+    
+
+
+                </div>
+                <br><br>
+            </div><!-- container end -->
+        </div><!-- section team end -->
+</section>
+
+         <!-- footer Area
+        =============================		======== -->
+
+
+
+
+                </div>
+                <br><br>
+            </div><!-- container end -->
+        </div><!-- section team end -->
+        </section>
+
+<!--Client Area DELETED-->
+ <!-- footer Area
+        ===================================== -->
+        <div id="footer" class="footer-two pt50 bg-black">
+           
+<!--
+	 
+                        <div class="col-md-2 col-sm-3 col-xs-12">
+                            <h6 class="font-montserrat text-uppercase color-dark">Social Media</h6>
+                            
+                        </div>
+
+--> 
+
+            <div class="container-fluid pt20">
+                <div class="container">
+                    <div class="row">
+			
+			<center>
+			<div class="social social-two">
+                                <a href="https://twitter.com/teambi0s"><i class="fa fa-twitter color-gray"></i></a>
+                                <a href="https://www.facebook.com/teambi0s"><i class="fa fa-facebook color-gray"></i></a>
+                                <a href="https://github.com/teambi0s"><i class="fa fa-github color-gray"></i></a>
+			</div><br>                   
+			<div>
+                            <p><a href="#" style="color:white;font-size:1em;">bi0s.in</a></p>
+                        </div>
+			</center>
+                    </div><!-- row end -->
+                </div><!-- container end -->
+            </div><!-- container-fluid end -->
+        </div><!-- footer end -->
+<!--Copyright DELETED-->
+
+
+        <!-- JQuery Core
+        =====================================-->
+        <script src="assets/js/core/jquery.min.js"></script>
+        <script src="assets/js/core/bootstrap.min.js"></script>
+
+        <!-- Magnific Popup
+        =====================================-->
+        <script src="assets/js/magnific-popup/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/magnific-popup/magnific-popup-zoom-gallery.js"></script>
+
+        <!-- Progress Bars
+        =====================================-->
+        <script src="assets/js/progress-bar/bootstrap-progressbar.js"></script>
+        <script src="assets/js/progress-bar/bootstrap-progressbar-main.js"></script>
+
+        <!-- Text Rotator
+        =====================================-->
+        <script src="assets/js/text-rotator/jquery.simple-text-rotator.min.js"></script>
+
+        <!-- Particle JS
+        =====================================-->
+	<script src="assets/js/particle/particles.min.js"></script>
+        <script src="assets/js/particle/particles.main1.js"></script>
+
+        <!-- JQuery Main
+        =====================================-->
+        <script src="assets/js/main/jquery.appear.js"></script>
+        <script src="assets/js/main/isotope.pkgd.min.js"></script>
+        <script src="assets/js/main/parallax.min.js"></script>
+        <script src="assets/js/main/jquery.countTo.js"></script>
+        <script src="assets/js/main/owl.carousel.min.js"></script>
+        <script src="assets/js/main/jquery.sticky.js"></script>
+        <script src="assets/js/main/imagesloaded.pkgd.min.js"></script>
+        <script src="assets/js/main/main.js"></script>
+
+    </body>
+</html>

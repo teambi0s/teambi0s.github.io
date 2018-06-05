@@ -1,0 +1,116 @@
+/*  --------------------------------------------------------
+FONT ICONS DEMO
+-------------------------------------------------------- */
+#fontIcons {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+#fontIcons .col-md-4,
+#fontIcons .col-sm-6,
+#fontIcons .col-lg-3 {
+    border-bottom: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+    border-right: 1px solid #f0f0f0;
+    height: 40px;
+    padding-top: 10px;
+}
+#fontIcons .col-md-4 i,
+#fontIcons .col-sm-6 i,
+#fontIcons .col-lg-3 i {
+    font-size: 14px;
+    margin-right: 20px;
+}
+#fontIcons .col-md-4 span,
+#fontIcons .col-sm-6 span,
+#fontIcons .col-lg-3 span {
+    font-size: 16px;
+    margin-right: 15px;
+}
+#fontIcons span.text-muted {
+    visibility: hidden;
+    position: absolute;
+}
+#fontIcons ul.bs-glyphicons-list {
+    margin: 0 auto;
+    display: block;
+    float: left;
+}
+#fontIcons ul.bs-glyphicons-list li {
+    display: block;
+    float: left;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    text-align: center;
+    padding: 20px 10px 10px 10px;
+    background: #f9f9f9;
+}
+#fontIcons ul.bs-glyphicons-list li span.glyphicon {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#fontIcons ul.linea {
+    display: block;
+    margin: auto auto auto auto;
+    padding-left: 100px;    
+}
+#fontIcons ul.linea li{
+    list-style: none;
+    display: inline-block;
+    border: 1px solid #f0f0f0;
+    padding: 5px 0 0 10px;
+    margin: 0 10px 10px 0;
+    width: 300px;
+}
+#fontIcons ul.linea li div.icon {
+    color: #111;
+    font-size: 24px;
+    float: left;
+    margin-right: 10px;
+}
+#fontIcons ul.linea li input {
+    float: left;
+    border: 0;
+    width: 250px;
+}
+@media(max-width:968px) {
+    #fontIcons ul.linea {
+        padding-left: 0;    
+    }
+}
+#svgIcons .flaticon {
+	width: 48px;
+	height: 48px;
+	margin: 1rem;
+}
+
+.test-animated-container {
+    background-color: #f5f7f9;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    text-align: center;
+    padding: 0;
+    float: left;
+    vertical-align: middle;
+    width: 150px;
+    height: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+}
+.b1r {
+    border: 1px solid red;
+}
+/*
+.glyphs.css-mapping{margin:0 0 60px 0;padding:30px 0 20px 30px;color:rgba(0,0,0,0.5);border:1px solid #d8e0e5;-webkit-border-radius:3px;border-radius:3px;}
+.glyphs.css-mapping li{margin:0 10px 10px 0;padding:0;display:inline-block;overflow:hidden}
+.glyphs.css-mapping .icon{margin:0;margin-right:10px;padding:13px;height:50px;width:50px;color:#162a36 !important;overflow:hidden;float:left;font-size:24px}
+.glyphs.css-mapping input{margin:0;margin-top:5px;padding:8px;line-height:16px;font-size:13px;display:block;width:170px;height:40px;border:1px solid #d8e0e5;-webkit-border-radius:5px;border-radius:5px;background:#fff;outline:0;float:right;}
+.glyphs.css-mapping input:focus{border:1px solid #ff4530;-webkit-box-shadow:inset 0 0 3px #ff4530;box-shadow:inset 0 0 3px #ff4530}
+.glyphs.css-mapping input:hover{-webkit-box-shadow:inset 0 0 3px #ff4530;box-shadow:inset 0 0 3px #ff4530}*/
