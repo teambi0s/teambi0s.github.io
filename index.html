@@ -1,729 +1,950 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Homepage</title>
-        <meta name="description" content="">
-        <meta name="keywords" content="">
-        <meta charset="utf-8">
-        <meta name="author" content="Harry Boo">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />-->
-	<meta name="viewport" content="width=1300" />
 
-        <!-- Favicons -->
-        <link rel="shortcut icon" href="assets/img/logo/bi0s-favicon.png">
-        <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.png">
+<head>
+	<title>Amrita Bios</title>
 
-        <!-- Load Core CSS
-        =====================================-->
-        <link rel="stylesheet" href="assets/css/core/bootstrap.css">
-        <link rel="stylesheet" href="assets/css/core/animate.min.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<style type="text/css">
+.topnav {
+  overflow: hidden;
+  background-color: #000080;
+  color: white;
+}
 
-        <!-- Load Main CSS
-        =====================================-->
-        <link rel="stylesheet" href="assets/css/main/main.css">
-        <link rel="stylesheet" href="assets/css/main/setting.css">
-        <link rel="stylesheet" href="assets/css/main/hover.css">
+.topnav a {
+font-size: 19px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 1 !important;
+ 	
+}
 
-        <!-- Load Magnific Popup CSS
-        =====================================-->
-        <link rel="stylesheet" href="assets/css/magnific/magic.min.css">
-        <link rel="stylesheet" href="assets/css/magnific/magnific-popup.css">
-        <link rel="stylesheet" href="assets/css/magnific/magnific-popup-zoom-gallery.css">
+}
 
-        <!-- Load OWL Carousel CSS
-        =====================================-->
-        <link rel="stylesheet" href="assets/css/owl-carousel/owl.carousel.css">
-        <link rel="stylesheet" href="assets/css/owl-carousel/owl.theme.css">
-        <link rel="stylesheet" href="assets/css/owl-carousel/owl.transitions.css">
+.topnav a:hover {
+    color: black;
+}
 
-        <!-- Load Color CSS - Please uncomment to apply the color.
-        =====================================
-        <link rel="stylesheet" href="assets/css/color/blue.css">
-        <link rel="stylesheet" href="assets/css/color/brown.css">
-        <link rel="stylesheet" href="assets/css/color/cyan.css">
-        <link rel="stylesheet" href="assets/css/color/dark.css">
-        <link rel="stylesheet" href="assets/css/color/green.css">
-        <link rel="stylesheet" href="assets/css/color/orange.css">
-        <link rel="stylesheet" href="assets/css/color/purple.css">
-        <link rel="stylesheet" href="assets/css/color/pink.css">
-        <link rel="stylesheet" href="assets/css/color/red.css">
-        <link rel="stylesheet" href="assets/css/color/yellow.css">-->
-        <link rel="stylesheet" href="assets/css/color/pasific.css">
+.topnav a.active {
+  background-color: #4CAF50;
+  color: black;
+}
 
-        <!-- Load Fontbase Icons - Please Uncomment to use linea icons
-        =====================================
-        <link rel="stylesheet" href="assets/css/icon/linea-arrows-10.css">
-        <link rel="stylesheet" href="assets/css/icon/linea-basic-10.css">
-        <link rel="stylesheet" href="assets/css/icon/linea-basic-elaboration-10.css">
-        <link rel="stylesheet" href="assets/css/icon/linea-ecommerce-10.css">
-        <link rel="stylesheet" href="assets/css/icon/linea-music-10.css">
-        <link rel="stylesheet" href="assets/css/icon/linea-software-10.css">
-        <link rel="stylesheet" href="assets/css/icon/linea-weather-10.css">-->
-        <link rel="stylesheet" href="assets/css/icon/font-awesome.css">
-        <link rel="stylesheet" href="assets/css/icon/et-line-font.css">
+.topnav-right {
+  float: right;
+}
+.topnav a:visited {
+  color: black;
+}
+	</style>
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link rel="shortcut icon" href="images/bi0s-favicon.png">
+	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<link rel="stylesheet" href="css/aos.css">
+
+	<link rel="stylesheet" href="css/ionicons.min.css">
+
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="css/jquery.timepicker.css">
 
 
-        <!-- Load JS
-        HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
-        WARNING: Respond.js doesn't work if you view the page via file://
-        =====================================-->
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
 
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-    </head>
-    <body  id="page-top" data-spy="scroll" data-target=".navbar" data-offset="100">
+<body>
 
-        <!-- Page Loader
-        ===================================== -->
-		<div id="pageloader">
-			<div class="loader-item">
-                <img src="assets/img/other/puff.svg" alt="page loader">
-            </div>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+		<div class="container d-flex align-items-center">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+				aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav mr-auto">
+					<div class="col-md-2  img img-2 "
+						style="background-image: url(images/bi0sblack.svg); background-position: center; background-size: contain;">
+						<a href="#" class="nav-link"></a>
+					</div>
+					<li class="nav-item active"><a href="index.html" class="nav-link pl-0">Home</a></li>
+					<li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+					<li class="nav-item"><a href="team.html" class="nav-link">Team</a></li>
+					<li class="nav-item"><a href="#expert" class="nav-link">Expertise</a></li>
+					<li class="nav-item"><a href="#mentor" class="nav-link">Mentors</a></li>
+
+					<li class="nav-item"><a href="#events" class="nav-link">Events</a></li>
+					<li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+				</ul>
+			</div>
+					<div class="topnav">
+	  <div class="topnav-right">
+    <a href="join.html">Join-Us</a>
+  </div>
+</div>
 		</div>
 
-        <a href="#page-top" class="go-to-top">
-            <i class="fa fa-long-arrow-up"></i>
-        </a>
+	</nav>
 
-        <!-- Navigation Area
-        ===================================== -->
-        <nav class="navbar navbar-pasific navbar-op navbar-fixed-top">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#page-top"><img src="assets/img/logo/logo-default.png" width=30px height=30px alt="logo">bi0s</a>
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="navbar-collapse collapse navbar-right">
-                    <ul class="nav navbar-nav mr20">
-                        <li class="hidden"><a href="#page-top"></a></li>
-                        <li><a href="index.html#welcome">About</a></li>
-                        <li><a href="index.html#fields">Fields</a></li>
-                        <li><a href="team.html" onclick="parent.location='team.html'">Team</a></li>
-                        <li><a href="index.html#portfolioGrid">Mentors</a></li>
-                        <li><a href="trainings.html" onclick="parent.location='trainings.html'">Trainings</a></li>
-                        <li><a href="index.html#contact">Contact</a></li>
-			<li><a href="https://docs.google.com/forms/d/e/1FAIpQLScpyrgwESvluonYKNnoYUVc_52CYwM0AYvcq6mSyr51fgysmA/viewform?usp=sf_link" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLScpyrgwESvluonYKNnoYUVc_52CYwM0AYvcq6mSyr51fgysmA/viewform?usp=sf_link')">JOIN US</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+	<!-- END nav -->
+
+	<section class="home-slider owl-carousel">
+		<div class="slider-item" style="background-image:url(images/landing.png);" data-stellar-background-ratio="0.5">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
+					<div class="col-md-6 text ftco-animate">
+						<h1 class="mb-4">Amrita BIOS <span>The Security Expert</span></h1>
+						<h2 class="subheading"><b>#1 Security Team in India</b></h2>
+						<p><a href="#about" class="btn btn-secondary px-4 py-3 mt-3">Learn More</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="slider-item" style="background-image:url(images/landing31.png);" data-stellar-background-ratio="0.5">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
+					<div class="col-md-6 text ftco-animate">
+						<h1 class="mb-4">We Care <span><b>About Security</b></span></h1>
+						<h3 class="subheading">Driving progress through research</h3>
+						<p><a href="#about" class="btn btn-secondary px-4 py-3 mt-3">Learn more</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-services ftco-no-pb">
+		<div class="container">
+			<div class="row no-gutters">
+				<div class="col-md-3 d-flex services align-self-stretch p-4 ftco-animate">
+					<div class="media block-6 d-block text-center">
+						<div class="icon d-flex justify-content-center align-items-center">
+							<span class="flaticon-experiment-results"></span>
+						</div>
+						<div class="media-body p-2 mt-3">
+							<h3 class="heading">No. 1 CTF team in India</h3>
+							<p>No. 1 CTF team in the country, for 4 years running!
+								Consistently competing and beating the top IITs, IIITs and NITs
+								.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 d-flex services align-self-stretch p-4 ftco-animate">
+					<div class="media block-6 d-block text-center">
+						<div class="icon d-flex justify-content-center align-items-center">
+							<span class="flaticon-ambulance"></span>
+						</div>
+						<div class="media-body p-2 mt-3">
+							<h3 class="heading">Top 20 Worldwide</h3>
+							<p>Been climbing up the worldwide rankings every year.
+								Currently #14, competing with the best CTF teams in the world
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 d-flex services align-self-stretch p-4 ftco-animate">
+					<div class="media block-6 d-block text-center">
+						<div class="icon d-flex justify-content-center align-items-center">
+							<span class="flaticon-stethoscope"></span>
+						</div>
+						<div class="media-body p-2 mt-3">
+							<h3 class="heading">Best Security Research Team</h3>
+							<p>A highly motivated team, hungry to unlock the secrets of the cyber world</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 d-flex services align-self-stretch p-4 ftco-animate">
+					<div class="media block-6 d-block text-center">
+						<div class="icon d-flex justify-content-center align-items-center">
+							<span class="flaticon-24-hours"></span>
+						</div>
+						<div class="media-body p-2 mt-3">
+							<h3 class="heading">Producing Cyber Professionals</h3>
+							<p>Ex-members regularly go on to become industry leaders, contuining their pursuit of cybersecurity expertise</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section ftco-no-pt ftc-no-pb" id="about">
+		<div class="container">
+			<div class="row no-gutters">
+				<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0"
+					style="background-image: url(images/rebit.gif); background-position: center; background-size: <!--contain-->;">
+				</div>
+				<!-- <div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0">
+						<img src="images/rebit.gif">
+					</div> -->
+				<div class="col-md-7 wrap-about py-4 py-md-5 ftco-animate">
+					<div class="heading-section mb-5">
+						<div class="pl-md-5 ml-md-5">
+							<span class="subheading">Amrita Bios</span>
+							<h2 class="mb-4" style="font-size: 40px;">Securing the Digital Frontier</h2>
+						</div>
+					</div>
+					<div class="pl-md-5 ml-md-5 mb-5">
+						<p>Amrita Bios is largely a CTF team actively taking part in the international CTFs round the year, besides
+							carrying out research on security issues in the real world. Fuelled by the urge for community service,
+							bi0s has been organizing workshops and educating the masses about the need for cyber security. .</p>
+						<div class="row mt-5 pt-2">
+							<div class="col-lg-6">
+								<div class="services-2 d-flex">
+									<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
+											class="flaticon-first-aid-kit"></span></div>
+									<div class="text">
+										<h3>500+ CTF PLAYED</h3>
+										<p> Top finish in many international CTF'S</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="services-2 d-flex">
+									<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
+											class="flaticon-dropper"></span></div>
+									<div class="text">
+										<h3>50+ CTF Hosted</h3>
+										<p>Expertise in Hosting National and International CTF'S</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="services-2 d-flex">
+									<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
+											class="flaticon-experiment-results"></span></div>
+									<div class="text">
+										<h3>100+ Trainings</h3>
+										<p>Conducted many national and International security trainings</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="services-2 d-flex">
+									<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
+											class="flaticon-heart-rate"></span></div>
+									<div class="text">
+										<h3>Security Research</h3>
+										<p>Cutting edge technology for
+											a better tomorrow</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-intro" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<h1><b>Amrita Bios</b></h1>
+					<p class="mb-0"><b>A team powered by the quest for knowledge.</b></p>
+					<p></p>
+				</div>
+				<div class="col-md-3 d-flex align-items-center">
+					<p class="mb-0"><a href="https://www.twitter.com/teambi0s" class="btn btn-secondary px-4 py-3">Know more</a></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section" id="expert">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-2">
+				<div class="col-md-8 text-center heading-section ftco-animate">
+
+					<h1 class="mb-4">Expertise</h1>
+					<p>Amrita Bios specializes in a wide range of cybersecurity branches. These branches are explored passionately
+						to tackle the modern challenges today’s digitized world presents.</p>
+				</div>
+			</div>
+			<div class="ftco-departments">
+				<div class="row">
+					<div class="col-md-12 nav-link-wrap">
+						<div class="nav nav-pills d-flex text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+							<a class="nav-link ftco-animate active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab"
+								aria-controls="v-pills-1" aria-selected="true">WEB SECURITY</a>
+
+							<a class="nav-link ftco-animate" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab"
+								aria-controls="v-pills-2" aria-selected="false">CRYPTOGRAPHY</a>
+
+							<a class="nav-link ftco-animate" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab"
+								aria-controls="v-pills-3" aria-selected="false">REVERSE ENGINEERING</a>
+
+							<a class="nav-link ftco-animate" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab"
+								aria-controls="v-pills-4" aria-selected="false">HARDWARE SECURITY</a>
+
+							<a class="nav-link ftco-animate" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab"
+								aria-controls="v-pills-5" aria-selected="false">FORENSICS</a>
+
+						</div>
+					</div>
+					<div class="col-md-12 tab-wrap">
+
+						<div class="tab-content bg-light p-4 p-md-5 ftco-animate" id="v-pills-tabContent">
+
+							<div class="tab-pane py-2 fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="day-1-tab">
+								<div class="row departments">
+									<div class="col-lg-4 order-lg-last d-flex align-items-stretch">
+										<div class="img d-flex align-self-stretch" style="background-image: url(images/guard.png); background-size: contain"></div>
+									</div>
+									<div class="col-lg-8">
+										<h2>Web Security</h2>
+										<p>Web application security is the process of protecting websites and online services against
+											different security threats that exploit vulnerabilities in an application’s code.</p>
+										<div class="row mt-5 pt-2">
+											<div class="col-lg-6">
+												<div class="services-2 d-flex">
+													<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
+															class="flaticon-first-aid-kit"></span></div>
+													<div class="text">
+														<h3>Operating Fields</h3>
+														<p>Server Side Security, and Client Side Security are the current areas of focus.</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-6">
+												<div class="services-2 d-flex">
+													<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
+															class="flaticon-dropper"></span></div>
+													<div class="text">
+														<h3>Average Solve Time</h3>
+														<p>15 mins for an average difficult challenge, including the time for local setups.</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-6">
+												<div class="services-2 d-flex">
+													<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
+															class="flaticon-experiment-results"></span></div>
+													<div class="text">
+														<h3>Talks Given</h3>
+														<p>Talks at Cysinfo Quarterly Security Summit, Bangalore and others.</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-6">
+												<div class="services-2 d-flex">
+													<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
+															class="flaticon-heart-rate"></span></div>
+													<div class="text">
+														<h3>Achievements</h3>
+														<p>Creditted with multiple CVEs and Bug-Bounties.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-day-2-tab">
+								<div class="row departments">
+									<div class="col-lg-4 order-lg-last d-flex align-items-stretch">
+										<div class="img d-flex align-self-stretch" style="background-image: url(images/crypto.png); background-size: contain"></div>
+									</div>
+									<div class="col-md-8">
+										<h2>Cryptography</h2>
+										<p>The art of deciphering highly secrure and encrypted messages by often cracking complex algorithms exploiting implementation flaws. </p>
+										<div class="row mt-5 pt-2">
+											<div class="col-lg-6">
+												<div class="services-2 d-flex">
+													<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
+															class="flaticon-first-aid-kit"></span></div>
+													<div class="text">
+														<h3>Operating Fields</h3>
+														<p>From modern Symmetric algorithms to Public Key Encryption standards.</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-6">
+												<div class="services-2 d-flex">
+													<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
+															class="flaticon-dropper"></span></div>
+													<div class="text">
+														<h3>Average Solve Time</h3>
+														<p>30 to 40 mins per average difficult challenges.</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-6">
+												<div class="services-2 d-flex">
+													<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
+															class="flaticon-experiment-results"></span></div>
+													<div class="text">
+														<h3>Talks Given</h3>
+														<p>Zero Knowlegde Proofs</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-6">
+												<div class="services-2 d-flex">
+													<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
+															class="flaticon-heart-rate"></span></div>
+													<div class="text">
+														<h3>Resource Contents</h3>
+														<p>8+ hours of training matrials, including sample codes and video tutorials.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-day-3-tab">
+								<div class="row departments">
+									<div class="col-lg-4 order-lg-last d-flex align-items-stretch">
+										<div class="img d-flex align-self-stretch" style="background-image: url(images/reverse.png); background-size: contain"></div>
+									</div>
+									<div class="col-md-8">
+										<h2>Reverse Engineering</h2>
+										<p>That insane job of hacking the atoms inside the binaries, all just to uncover and crack the softwares.</p>
+										<div class="row mt-5 pt-2">
+											<div class="col-lg-6">
+												<div class="services-2 d-flex">
+													<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
+															class="flaticon-first-aid-kit"></span></div>
+													<div class="text">
+														<h3>Operating Fields</h3>
+														<p>The research now spans till Kernel Exploitation.</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-6">
+												<div class="services-2 d-flex">
+													<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
+															class="flaticon-dropper"></span></div>
+													<div class="text">
+														<h3>Average Solve Time</h3>
+														<p>20 mins for an average difficult challenge.</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-6">
+												<div class="services-2 d-flex">
+													<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
+															class="flaticon-experiment-results"></span></div>
+													<div class="text">
+														<h3>Talks Given</h3>
+														<p>Kernal Sanitisation, Memory</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-6">
+												<div class="services-2 d-flex">
+													<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
+															class="flaticon-heart-rate"></span></div>
+													<div class="text">
+														<h3>Resource Contents</h3>
+														<p>10+ hours of online training materials, including detailed modules for multiple paths.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-day-4-tab">
+								<div class="row departments">
+									<div class="col-lg-4 order-lg-last d-flex align-items-stretch">
+										<div class="img d-flex align-self-stretch" style="background-image: url(images/hardware.png); background-size: contain"></div>
+									</div>
+									<div class="col-md-8">
+										<h2>Hardware Security</h2>
+										<p>The RealWorld Hacks on physical devices, and hinding the exploits behind the soldering iron.</p>
+										<div class="row mt-5 pt-2">
+											<div class="col-lg-6">
+												<div class="services-2 d-flex">
+													<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
+															class="flaticon-first-aid-kit"></span></div>
+													<div class="text">
+														<h3>Operating Fields</h3>
+														<p>Bluetooth, HackRF, Android, Arduino, and SCADA Industrial Security.</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-6">
+												<div class="services-2 d-flex">
+													<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
+															class="flaticon-dropper"></span></div>
+													<div class="text">
+														<h3>Average Solve Time</h3>
+														<p>30 mins for an average difficult challenge.</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-6">
+												<div class="services-2 d-flex">
+													<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
+															class="flaticon-experiment-results"></span></div>
+													<div class="text">
+														<h3>Talks Given</h3>
+														<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-6">
+												<div class="services-2 d-flex">
+													<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
+															class="flaticon-heart-rate"></span></div>
+													<div class="text">
+														<h3>Resource Contents</h3>
+														<p>10+ hours of online training materials, including detailed modules for multiple paths.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="tab-pane fade" id="v-pills-5" role="tabpanel" aria-labelledby="v-pills-day-5-tab">
+								<div class="row departments">
+									<div class="col-lg-4 order-lg-last d-flex align-items-stretch">
+										<div class="img d-flex align-self-stretch" style="background-image: url(images/check.png); background-size: contain"></div>
+									</div>
+									<div class="col-md-8">
+										<h2>Forensics</h2>
+										<p>Unravelling the mysteries of the footprints left behind by the attacks.</p>
+										<div class="row mt-5 pt-2">
+											<div class="col-md-6">
+												<div class="services-2 d-flex">
+													<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
+															class="flaticon-idea"></span></div>
+													<div class="text">
+														<h3>Operating Fields</h3>
+														<p>Network Forensics, Image Forensics, Memory Forensics</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="services-2 d-flex">
+													<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
+															class="flaticon-idea"></span></div>
+													<div class="text">
+														<h3>Average Solve Time</h3>
+														<p>10 mins on average per challenge.</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="services-2 d-flex">
+													<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
+															class="flaticon-idea"></span></div>
+													<div class="text">
+														<h3>Talks Given</h3>
+														<p>Memory Forensics</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="services-2 d-flex">
+													<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
+															class="flaticon-idea"></span></div>
+													<div class="text">
+														<h3>Resource Contents</h3>
+														<p>10+ hours of online training materials, including detailed modules for multiple paths.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section ftco-no-pt" id="mentor">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-2">
+				<div class="col-md-8 text-center heading-section ftco-animate">
+
+					<h2 class="mb-4">Mentors</h2>
+					<p>The backbone of the team, always there for support, advice and guidance. Get to know the mentors of team
+						bios.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-lg-3 ftco-animate">
+					<div class="staff">
+						<div class="img-wrap d-flex align-items-stretch">
+							<div class="img align-self-stretch" style="background-image: url(images/doc-1.jpg);"></div>
+						</div>
+						<div class="text pt-3 text-center">
+							<h3>Vipin Pavithran</h3>
+							<span class="position mb-2">Founder, Chief Mentor</span>
+							<div class="faded">
+								<p>Professor at Amrita Center for cybersecurity Systems and Networks</p>
+								<ul class="ftco-social text-center">
+									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 ftco-animate">
+					<div class="staff">
+						<div class="img-wrap d-flex align-items-stretch">
+							<div class="img align-self-stretch" style="background-image: url(images/do-2.jpg);"></div>
+						</div>
+						<div class="text pt-3 text-center">
+							<h3>Sreepriya</h3>
+							<span class="position mb-2">Mentor</span>
+							<div class="faded">
+								<p>Security Researcher ERNW GmbH</p>
+								<ul class="ftco-social text-center">
+									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 ftco-animate">
+					<div class="staff">
+						<div class="img-wrap d-flex align-items-stretch">
+							<div class="img align-self-stretch" style="background-image: url(images/doc-3.jpg);"></div>
+						</div>
+						<div class="text pt-3 text-center">
+							<h3>Arvind S Raj</h3>
+							<span class="position mb-2">Mentor</span>
+							<div class="faded">
+								<p>PhD Research Scholar with 5+ experience in Reverse Engineering and Binary Exploitation.</p>
+								<ul class="ftco-social text-center">
+									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 ftco-animate">
+					<div class="staff">
+						<div class="img-wrap d-flex align-items-stretch">
+							<div class="img align-self-stretch" style="background-image: url(images/doc-4.jpg);"></div>
+						</div>
+						<div class="text pt-3 text-center">
+							<h3>Reno Rebort</h3>
+							<span class="position mb-2">Mentor</span>
+							<div class="faded">
+								<p>Security Engineer</p>
+								<ul class="ftco-social text-center">
+									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section testimony-section bg-light">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-2">
+				<div class="col-md-8 text-center heading-section ftco-animate">
+
+					<h2 class="mb-4">Testimonials</h2>
+					<p>Hear what the people have to say! </p>
+				</div>
+			</div>
+			<div class="row ftco-animate justify-content-center">
+				<div class="col-md-8">
+					<div class="carousel-testimony owl-carousel">
+						<div class="item">
+							<div class="testimony-wrap d-flex">
+								<div class="user-img mr-4" style="background-image: url(images/person_1.jp)">
+								</div>
+								<div class="text ml-2 bg-light">
+									<span class="quote d-flex align-items-center justify-content-center">
+										<i class="icon-quote-left"></i>
+									</span>
+									<p>I felt that it was a great learning experience from team ‘bios’ and I was very much
+										impressed by the hospitality of the university.</p>
+									<p class="name">Mohan Sri Rama Krishna</p>
+									<span class="position">team
+										Invaders</span>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="testimony-wrap d-flex">
+								<div class="user-img mr-4" style="background-image: url(images/person_2.j)">
+								</div>
+								<div class="text ml-2 bg-light">
+									<span class="quote d-flex align-items-center justify-content-center">
+										<i class="icon-quote-left"></i>
+									</span>
+									<p>I express my heartfelt gratitude for ‘bios’ for triggering my interest in Ethical Hack-
+										ing. I was especially impressed by the ‘Attack and Defense style CTF’ and enjoyed every
+										second of being a hacker.</p>
+									<p class="name">Gurucharan Sivaraman</p>
+									<span class="position">team init0</span>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="testimony-wrap d-flex">
+								<div class="user-img mr-4" style="background-image: url(images/person_3.jg)">
+								</div>
+								<div class="text ml-2 bg-light">
+									<span class="quote d-flex align-items-center justify-content-center">
+										<i class="icon-quote-left"></i>
+									</span>
+									<p>Amrita InCTF was a mesmerizing experience. I was able to work with the best
+										teams in the best environment. The event was the best gateway for beginners to enter
+										the field of cybersecurity as the challenges kept everyone on their toes. I hope that there
+										would be more participants in next year’s event.</p>
+									<p class="name">Karan</p>
+									<span class="position">team CTF_Probably</span>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="testimony-wrap d-flex">
+								<div class="user-img mr-4" style="background-image: url(images/person_4.jg)">
+								</div>
+								<div class="text ml-2 bg-light">
+									<span class="quote d-flex align-items-center justify-content-center">
+										<i class="icon-quote-left"></i>
+									</span>
+									<p>I felt that it was a great learning experience from team ‘bios’ and I was very much impressed by the hospitality of the university.</p>
+									<p class="name">Rahul</p>
+									<span class="position">team hack_me</span>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="testimony-wrap d-flex">
+								<div class="user-img mr-4" style="background-image: url(images/person_1.jg)">
+								</div>
+								<div class="text ml-2 bg-light">
+									<span class="quote d-flex align-items-center justify-content-center">
+										<i class="icon-quote-left"></i>
+									</span>
+									<p>I felt that events like Amrita InCTF are great venues to hire fresh talent. I’ve also
+										recruited two contestants into my firm as I observed that the students who competed
+										in the event belonged to the very best of the nation. I’m excited to return next year and
+										the coming years for more recruitments.</p>
+									<p class="name">Madhusudan</p>
+									<span class="position">Manager, VMWare</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
-<!--Login Modal Dialogue Box DELETED-->
-
-<!--Search Modal Dialogue Box DELETED-->
-
-        <!-- Canvas Area
-        ===================================== -->
-        <header class="intro" style="background:url(assets/img/bg/logo.png) 50% 50% no-repeat;background-size:auto 65%;background-color:black;">
-	<div id="particles-js1"></div>
-	<!--
-            <div class="intro-body">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2">
-                            <h1 class="brand-hea	ding-big2 text-capitalize font-pacifico mt-100 color-light animated" data-animation="fadeInUp" data-animation-delay="100">
-                                <span class="rotate">Pasific Winter Season, Modern Web Template, Responsive Ready</span>
-                            </h1>
-                            <p class="intro-text mt25 color-gray animated" data-animation="fadeInUp" data-animation-delay="200">The simplest way to create website <br>and make your dream live.</p>
-                            <a class="button button-pasific button-lg hover-ripple-out animated" data-animation="fadeInUp" data-animation-delay="300">Purchase Now</a>
-                        </div>
-                    </div>
-                </div>
-	-->
-                <div class="intro-direction">
-                    <a href="#welcome">
-                        <div class="mouse-icon"><div class="wheel"></div></div>
-                    </a>
-                </div>
-            </div>
-        </header>
 
 
-        <!-- Welcome Area
-        ===================================== -->
-        <div id="welcome" class="pt75 bg-dark31" style="background-image: url(assets/img/bg/14.jpeg);background-repeat: no-repeat;background-size: cover; ">
-                <div class="container">
-                    <div class="row">
-                        <!-- title start -->
-                        <div class="col-md-12 text-center">
-                            <h1 class="font-size-normal color-light">
-                                <small class="color-pasific alpha10">Welcome to bi0s</small>
-                                ABOUT bi0s
-                                <small class="heading heading-solid center-block"></small>
-                            </h1>
-                        </div>
-                        <!-- title end -->
+	<section class="ftco-section bg-light" id="events">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-2">
+				<div class="col-md-8 text-center heading-section ftco-animate">
 
-                        <!-- title description start -->
-                        <div class="col-md-8 col-md-offset-2 text-center">
-                            <p class="color-light alpha6">
-                                <p class="color-">
-                                <span class="lead color-light" style="font-size: 2em;font-family: 'Lato';"><br>Team bi0s from  Amrita Vishwa Vidyapeetham is a well-established group of computer security enthusiasts
-                                    focusing on various areas including but not limited to web application security, computer forensics, binary exploitation, reverse
-                                    engineering, hardware security, cryptography and Android security. bi0s is largely a CTF team actively taking part in the international CTFs round the
-                                    year besides carrying out research on security issues in the real world. Fuelled by the urge for community service, bi0s has been
-                                    organizing workshops and educating the masses about the need for cyber security.</span><br><br>
-
-                            </p>
-                        </div>
-                        <!-- title description end -->
-                    </div>
-
-                    <div class="row mt50">
-
-                    </div>
-                </div>
-            </div>
-
-
-
-        <!-- Portfolio Area
-        ===================================== -->
-        <!-- Fields Area
-        ===================================== -->
-        <div id="logo ">
-            <link href="assets/css/core/decorate.css" rel="stylesheet">
-            <div class="c-logo1-part"><!--c-logo-part-start-->
-                <div class="container">
-                    <ul>
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div id="fields" class="bg-dark3 pt75 pb100">
-            <div class="container">
-                <div class="row">
-                    <!-- title start -->
-                    <div class="col-md-12 text-center">
-                        <h1 class="font-size-normal color-light">
-                            <small class="color-pasific alpha10"></small>
-                            Fields<br>
-                            <small class="heading heading-solid center-block"></small>
-                        </h1>
-                    </div>
-                    <!-- title end -->
-
-                    <!-- title description start -->
-                    <!--<div class="col-md-8 col-md-offset-2 text-center">
-                        <p class="color-light alpha6">
-                            <span class="lead color-light"><strong>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam
-                            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.</strong></span>
-                        </p>
-                    </div>-->
-                    <!-- title description end -->
-                </div>
-                <!-- title and short description end -->
-
-                <!--<div class="row">
-                    <div class="col-md-10 col-md-offset-1 pt50 pb75">
-                        <img src="assets/img/other/img-other-18.png" alt="service" class="img-responsive center-block">
-                    </div>
-                </div>-->
-
-
-                <div class="row">
-
-                    <div class="col-md-4 col-sm-6 col-xs-12 mb35">
-                        <div class="content-box content-box-icon-o content-box-left-icon">
-                            <i class="fa fa-gear color-pasific"></i>
-                            <h5 class="color-light">WEB APPLICATION SECURITY
-                            </h5>
-                            <p>A group of people who have proven their worth through multiple CVEs & Bug-Bountie.</p>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 col-xs-12 mb35">
-                        <div class="content-box content-box-icon-o content-box-left-icon">
-                            <i class="fa fa-code color-green"></i>
-                            <h5 class="color-light">
-                                BINARY EXPLOITATION</h5>
-                            <p>Team of aggressive tacklers finding the vulnerabilities at the depths of softwares and libraries.</p>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 col-xs-12 mb35">
-                        <div class="content-box content-box-icon-o content-box-left-icon">
-                            <i class="fa fa-android color-blue"></i>
-                            <h5 class="color-light">ANDROID SECURITY
-                            </h5>
-                            <p>League of enthusiasts unmasking the issues in Android applications and internals.<br><br></p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 col-xs-12 mb35">
-                        <div class="content-box content-box-icon-o content-box-left-icon">
-                            <i class="fa fa-cogs color-yellow"></i>
-                            <h5 class="color-light">REVERSE ENGINEERING
-
-                            </h5>
-                            <p>A group of insane people who crack binaries apart 1 bit at a time to uncover the hidden secrets.</p>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 col-xs-12 mb35">
-                        <div class="content-box content-box-icon-o content-box-left-icon">
-                            <i class="fa fa-search color-purple"></i>
-                            <h5 class="color-light">FORENSICS
-                            </h5>
-                            <p>Unravelling the mysteries of the footprints left behind by the attacks.</p>
-
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 mb35">
-                        <div class="content-box content-box-icon-o content-box-left-icon">
-                            <i class="fa fa-wrench color-white"></i>
-                            <h5 class="color-light">HARDWARE
-                            </h5>
-                            <p>A group of hardware enthusiasts breaking and making electronics, perhaps anything with solder in it.</p>
-
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 mb35">
-                        <div class="content-box content-box-icon-o content-box-left-icon">
-                            <i class="fa fa-lock color-blue"></i>
-                            <h5 class="color-light">CRYPTO
-
-                            </h5>
-                            <p>Deciphering highly encrypted messages by cracking complex algorithms.</p>
-
-                        </div>
-                    </div>
+					<h2 class="mb-4">Events</h2>
+					<p>Stay updated with the recent activities, news and many more with us</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 ftco-animate">
+					<div class="blog-entry">
+						<a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+							<div class="meta-date text-center p-2">
+								<span class="day">03</span>
+								<span class="mos">July</span>
+								<span class="yr">2019</span>
+							</div>
+						</a>
+						<div class="text bg-white p-4">
+							<h3 class="heading"><a href="#">Amrita InCTF:
+									Cyber Warrior Training Grounds</a></h3>
+							<p>An Indian CTF was conceptualized to help generate awareness of cyber risks and threats, and equip
+								students from India with cybersecurity skills. Nationwide Amrita InCTF encourages students to pursue
+								vocation in this sector by providing hands-on skill training and cultivating each student’s inner
+								enthusiasm to protect their fellow humans.</p>
+							<div class="d-flex align-items-center mt-4">
+								<p class="mb-0"><a href="https://www.amrita.inctf.in" class="btn btn-primary">Read More <span
+											class="ion-ios-arrow-round-forward"></span></a></p>
+								<p class="ml-auto mb-0">
+									<a href="#" class="mr-2">10th edition</a>
+									<a href="#" class="meta-chat"><span class="icon-chat"></span> </a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 ftco-animate">
+					<div class="blog-entry">
+						<a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+							<div class="meta-date text-center p-2">
+								<span class="day">03</span>
+								<span class="mos">July</span>
+								<span class="yr">2019</span>
+							</div>
+						</a>
+						<div class="text bg-white p-4">
+							<h3 class="heading"><a href="#">Amrita InCTF Junior:
+									Cyber Warrior Training Grounds</a></h3>
+							<p>An Indian CTF was conceptualized to help generate awareness of cyber
+								risks and threats, and equip students from India with cybersecurity skills.
+								Nationwide Amrita InCTF encourages students to pursue vocation in this
+								sector by providing hands-on skill training and cultivating each student’s
+								inner enthusiasm to protect their fellow humans.</p>
+							<div class="d-flex align-items-center mt-4">
+								<p class="mb-0"><a href="https://www.junior.inctf.in" class="btn btn-primary">Read More <span
+											class="ion-ios-arrow-round-forward"></span></a></p>
+								<p class="ml-auto mb-0">
+									<a href="#" class="mr-2">4th edition</a>
+									<a href="#" class="meta-chat"><span class="icon-chat"></span></a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 ftco-animate">
+					<div class="blog-entry">
+						<a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+							<div class="meta-date text-center p-2">
+								<span class="day">02</span>
+								<span class="mos">January</span>
+								<span class="yr">2020</span>
+							</div>
+						</a>
+						<div class="text bg-white p-4">
+							<h3 class="heading"><a href="#">Meet the Hackers</a></h3>
+							<p>Its been a decade since the start of team bios. Starting from the bottom line over the years we have come to be India’s No.1 CTF team and No.21 in the world ranking. To celebrate this success and team power, team bios is conducting a meet up with our ex-bios members in August 2019. The meet up will include interaction with the Alumni, mini-workshops on the recent security trend in security and collaboration of projects and ideas for student development by the Alumni. The date for the meet up will be published soon</p>
+							<div class="d-flex align-items-center mt-4">
+								<p class="mb-0"><a href="#" class="btn btn-primary">Read More <span
+											class="ion-ios-arrow-round-forward"></span></a></p>
+								<p class="ml-auto mb-0">
+									<a href="#" class="mr-2">2nd edition</a>
+									<a href="#" class="meta-chat"><span class="icon-chat"></span> </a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
-                </div>
+	<footer class="ftco-footer ftco-bg-dark ftco-section" id="contact">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-5">
+						<h2 class="ftco-heading-2 logo">Amrita<span> BIOS</span></h2>
+						<a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
+					</div>
+					<div class="ftco-footer-widget mb-5">
+						<h2 class="ftco-heading-2">Have a Question?</h2>
+						<div class="block-23 mb-3">
+							<ul>
+								<li><span class="icon icon-map-marker"></span><span class="text">Amrita University, Amritapuri, Kollam,
+										Kerala,India</span></li>
+								<li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 476 280 4525</span></a></li>
+								<li><a href="#"><span class="icon icon-envelope"></span><span
+											class="text">amritabi0s1@gmail.com</span></a></li>
+							</ul>
+						</div>
+
+						<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+						<li class="ftco-animate"><a href="https://www.twitter.com/teambi0s"><span class="icon-twitter"></span></a></li>
+						<li class="ftco-animate"><a href="https://www.facebook.com/teambi0s"><span class="icon-facebook"></span></a></li>
+						<li class="ftco-animate"><a href="https://www.instagram.com/teambi0s/"><span class="icon-instagram"></span></a></li>
+						</ul>
+					</div>
+				</div>
 
 
-            </div><!-- container end -->
-        </div><!-- section service end -->
+				<p>
+					
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+				</p>
+			</div>
+		</div>
+		</div>
+	</footer>
 
 
-        <!-- Info Area
-        ===================================== -->
-        <div id="info-1" class="pt50 pb50 parallax-window" data-parallax="scroll" data-speed="0.5" data-image-src="assets/img/bg/teambi0s.jpg">
-<!--
-            <div class="container">
-                <div class="row pt75">
-                    <div class="col-md-12 text-center">
-                        <h1 class="color-black">
-                            <small class="color-black">The best way to be success</small>
-                            Are you ready to be success with us?
-                        </h1>
-                        <a class="button button-md button-red hover-ripple-out mt25">Start Project</a>
-                        <a class="button button-md button-primary hover-fade mt25"><span class="color-light">Contact Us</span></a>
-                    </div>
-                </div>
-            </div>
--->
-        </div>
+<div class="row">
+          <div class="col-md-12 text-center">
 
-        <!-- Skill Area
-        ===================================== -->
-
-        <!-- Fun Fact Area
-        ===================================== -->
-        <div id="portfolioGrid" class="bg-black">
-            <div align="center" class="container-fluid bg-dark-video pt30">
-                <h1 style="color: red">MENTORS</h1>
-                <h3 style="color: white">Take a closer look into our Mentors.</h3>
-                <div class="row" style="height: 550px;width: 1288px">
-                    <br>
-                    <div class="col-md-12">
-
-                        <!-- filters start -->
-
-                        <!-- filters end -->
-
-
-                        <div class="portfolio center-block">
-
-
-                            <!-- portfolio item five start -->
-                            <div class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-xs-12 html joomla wordpress" style="height: 260px;width: 500">
-                                <a href="https://www.linkedin.com/in/seshagiri-prabhu-8ab1721b?authType=NAME_SEARCH&authToken=dXfo&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A69076355%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1472456973256%2Ctas%3Aseshagiri" class="fa fa-linkedin" style="height: 322px;width: 313px; >
-                                    <span class=""></span>
-                                </a>
-                                <img src="assets/img/portfolio/thumbs/%20PRABHU.jpg" alt="portfolio woocommerce" class="img-responsive" style="border-radius: 10px;height: 322px;width: 300px;">
-                                <br><br><h3 style="color: #a6e1ec">SESHAGIRI N PRABHU</h3>
-                                <h6 style="color: #a6e1ec">Advisor</h6>
-                                <h5 style="color: #a6e1ec">Research Scholar with 5+ years of experience in Binary Exploitation.</h5>
-                            </div>
-
-                            <div class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-xs-12 html joomla wordpress">
-                                <a href="https://www.linkedin.com/in/arvind-s-raj-95738222/" class="fa fa-linkedin" style="height: 322px;width: 313px;>
-                                    <span class=""></span>
-                                </a>
-                                <img src="assets/img/portfolio/thumbs/arvind.jpg" alt="portfolio woocommerce" class="img-responsive" style="border-radius: 10px;height: 322px;width: 300px;">
-                                <br><br><h3 style="color: #a6e1ec">ARVIND S RAJ</h3>
-                                <h6 style="color: #a6e1ec">Research Scholar</h6>
-                                <h5 style="color: #a6e1ec">Research Scholar with 5+ experience in Reverse Engineering and Binary Exploitation.</h5>
-                            </div>
-                            <div class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-xs-12 html joomla wordpress">
-                                <a href="https://www.linkedin.com/in/bithin2007/?authType=name&authToken=RXJg&trk=Skyline_click_NBM&sl=NBM%3B422723127%3A1472456976411%3B0%3B69076355%3B" class="fa fa-linkedin" style="height: 322px;width: 313px;>
-                                    <span class=""></span>
-                                </a>
-                                <img src="assets/img/portfolio/thumbs/bithin1.jpg" alt="portfolio woocommerce" class="img-responsive" style="border-radius: 10px;height: 322px;width: 300px;">
-                                <br><br><h3 style="color: #a6e1ec">BITHIN ALANGOT</h3>
-                                <h6 style="color: #a6e1ec">Research Scholar</h6>
-                                <h5 style="color: #a6e1ec">PhD research scholar in Cyber Security.</h5>
-                            </div>
-                            <div class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-xs-12 html joomla wordpress">
-                                <a href="https://www.linkedin.com/in/renorobert/?authType=NAME_SEARCH&authToken=Ymyo&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A71856241%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1472457301910%2Ctas%3Areno%20" class="fa fa-linkedin" style="height: 322px;width: 313px;>
-                                    <span class=""></span>
-                                </a>
-                                <img src="assets/img/portfolio/thumbs/robort.jpg" alt="portfolio woocommerce" class="img-responsive" style="border-radius: 10px;height: 322px;width: 300px;">
-                                <br><br><h3 style="color: #a6e1ec">RENO ROBERT</h3>
-                                <h6 style="color: #a6e1ec ">Security Engineer</h6>
-                                <h5 style="color: #a6e1ec">Working as Security Analyst</h5>
-                            </div>
-
-
-
-
-                        </div><!-- portfolio end -->
-
-                    </div><!-- col-md-12 end -->
-                </div><!-- row end -->
-            </div><!-- container end -->
-        </div><!-- section portfolio end -->
-
-
-        <!-- Features Area
-        ===================================== -->
-            
-        <div id="client area1">
-          <link href="assets/css/core/decorate.css" rel="stylesheet">
-        <section class="main-section client-part" id="client"><!--main-section client-part-start-->
-	    <div class="container">
-		<b class="quote-right wow fadeInDown delay-03 animated" style="visibility: visible; animation-name: fadeInDown;"><i class="fa-quote-right"></i></b>
-    	<div class="row">
-        	<div class="col-lg-12">
-            	<p class="client-part-haead wow fadeInDown delay-05 animated" style="visibility: visible; animation-name: fadeInDown;">"While solving problems, dig at the roots instead of just hacking at the leaves! "</p>
-            </div>
-        </div>
-    	<ul class="client wow fadeIn delay-05s animated" style="visibility: visible; animation-name: fadeIn;">
-        	<li><a>
-            	<img src="assets/img/portfolio/vipin_sir.jpg" alt="" style="height:200px; width:200px;">
-                <h3>Vipin Pavithran</h3>
-                <span>Chief Mentor, bi0s.</span>
-            </a></li>
-        </ul>
-        </div>
-        </section>
-        </div>
-        <div id="logo ">
-          <link href="assets/css/core/decorate.css" rel="stylesheet">
-        <div class="c-logo-part"><!--c-logo-part-start-->
-          <div class="container">
-            <ul>
-
-            </ul>
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
           </div>
         </div>
       </div>
+    </footer>
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+				stroke="#F96D00" /></svg></div>
 
 
-        <!-- General Content Area
-        ===================================== -->
-        <div id="general-content-1" class="bg-dark3 pt100 pb100" style="border-bottom: 1px solid #293648">
-            <div class="container">
-                <div class="row">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/bootstrap-datepicker.js"></script>
+	<script src="js/jquery.timepicker.min.js"></script>
+	<script src="js/scrollax.min.js"></script>
+	<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+	<script src="js/google-map.js"></script>
+	<script src="js/main.js"></script>
 
-                    <!-- left content start -->
-                    <div class="col-md-5">
-                        <div class="general-content">
-                            <h3 class="mb25 color-light">
-                                Meet up
-                            </h3>
-                            <p class="color-light alpha8">The aim of meetups is to bring together cyber security speakers, researchers and enthusiasts to present and share their findings in their respective areas of expertise. The prime focus being cyber security education and awareness, it is community-driven and is always free for both the speakers and the audience. If you are looking for a platform to unveil your explorations, here it is!</p>
-                            <br><br>
-                            <a href="https://meetup.bi0s.in" class="button button-md button-pasific1 hover-ripple-out">Meetup</a>
+</body>
 
-                            <div class="clearfix">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- left content end -->
-
-                    <!-- right content start -->
-                    <div class="col-md-5 col-md-push-1">
-                        <img src="assets/img/other/meetup.png"  alt="Meetup image" class="img-responsive pull-right">
-                    </div>
-                    <!-- right content end -->
-
-                </div>
-            </div>
-        </div>
-        <!-- General Content Area
-            ===================================== -->
-            <div id="general-content-2" class="bg-dark31 pt100 pb100">
-                <div class="container">
-                    <div class="row">
-                        
-                        <!-- left content start -->
-                        <div class="col-md-6">
-                            <img src="assets/img/other/InCTF_Logo.png" alt="browser iphone" class="img-responsive center-block">
-                        </div>
-                        <!-- left content end -->
-                        
-                        <!-- right content start -->
-                        <div class="col-md-5 col-md-push-1">
-                            <div class="general-content">
-                                <h3 class="mb25 color-light">
-                                    <small class="color-red alpha10"></small>
-                                    InCTF
-                                </h3>
-                                <p class="color-light alpha8">InCTF, a Capture-The-Flag style contest, is to be viewed as a security exercise which provides an opportunity to learn the fundamentals of Information Security and put them into practice. Hopefully you will have as much fun participating, as we have in organizing the event.</p>
-                                <a href="https://inctf.in/" class="button button-md button-pasific1 hover-ripple-out">InCTF</a>
-                                
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                        <!-- right content end -->                    
-                        
-                    </div><!-- row end -->
-                </div><!-- container end -->
-            </div><!-- section general info end -->
-
-
-            <div id="general-content-1" class="bg-dark3 pt100 pb100" style="border-bottom: 1px solid #293648">
-                <div class="container">
-                    <div class="row">
-    
-                        <!-- left content start -->
-                        <div class="col-md-5">
-                            <div class="general-content">
-                                <h3 class="mb25 color-light">
-                                    InCTF Junior
-                                </h3>
-                                <p class="color-light alpha8">A recent report has revealed that a miniscule 0.6% of graduate students are currently working in cyber security while cyber attacks and breaches are manifesting in the country. In order to encourage the youth to participate, they need to be taught at a young age about the importance of computer security. A lot of research have been proven to be the best way to approach this is Capture the Flag style contests. These contests typically simulate real life scenarios that enable participants to develop real world security skills. Many of the countries like USA and China have realized the need for cyber security education and are conducting CTF contests for school students. Having realized the dire need for such a training culture in India, Amrita University is organizing Amrita InCTF Junior, an online Capture the Flag style contest specifically designed to introduce cyber security awareness and training in high school students.</p>
-                                <br><br>
-                                <a href="https://junior.inctf.in/" class="button button-md button-pasific1 hover-ripple-out">InCTF Junior</a>
-    
-                                <div class="clearfix">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- left content end -->
-    
-                        <!-- right content start -->
-                        <div class="col-md-5 col-md-push-1">
-                            <img src="assets/img/other/INCTFj.png"  alt="I" class="img-responsive pull-right">
-                        </div>
-                        <!-- right content end -->
-    
-                    </div>
-                </div>
-            </div>
-
-        <!-- General Content Area
-        ===================================== -->
-<!--Price Area DELETED-->
-
-
-<!--Blog Area DELETED-->
-<div id="blogs" class="bg-gray0 pt75 pb75">
-    <div class="container">
-
-            <!-- title start -->
-        <div class="row text-center mb25">
-            <h1 class="font-size-normal">
-            Our Tweets
-                <small class="heading heading-solid center-block"></small>
-            </h1>
-        </div>
-        <!-- title end -->
-
-        <div class="row">
-
-            <!-- blog post start -->
-            <div class="col-md-41 col-sm-6 col-xs-121 mb50">
-                <div class="blog-one">
-                        <div class="blog-one-header">
-                        <a class="twitter-timeline" data-height="600" data-theme="dark" href="https://twitter.com/teambi0s?ref_src=twsrc%5Etfw">Tweets by teambi0s</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>                </div>    
-                        </div>
-            </div> 
-        </div>
-    </div>   
-</div>                        
-
-<!--Newsletter Area Deleted-->
-<!--Testimonial Area DELETED-->
-
-        <!-- Contact Us Area
-        =====================================-->
-
-            <div id="contact" class="pt100 pb100" style="background-color: black;">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-md-6">
-                        <div class="row">
-
-                            <!-- title start -->
-                            <div class="col-md-12 mb50">
-                                <h1 class="font-size-normal color-white">
-                                    <small class="color-white">Contact Us</small>
-                                    Drop Us a Message
-                                </h1>
-                                <h5 class="color-white">Please feel free to say anything to us</h5>
-                            </div>
-                            <!-- title end -->
-
-                            <!-- contact info start -->
-                            <div class="col-md-3 col-sm-3 col-xs-12">
-                                <span class="icon-map color-white el-icon2x"></span>
-                                <h5 class="color-white"><strong>Address</strong></h5>
-                                <p class="color-white">Amrita University, Amritapuri, Kollam, Kerala.</p>
-                            </div>
-
-			<!--
-                            <div class="col-md-3 col-sm-3 col-xs-6">
-                                <span class="icon-megaphone color-white el-icon2x"></span>
-                                <h5 class="color-white"><strong>Phone</strong></h5>
-                                <p class="color-white">123-456-789</p>
-                            </div>
-			-->
-
-                            <div class="col-md-3 col-sm-3 col-xs-6">
-                                <span class="icon-envelope color-white el-icon2x"></span>
-                                <h5 class="color-white"><strong>Email</strong></h5>
-                                <p class="color-white">amritabi0s1@gmail.com</p>
-                            </div>
-                            <!-- contact info end -->
-
-                        </div><!-- row left end -->
-                    </div><!-- col left end -->
-
-                    <div class="col-md-6">
-                        <div class="contact contact-us-one">
-                            <div class="col-sm-12 col-xs-12 text-center mb20">
-                                <h4 class="pb25 bb-solid-1 text-uppercase">
-                                    Get in Touch
-                                    <small class="text-lowercase">Please complete the form and we will get back to you.</small>
-                                </h4>
-                            </div>
-
-                            <form  action="https://formspree.io/amritabi0s1@gmail.com" method="POST">
-
-                                <!-- fullname start -->
-                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                    <input class="input-md input-rounded form-control" type="text" name="fname" id="fname" placeholder="Fullname" maxlength="100" required>
-                                </div>
-                                <!-- fullname end -->
-
-				<!-- email start -->
-                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                    <input class="input-md input-rounded form-control" type="email" name="email" id="email" placeholder="Email Address" maxlength="100" required>
-                                </div>
-                                 <!-- email end -->
-
-				<!--Website and Security part DELETED-->
-
-                                <!-- textarea start -->
-                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                   <textarea class="form-control" rows="7" placeholder="Your message" name="msg" id="msg" required></textarea>
-                                </div>
-                                <!-- textarea end -->
-
-                                <!-- button start -->
-                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                    <input type="submit" name="sendMessage" id="sendMessage" class="button button-md button-block button-grad-stellar" value="Submit">
-                                </div>
-                                <!-- button end -->
-
-                            </form>
-                        </div><!-- div contact end -->
-                    </div><!-- col end -->
-
-                </div><!-- row end -->
-            </div><!-- container end -->
-        </div><!-- section contact end -->
-
-
-
-<!--Client Area DELETED-->
- <!-- footer Area
-        ===================================== -->
-        <div id="footer" class="footer-two pt50 bg-black">
-           
-<!--
-	 
-                        <div class="col-md-2 col-sm-3 col-xs-12">
-                            <h6 class="font-montserrat text-uppercase color-dark">Social Media</h6>
-                            
-                        </div>
-
---> 
-
-            <div class="container-fluid pt20">
-                <div class="container">
-                    <div class="row">
-			
-			<center>
-			<div class="social social-two">
-                                <a href="https://twitter.com/teambi0s"><i class="fa fa-twitter color-gray"></i></a>
-                                <a href="https://www.facebook.com/teambi0s"><i class="fa fa-facebook color-gray"></i></a>
-                                <a href="https://github.com/teambi0s"><i class="fa fa-github color-gray"></i></a>
-			</div><br>                   
-			<div>
-                            <p><a href="#" style="color:white;font-size:1em;">bi0s.in</a></p>
-                        </div>
-			</center>
-                    </div><!-- row end -->
-                </div><!-- container end -->
-            </div><!-- container-fluid end -->
-        </div><!-- footer end -->
-<!--Copyright DELETED-->
-
-
-        <!-- JQuery Core
-        =====================================-->
-        <script src="assets/js/core/jquery.min.js"></script>
-        <script src="assets/js/core/bootstrap.min.js"></script>
-
-        <!-- Magnific Popup
-        =====================================-->
-        <script src="assets/js/magnific-popup/jquery.magnific-popup.min.js"></script>
-        <script src="assets/js/magnific-popup/magnific-popup-zoom-gallery.js"></script>
-
-        <!-- Progress Bars
-        =====================================-->
-        <script src="assets/js/progress-bar/bootstrap-progressbar.js"></script>
-        <script src="assets/js/progress-bar/bootstrap-progressbar-main.js"></script>
-
-        <!-- Text Rotator
-        =====================================-->
-        <script src="assets/js/text-rotator/jquery.simple-text-rotator.min.js"></script>
-
-        <!-- Particle JS
-        =====================================-->
-	<script src="assets/js/particle/particles.min.js"></script>
-        <script src="assets/js/particle/particles.main1.js"></script>
-
-        <!-- JQuery Main
-        =====================================-->
-        <script src="assets/js/main/jquery.appear.js"></script>
-        <script src="assets/js/main/isotope.pkgd.min.js"></script>
-        <script src="assets/js/main/parallax.min.js"></script>
-        <script src="assets/js/main/jquery.countTo.js"></script>
-        <script src="assets/js/main/owl.carousel.min.js"></script>
-        <script src="assets/js/main/jquery.sticky.js"></script>
-        <script src="assets/js/main/imagesloaded.pkgd.min.js"></script>
-        <script src="assets/js/main/main.js"></script>
-
-    </body>
 </html>
