@@ -27,6 +27,15 @@ font-size: 19px;
 }
 
 }
+.ftco-departments .nav-pills .nav-link.active {
+
+ background-color: #ffffff;
+}
+
+#ploop{
+  background-color: #ffffff;
+  color: white;
+}
 
 .topnav a:hover {
     color: white;
@@ -86,7 +95,7 @@ font-size: 19px;
 					<li class="nav-item"><a href="team.html" class="nav-link">Team</a></li>
 					<li class="nav-item"><a href="#expert" class="nav-link">Expertise</a></li>
 					<li class="nav-item"><a href="#mentor" class="nav-link">Mentors</a></li>
-
+					<li class="nav-item"><a href="alumini.html" class="nav-link">Alumini</a></li>
 					<li class="nav-item"><a href="#events" class="nav-link">Events</a></li>
 					<li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
 				</ul>
@@ -204,7 +213,7 @@ font-size: 19px;
 					<div class="pl-md-5 ml-md-5 mb-5">
 						<p>Amrita Bios is largely a CTF team actively taking part in the international CTFs round the year, besides
 							carrying out research on security issues in the real world. Fuelled by the urge for community service,
-							bi0s has been organizing workshops and educating the masses about the need for cyber security. .</p>
+nav-oink							bi0s has been organizing workshops and educating the masses about the need for cyber security. .</p>
 						<div class="row mt-5 pt-2">
 							<div class="col-lg-6">
 								<div class="services-2 d-flex">
@@ -284,20 +293,25 @@ font-size: 19px;
 				<div class="row">
 					<div class="col-md-12 nav-link-wrap">
 						<div class="nav nav-pills d-flex text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-							<a class="nav-link ftco-animate active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab"
+
+							<a class="nav-link ftco-animate active col-md-2 col-sm-6" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab"
 								aria-controls="v-pills-1" aria-selected="true">WEB SECURITY</a>
 
-							<a class="nav-link ftco-animate" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab"
-								aria-controls="v-pills-2" aria-selected="false">CRYPTOGRAPHY</a>
+							<a class="nav-link ftco-animate col-md-2 col-sm-6" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab"
+								aria-controls="v-pills-2" aria-selected="false">CRYPTO-<br>GRAPHY</a>
 
-							<a class="nav-link ftco-animate" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab"
+							<a class="nav-link ftco-animate col-md-2" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab"
 								aria-controls="v-pills-3" aria-selected="false">REVERSE ENGINEERING</a>
 
-							<a class="nav-link ftco-animate" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab"
-								aria-controls="v-pills-4" aria-selected="false">HARDWARE SECURITY</a>
+							<a class="nav-link ftco-animate col-md-2" id="" data-toggle="pill" href="#v-pills-4" role="tab"
+nav-oink								aria-controls="v-pills-4" aria-selected="true">HARDWARE SECURITY</a>
 
-							<a class="nav-link ftco-animate" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab"
+							<a class="nav-link ftco-animate col-md-2" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab"
 								aria-controls="v-pills-5" aria-selected="false">FORENSICS</a>
+
+							<a class="nav-link ftco-animate col-md-2" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-6" role="tab"
+								aria-controls="v-pills-5" aria-selected="false">Binary Exploitation</a>
+
 
 						</div>
 					</div>
@@ -331,7 +345,7 @@ font-size: 19px;
 															class="flaticon-dropper"></span></div>
 													<div class="text">
 														<h3>Average Solve Time</h3>
-														<p>15 mins for an average difficult challenge, including the time for local setups.</p>
+													<p>60 mins for an average difficult challenge, including the time for local setups.</p>
 													</div>
 												</div>
 											</div>
@@ -385,7 +399,7 @@ font-size: 19px;
 															class="flaticon-dropper"></span></div>
 													<div class="text">
 														<h3>Average Solve Time</h3>
-														<p>30 to 40 mins per average difficult challenges.</p>
+														<p>40 to 60 mins per average difficult challenges.</p>
 													</div>
 												</div>
 											</div>
@@ -438,7 +452,7 @@ font-size: 19px;
 															class="flaticon-dropper"></span></div>
 													<div class="text">
 														<h3>Average Solve Time</h3>
-														<p>20 mins for an average difficult challenge.</p>
+														<p>40-50 mins for an average difficult challenge.</p>
 													</div>
 												</div>
 											</div>
@@ -546,7 +560,7 @@ font-size: 19px;
 															class="flaticon-idea"></span></div>
 													<div class="text">
 														<h3>Average Solve Time</h3>
-														<p>10 mins on average per challenge.</p>
+														<p>15-30 mins on average per challenge.</p>
 													</div>
 												</div>
 											</div>
@@ -574,6 +588,61 @@ font-size: 19px;
 									</div>
 								</div>
 							</div>
+							<div class="tab-pane fade" id="v-pills-6" role="tabpanel" aria-labelledby="v-pills-day-6-tab">
+								<div class="row departments">
+									<div class="col-lg-4 order-lg-last d-flex align-items-stretch">
+										<div class="img d-flex align-self-stretch" style="background-image: url(images/hardware.png); background-size: contain"></div>
+									</div>
+									<div class="col-md-8">
+										<h2>Binary Exploitation</h2>
+										<p>
+Binary exploitation is the art of triggering vulnerabilities and redirecting code execution to perform functions that are unintended by the developer and further executing malicious code on the system</p>
+										<div class="row mt-5 pt-2">
+											<div class="col-lg-6">
+												<div class="services-2 d-flex">
+													<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
+															class="flaticon-first-aid-kit"></span></div>
+													<div class="text">
+														<h3>Operating Fields</h3>
+														<p>Linux & windows applications,Operating Systems and web brousers.</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-6">
+												<div class="services-2 d-flex">
+													<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
+															class="flaticon-dropper"></span></div>
+													<div class="text">
+														<h3>Average Solve Time</h3>
+														<p>45-50 mins for an average difficult challenge.</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-6">
+												<div class="services-2 d-flex">
+													<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
+															class="flaticon-experiment-results"></span></div>
+													<div class="text">
+														<h3>Talks Given</h3>
+														<p>Talks at Cysinfo Quarterly Security Summit, Bangalore and others.</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-6">
+												<div class="services-2 d-flex">
+													<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
+															class="flaticon-heart-rate"></span></div>
+													<div class="text">
+														<h3>Resource Contents</h3>
+														<p>10+ hours of online training materials, including detailed modules for multiple paths.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
 						</div>
 					</div>
 				</div>
