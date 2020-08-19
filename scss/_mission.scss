@@ -1,0 +1,29 @@
+.our_mission_area{
+    padding-top: 150px;
+    padding-bottom: 137px;
+    @media #{$mobile_device} {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    @media #{$tablet_device} {
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+    .mission_text{
+        h4{
+            font-size: 24px;
+            color: #615CFD;
+            font-weight: 400;
+            font-family: $font2;
+        }  
+    }
+    .mision_info{
+        .single_mission{
+            margin-bottom: 15px;
+            p{
+                color: #707070;
+                font-size: 16px;
+            }
+        }
+    }
+}

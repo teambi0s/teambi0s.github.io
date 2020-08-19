@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59.09" height="56.087" viewBox="0 0 59.09 56.087">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#615cfd"/>
+      <stop offset="1" stop-color="#d465ef"/>
+    </linearGradient>
+  </defs>
+  <g id="https:_www.flaticon.com_free-icon_3d_1077703" data-name="https://www.flaticon.com/free-icon/3d_1077703" transform="translate(0)">
+    <path id="Path_2750" data-name="Path 2750" d="M343.154,346.5a1.154,1.154,0,1,0,1.154,1.154A1.154,1.154,0,0,0,343.154,346.5Zm0,0" transform="translate(-302.53 -306.565)" fill="url(#linear-gradient)"/>
+    <path id="Path_2751" data-name="Path 2751" d="M248.308,161.654a1.154,1.154,0,1,0-1.154,1.154A1.154,1.154,0,0,0,248.308,161.654Zm0,0" transform="translate(-217.609 -142.034)" fill="url(#linear-gradient)"/>
+    <path id="Path_2752" data-name="Path 2752" d="M151.154,348.8A1.154,1.154,0,1,0,150,347.65,1.155,1.155,0,0,0,151.154,348.8Zm0,0" transform="translate(-132.688 -306.565)" fill="url(#linear-gradient)"/>
+    <path id="Path_2753" data-name="Path 2753" d="M58.4,48.224l-6.239-2.772V20.12a1.16,1.16,0,0,0-.709-1.065L30.7,10.127V1.654a1.154,1.154,0,0,0-2.308,0v8.473L7.633,19.054a1.161,1.161,0,0,0-.709,1.065V45.452L.685,48.224a1.154,1.154,0,1,0,.937,2.109l6.463-2.872,21,9.033a1.172,1.172,0,0,0,.912,0l21-9.033,6.463,2.872a1.154,1.154,0,1,0,.937-2.109ZM28.39,12.64V15.5a1.154,1.154,0,0,0,2.308,0V12.64l17.391,7.48L29.544,28.1,11,20.12ZM15.3,42.992a1.155,1.155,0,0,0-1.523-.586l-4.546,2.02V21.872l19.158,8.24v23.57l-17.431-7.5,3.756-1.669A1.155,1.155,0,0,0,15.3,42.992Zm15.4,10.69V30.112l19.158-8.24V44.426l-4.546-2.02a1.154,1.154,0,1,0-.937,2.109l3.756,1.669Zm0,0" transform="translate(0.001 -0.5)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

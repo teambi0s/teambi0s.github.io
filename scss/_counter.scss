@@ -1,0 +1,39 @@
+.counter_area{
+    padding-bottom: 120px;
+    padding-top: 75px;
+    @media #{$mobile_device} {
+        padding-bottom: 30px;
+        padding-top: 60px;
+    }
+    .single_counter{
+        border: 1px solid #E8E8E8;
+        padding: 50px 0 43px 0;
+        margin-bottom: 30px;
+        @include transition(.3s);
+        h3 {
+            margin-bottom: 16px;
+            span{
+                color: #615CFD;
+                font-size: 50px;
+                font-weight: 700;
+                @media #{$mobile_device} {
+                    font-size: 35px;
+                }
+                span{
+                    position: relative;
+                    // left: -10px;
+                    top: -2px;
+                }
+            }
+        }
+        p{
+            font-size: 15px;
+            color:#001D38;
+            font-weight: 400;
+            margin-bottom: 0;
+        }
+        &:hover{
+            border: 1px solid #615CFD;
+        }
+    }
+}

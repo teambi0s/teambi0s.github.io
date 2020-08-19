@@ -1,0 +1,43 @@
+.get_in_tauch_area{
+    padding-top: 146px;
+    padding-bottom: 160px;
+    @media #{$mobile_device} {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .touch_form{
+        .single_input{
+            input,textarea{
+                width: 100%;
+                border: 1px solid #C9C9C9;
+                height: 50px;
+                @include border-radius(30px);
+                padding: 20px 16px;
+                margin-bottom: 25px;
+                font-family: $font2;
+                font-size: 14px;
+                color: #000;
+                font-weight: 400;
+                &::placeholder{
+                    color: #707070;
+                    font-size: 14px;
+                    font-family: $font2;
+                    font-weight: 400;
+                }
+                &:focus{
+                    outline: none;
+                }
+            }
+            textarea{
+                height: 148px;
+                resize: none;
+            }
+        }
+        .submit_btn{
+            .boxed-btn3{
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+}

@@ -1,0 +1,100 @@
+.portfolio_details_banner{
+    background: #1F1F1F;
+    padding-top: 220px;
+    padding-bottom: 470px;
+    @media #{$mobile_device}{
+        padding: 100px 0;
+    }
+    .details_info{
+        h3{
+            font-size: 78px;
+            font-weight: 400;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 62px;
+            @media #{$mobile_device} {
+                font-size: 30px;
+                margin-bottom: 30px;
+            }
+        }
+        .details_links{
+            @media #{$mobile_device} {
+                display: block !important;
+                text-align: center;
+            }
+            .single_details{
+                @media #{$mobile_device}{
+                    margin-bottom: 30px;
+                }
+                span{
+                    color: #C9C9C9;
+                    font-size: 12px;
+                    font-weight: 400;
+                    display: block;
+                    margin-bottom: 9px;
+                    font-family: $font2;
+                }
+                h4{
+                    font-family: $font2;
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #fff;
+                }
+                .social_links{
+                    ul{
+                        li{
+                            display: inline-block;
+                            margin-right: 21px;
+                            @media #{$mobile_device}{
+                                margin: 0 5px;
+                            }
+                            a{
+                                color: #fff;
+                                font-size: 16px;
+
+                                &:hover{
+                                    color: #615CFD;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.portfolio_details_wrap{
+    padding-bottom: 130px;
+    position: relative;
+    margin-top: -380px;
+    @media #{$mobile_device}{
+        padding-bottom: 60px;
+    }
+    @media #{$mobile_device} {
+        margin-top: 60px;
+    }
+    .banner{
+        img{
+            width: 100%;
+        }
+    }
+    .details_text{
+        margin-bottom: 70px;
+        margin-top: 80px;
+        @media #{$mobile_device} {
+            margin: 30px 0;
+        }
+        p{
+
+        }
+    }
+    .thumbs{
+        .single_thumb{
+            margin-bottom: 30px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

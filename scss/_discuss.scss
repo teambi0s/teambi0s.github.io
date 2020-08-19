@@ -1,0 +1,30 @@
+.discuss_projects{
+    background: #001D38;
+    padding: 150px 0 50px 0;
+    @media #{$mobile_device} {
+        padding: 50px 0 50px 0;
+    }
+    @media #{$tablet_device} {
+        padding: 100px 0 50px 0;
+    }
+    .project_text{
+        h3{
+            color: #fff;
+            font-size: 50px;
+            font-weight: 700;
+            @media #{$mobile_device} {
+                font-size: 38px;
+            }
+        }
+        p{
+            color: #fff;
+            font-size: 15px;
+            line-height: 28px;
+            margin-bottom: 30px;
+            margin-top: 12px;
+        }
+        a{
+
+        }
+    }
+}

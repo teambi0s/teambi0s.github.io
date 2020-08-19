@@ -1,0 +1,101 @@
+// portfolio_image_area 
+.portfolio_image_area{
+    padding-top: 147px;
+    padding-bottom: 130px;
+    position: relative;
+    @media #{$mobile_device} {
+        padding-top: 70px;
+        padding-bottom: 40px;
+    }
+    &.dec_margin{
+        margin-top: 0;
+        padding-top: 150px;
+        padding-bottom: 150px;
+        @media #{$mobile_device} {
+            padding: 50px 0; 
+        }
+        @media #{$tablet_device} {
+            padding: 70px 0; 
+        }
+        @media #{$mid_device} {
+            padding: 100px 0; 
+        }
+    }
+    .single_Portfolio{
+        position: relative;
+        margin-bottom: 30px;
+        overflow: hidden;
+        @include border-radius(5px);
+        .portfolio_thumb{
+            height: 350px;
+            @include border-radius(5px);
+            overflow: hidden;
+            @media #{$mobile_device} {
+                height: auto;
+            }
+            img{
+                width: 100%;
+                height: 100%;
+                @include border-radius(5px);
+            }
+        }
+        .portfolio_hover{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            background: #fff;
+            border: 0;
+            @include transform(scale(.9));
+            @include transition(.5s);
+            opacity: 0;
+            overflow: hidden;
+            @include border-radius(5px);
+            .title{
+                position: absolute;
+                top: 50%;
+                left: 0;
+                right: 0;
+                text-align: center;
+                @include transform(translateY(-50%));
+            }
+            span{
+                font-size: 14px;
+                color: #615CFD;
+                font-weight: 400;
+                font-family: $font2;
+            }
+            h3{
+                color: #1F1F1F;
+                font-size:24px ;
+                font-weight: 700;
+                margin-top: 11px;
+                margin-bottom: 25px;
+            }
+            .boxed-btn3{
+                &:hover{
+                    border: 1px solid #615CFD !important;
+                    color: #615CFD !important;
+                    background: #fff !important;
+                }
+            }
+        }
+        &:hover .portfolio_hover{
+            @include transform(scale(1));
+            opacity: 1;
+        }
+    }   
+    .more_portfolio{
+        margin-top: 60px;
+    }
+    .popup {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 9;
+    }
+}

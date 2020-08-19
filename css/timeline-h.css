@@ -1,0 +1,110 @@
+.roadmap-area{
+  overflow: hidden;
+}
+
+.single-roadmap-img img {
+  width: 120px;
+  height: 120px;
+}
+
+.roadmap-text h5 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.single-roadmap.road-right .col-5, .single-roadmap.road-right .col-7 {
+  padding: 0;
+}
+
+.single-roadmap {
+  padding: 20px 15px;
+}
+
+.single-roadmap.road-left {
+  position: relative;
+  z-index: 2;
+  padding-left: 24%;
+}
+
+.single-roadmap.road-left::before {
+  position: absolute;
+  content: "";
+  height: 67.5%;
+  width: 1px;
+  background: #004cff;
+  bottom: 8.5%;
+  left: 1%;
+  z-index: -1;
+}
+
+.single-roadmap.road-left::after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 120%;
+  background: #004cff;
+  top: 24%;
+  right: -21%;
+  z-index: -1;
+}
+
+.single-roadmap.road-right {
+  position: relative;
+  z-index: 2;
+  padding-top: 29%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.single-roadmap.road-right::before {
+  position: absolute;
+  content: "";
+  height: 75.5%;
+  width: 1px;
+  background: #004cff;
+  bottom: 0;
+  left: 12.5%;
+  z-index: -1;
+}
+
+.single-roadmap.road-right::after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 97%;
+  background: #004cff;
+  bottom: 0;
+  right: -10%;
+  z-index: -1;
+}
+
+.owl-carousel .owl-item .single-roadmap-img img {
+  width: auto;
+  display: inline-block;
+}
+
+.roadmap-area .owl-nav div {
+  position: absolute;
+  right: 0;
+  font-size: 20px;
+  color:  #f300fc;
+  top: 430px;
+  align-content: center;
+}
+
+.roadmap-area .owl-nav .owl-prev  {
+  left: auto;
+  right: 5%;
+  margin-top: -40px !important;
+}
+
+.owl-next {
+  margin-top: -40px !important; 
+}
+.roadmap-area .owl-nav div:hover{
+  color: #fa758e;
+}
+
+.roadmap-area .owl-carousel .owl-stage-outer {
+  overflow: visible;
+}

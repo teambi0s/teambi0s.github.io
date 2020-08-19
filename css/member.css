@@ -1,0 +1,64 @@
+.team-item {
+    border-radius: 4px 4px 0 0;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(45deg, hsla(262, 98%, 41%, 1) 0%, hsla(262, 98%, 41%, 0) 70%), linear-gradient(135deg, hsla(304, 98%, 50%, 1) 10%, hsla(304, 98%, 50%, 0) 80%), linear-gradient(225deg, hsla(274, 97%, 41%, 1) 10%, hsla(274, 97%, 41%, 0) 80%), linear-gradient(315deg, hsla(261, 92%, 41%, 1) 100%, hsla(261, 92%, 41%, 0) 70%);
+}
+.team-item img {
+    width: 100%;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+.team-main:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.team-main:hover img {
+    opacity: 0.3;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.team-item span {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    font-size: 18px;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    color: rgba(247, 250, 251, 1);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+ 
+}
+.team-item span a i{
+    color: #fff;
+    margin: 5px;
+}
+.team-item span a i:hover{
+    color: #000;
+}
+.team-main:hover span {
+    visibility: visible;
+    top: 35%;
+    -webkit-transition: all 500ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: all 500ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    opacity: 1;
+}
+
+.name {
+    border-radius: 0 0 4px 4px;
+    padding: 15px;
+    background-color: rgba(247, 250, 251, 1);
+ 
+}
+.name p {
+    font-size: 14px;
+    color: #607D8B;
+}
+body {
+    background-color: lightblue;
+  }
