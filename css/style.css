@@ -6963,7 +6963,6 @@ h6 {
   padding-bottom: 80px;
 }
 .branding img{
-  max-height: 180px;
   max-width: 100%;
 }
 
@@ -6975,5 +6974,4 @@ h6 {
 
 .branding .card {
   background:#CCC;
-  height: 300px;
 }
