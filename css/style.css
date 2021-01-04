@@ -6959,3 +6959,19 @@ h6 {
   background-image: url('../img/work/pentest.jpg');
   background-size: cover
 }
+.branding  {
+  padding-bottom: 80px;
+}
+.branding img{
+  max-width: 100%;
+}
+
+.branding div {
+  text-align: center;
+  margin-top: 20px;
+  
+}
+
+.branding .card {
+  background:#CCC;
+}
