@@ -1,0 +1,48 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Fira Code', monospace;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.container {
+  width: 1200px!important;
+  max-width: 100%!important;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+}
+
+.content-shrinker {
+  display: flex;
+  justify-content: start;
+}
+
+.content-container *, .content-shrinker * {
+  max-width: 100%!important;
+}
+@media (min-width: 800px) {
+  .content-container *, .content-shrinker * {
+    width: 800px;
+  }
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: none !important;
+  background-color: #EEE;
+}
+
+::-webkit-scrollbar {
+  width: 8px !important;
+  transition: all 1s ease;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsla(0,0%,55%,.5);
+}
