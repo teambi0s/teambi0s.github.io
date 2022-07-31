@@ -12,17 +12,15 @@ const Layout = ({ children, title }) => (
             <link rel="icon" href="/branding/favicon.png" />
         </Head>
         <Header />
-        <ScrollerMotion>
-            <div className="flex justify-center">
-                <div style={{ width: '1100px', maxWidth: '100%' }}>
-                    <div style={{ height: '7vh' }} />
-                    <main className="p-2">
-                        {children}
-                    </main>
-                    <Footer />
-                </div>
+        <div className="flex justify-center">
+            <div style={{ width: '1100px', maxWidth: '100%' }}>
+                <div style={{ height: '7vh' }} />
+                <main className="p-2">
+                    {children}
+                </main>
+                <Footer />
             </div>
-        </ScrollerMotion>
+        </div>
     </React.Fragment>
 );
 

@@ -54,10 +54,10 @@ const MENU_ITEMS = [
         label: "Home",
         href: "/"
     },
-    // {
-    //     label: "About",
-    //     href: "/about"
-    // },
+    {
+        label: "About",
+        href: "/about"
+    },
     // {
     //     label: "Projects",
     //     href: "/projects"
@@ -67,13 +67,13 @@ const MENU_ITEMS = [
         href: "/team"
     },
     {
+        label: "Achievements",
+        href: "/achievements"
+    },
+    {
         label: "Blog",
         href: "https://blog.bi0s.in"
-    },
-    // {
-    //     label: "Updates",
-    //     href: "/updates"
-    // }
+    }
 ]
 
 const MenuItem = ({ href, label }) => (
