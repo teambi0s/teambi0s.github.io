@@ -11,7 +11,7 @@ const MemberCard = ({ firstname, lastname, username = null, team = null, affilia
         </div>
         {team && <div className="text-sm">{team}</div>}
         {affiliation && <div className="text-sm">{affiliation}</div>}
-        <div className="flex items-center opacity-80 mt-3">
+        <div className="flex items-center opacity-75 mt-3">
             {twitter && (
                 <Link href={`https://www.twitter.com/${twitter}`} passHref>
                     <a className="mr-2">
@@ -22,7 +22,7 @@ const MemberCard = ({ firstname, lastname, username = null, team = null, affilia
             {linkedin && (
                 <Link href={`https://www.linkedin.com/in/${linkedin}`} passHref>
                     <a className="mr-2">
-                        <Image alt="LinkedIn Profile" src="/icons/linkedin.svg" width={22} height={22} />
+                        <Image alt="LinkedIn Profile" src="/icons/linkedin.svg" width={20} height={20} />
                     </a>
                 </Link>
             )}
