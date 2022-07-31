@@ -5,7 +5,7 @@ const StudentMemberSection = ({ members, title }) => (
     <div className="my-3 border-b-2 border-dashed">
         <h4 className="text-xl font-semibold mt-4 mb-2">{title}</h4>
         <div className="flex flex-wrap mx-0">
-            {members.map((s) => (
+            {members.sort((s) => s.username).map((s) => (
                 <MemberCard key={s.username} {...s} />
             ))}
         </div>

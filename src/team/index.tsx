@@ -5,10 +5,10 @@ import Layout from "../layout";
 import TableOfContents from "./toc";
 import MemberSection from "./section";
 
-import STUDENTS from './students';
-import ADVISORS from './advisors';
-import ALUMNI from './alumni';
-import STAFF from './staff';
+import STUDENTS from '../data/students';
+import ADVISORS from '../data/advisors';
+import ALUMNI from '../data/alumni';
+import STAFF from '../data/staff';
 
 const HeaderSection = styled.section`
   min-height: 45vh;
