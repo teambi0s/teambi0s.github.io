@@ -1,22 +1,22 @@
 export default [
     {
-        name: 'Arjun',
-        surname: 'TU',
+        firstname: 'Arjun',
+        lastname: 'TU',
         team: 'Reverse Engineering'
     },
     {
-        name: 'Aswin',
-        surname: 'M Guptha',
-        team: 'Web Security'
-    },
-    {
-        name: 'Abhinand',
-        surname: '',
+        firstname: 'Abhinand',
+        lastname: '',
         team: 'Android Security'
     },
     {
-        name: 'Season',
-        surname: 'Cherian',
+        firstname: 'Aswin',
+        lastname: 'M Guptha',
+        team: 'Web Security'
+    },
+    {
+        firstname: 'Season',
+        lastname: 'Cherian',
         team: 'Hardware Security'
     }
 ]

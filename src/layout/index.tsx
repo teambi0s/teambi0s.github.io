@@ -15,6 +15,7 @@ const Layout = ({ children, title }) => (
         <ScrollerMotion>
             <div className="flex justify-center">
                 <div style={{ width: '1100px', maxWidth: '100%' }}>
+                    <div style={{ height: '7vh' }} />
                     <main className="p-2">
                         {children}
                     </main>

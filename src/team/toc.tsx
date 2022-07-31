@@ -1,20 +1,27 @@
 import React from "react";
 
-const TableOfContents = () => (
+const TableOfContents = ({ type = 'ALL', setType }) => (
 <div className="p-3">
-    <h2 className="font-semibold text-xl mb-2">Table of Contents</h2>
     <ul className="my-3">
         <li className="mb-2">
-            <a href="#advisors">Team Advisors</a>
+            {type ==='ALL' && <span>{'> '}</span>}
+            <button onClick={() => setType('ALL')}>All Members</button>
         </li>
         <li className="mb-2">
-            <a href="#staff">Staff Mentors</a>
+            {type ==='ADVISORS' && <span>{'> '}</span>}
+            <button onClick={() => setType('ADVISORS')}>Team Advisors</button>
         </li>
         <li className="mb-2">
-            <a href="#students">Student Members</a>
+            {type ==='STAFF' && <span>{'> '}</span>}
+            <button onClick={() => setType('STAFF')}>Staff Mentors</button>
         </li>
         <li className="mb-2">
-            <a href="#alumni">Alumni</a>
+            {type ==='STUDENTS' && <span>{'> '}</span>}
+            <button onClick={() => setType('STUDENTS')}>Student Members</button>
+        </li>
+        <li className="mb-2">
+            {type ==='ALUMNI' && <span>{'> '}</span>}
+            <button onClick={() => setType('ALUMNI')}>Alumni</button>
         </li>
     </ul>
 </div>

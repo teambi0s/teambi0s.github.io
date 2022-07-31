@@ -20,6 +20,11 @@ const MenuContainer = styled.ul`
   font-weight: 600;
   li {
     margin-right: 2vw;
+    padding: 0.25rem 0.5rem;
+    border-radius: 7px;
+    &:hover {
+      background: rgba(0, 0, 0, 0.05);
+    }
   }
   li:last-of-type {
     margin-right: 0;
@@ -84,40 +89,42 @@ const Header = () => {
     const [isOpen, setOpen] = useState(false);
 
     return (
-        <HeaderBar>
-            <div className="flex justify-center">
-                <div style={{ width: '1100px', maxWidth: '100%' }}>
-                    <div className="flex flex-wrap mx-0">
-                        <div className="w-1/2 lg:w-1/4 flex items-center px-2">
-                            <Link passHref href="/">
-                                <a>
-                                    <Image alt="Team bi0s" src="/branding/dark-logo.png" width={106} height={37} />
-                                </a>
-                            </Link>
-                        </div>
-                        <div className="w-1/2 lg:w-3/4 flex items-center justify-end px-2">
-                            <div className="hidden flex items-center md:block">
-                                <MenuContainer>
-                                    {MENU_ITEMS.map((i) => (
-                                        <MenuItem key={i.href} {...i} />
-                                    ))}
-                                </MenuContainer>
+        <React.Fragment>
+            <HeaderBar>
+                <div className="flex justify-center">
+                    <div style={{ width: '1100px', maxWidth: '100%' }}>
+                        <div className="flex flex-wrap mx-0">
+                            <div className="w-1/2 lg:w-1/4 flex items-center px-2">
+                                <Link passHref href="/">
+                                    <a>
+                                        <Image alt="Team bi0s" src="/branding/dark-logo.png" width={106} height={37} />
+                                    </a>
+                                </Link>
                             </div>
-                            <div className="flex items-center md:hidden">
-                                <button onClick={() => setOpen(!isOpen)}>
-                                    <Image alt="menu" src="/icons/bars.svg" width={25} height={25} />
-                                </button>
+                            <div className="w-1/2 lg:w-3/4 flex items-center justify-end px-2">
+                                <div className="hidden flex items-center md:block">
+                                    <MenuContainer>
+                                        {MENU_ITEMS.map((i) => (
+                                            <MenuItem key={i.href} {...i} />
+                                        ))}
+                                    </MenuContainer>
+                                </div>
+                                <div className="flex items-center md:hidden">
+                                    <button onClick={() => setOpen(!isOpen)}>
+                                        <Image alt="menu" src="/icons/bars.svg" width={25} height={25} />
+                                    </button>
+                                </div>
                             </div>
                         </div>
+                        <MobileMenuContainer isOpen={isOpen} className={isOpen && "py-3"}>
+                            {MENU_ITEMS.map((i) => (
+                                <MenuItem key={i.href} {...i} />
+                            ))}
+                        </MobileMenuContainer>
                     </div>
-                    <MobileMenuContainer isOpen={isOpen} className={isOpen && "py-3"}>
-                        {MENU_ITEMS.map((i) => (
-                            <MenuItem key={i.href} {...i} />
-                        ))}
-                    </MobileMenuContainer>
                 </div>
-            </div>
-        </HeaderBar>
+            </HeaderBar>
+        </React.Fragment>
     );
 }
 

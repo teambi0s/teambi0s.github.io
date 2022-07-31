@@ -1,17 +1,17 @@
 export default [
     {
-        name: 'Sreepriya',
-        surname: 'Chalakkal',
-        affiliation: 'Siemens'
+        firstname: 'Arvind',
+        lastname: 'S Raj',
+        affiliation: 'Arizona State University'
     },
     {
-        name: 'Reno',
-        surname: 'Robert',
+        firstname: 'Reno',
+        lastname: 'Robert',
         affiliation: 'Zero Day Initiative'
     },
     {
-        name: 'Arvind',
-        surname: 'S Raj',
-        affiliation: 'Arizona State University'
+        firstname: 'Sreepriya',
+        lastname: 'Chalakkal',
+        affiliation: 'Siemens'
     }
 ]
