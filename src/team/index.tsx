@@ -35,6 +35,7 @@ const TeamPage = () => {
                     </div>
                 </div>
                 <div className="w-100 lg:w-3/4 xl:w-4/5 px-2">
+                    <div style={{ height: '7.5vh' }} />
                     {(selection === 'ALL' || selection === 'ADVISORS') && (
                         <MemberSection
                             id="advisors"

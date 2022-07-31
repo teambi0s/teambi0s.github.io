@@ -106,6 +106,7 @@ const alumni = [
     {
         "firstname": "Yaswanth",
         "lastname": "R",
+        "username": "az3z3l",
         "team": "Web Exploitation",
         "batch": 2022,
         "affiliation": "VMware",

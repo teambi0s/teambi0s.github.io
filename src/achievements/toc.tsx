@@ -5,7 +5,7 @@ const TableOfContentsAchievements = ({ type = 'ALL', setType }) => (
     <ul className="my-3">
         <li className="mb-2">
             {type ==='ALL' && <span>{'> '}</span>}
-            <button onClick={() => setType('ALL')}>All Members</button>
+            <button onClick={() => setType('ALL')}>All Achievements</button>
         </li>
         <li className="mb-2">
             {type ==='CTF' && <span>{'> '}</span>}
@@ -13,15 +13,15 @@ const TableOfContentsAchievements = ({ type = 'ALL', setType }) => (
         </li>
         <li className="mb-2">
             {type ==='CVE' && <span>{'> '}</span>}
-            <button onClick={() => setType('CVE')}>CVEs</button>
+            <button onClick={() => setType('CVE')}>Bug Bounty</button>
         </li>
         <li className="mb-2">
-            {type ==='GSOC' && <span>{'> '}</span>}
-            <button onClick={() => setType('GSOC')}>GSoC</button>
+            {type ==='GSoC' && <span>{'> '}</span>}
+            <button onClick={() => setType('GSoC')}>GSoC</button>
         </li>
         <li className="mb-2">
             {type ==='TALKS' && <span>{'> '}</span>}
-            <button onClick={() => setType('TALKS')}>Talks & Trainings</button>
+            <button onClick={() => setType('TALKS')}>Talks</button>
         </li>
         <li className="mb-2">
             {type ==='MISC' && <span>{'> '}</span>}
