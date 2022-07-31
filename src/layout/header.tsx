@@ -55,7 +55,11 @@ const Header = () => (
     <header className="py-6">
         <div className="flex flex-wrap mx-0">
             <div className="w-1/2 lg:w-1/4 flex items-center px-2">
-                <Image alt="Team bi0s" src="/branding/dark-logo.png" width={106} height={37} />
+                <Link passHref href="/">
+                    <a>
+                        <Image alt="Team bi0s" src="/branding/dark-logo.png" width={106} height={37} />
+                    </a>
+                </Link>
             </div>
             <div className="w-1/2 lg:w-3/4 flex justify-end px-2">
                 <MenuContainer>
