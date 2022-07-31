@@ -8,7 +8,7 @@ const Layout = ({ children, title }) => (
         <Head>
             <title>{title}</title>
         </Head>
-        <div className="flex justify-center">
+        <div className="flex justify-center p-2">
             <div style={{ width: '1100px', maxWidth: '100%' }}>
                 <Header />
                 <main>
