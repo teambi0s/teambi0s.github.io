@@ -95,15 +95,15 @@ const Header = () => {
                                 </a>
                             </Link>
                         </div>
-                        <div className="w-1/2 lg:w-3/4 flex justify-end px-2">
-                            <div className="hidden md:block">
+                        <div className="w-1/2 lg:w-3/4 flex items-center justify-end px-2">
+                            <div className="hidden flex items-center md:block">
                                 <MenuContainer>
                                     {MENU_ITEMS.map((i) => (
                                         <MenuItem key={i.href} {...i} />
                                     ))}
                                 </MenuContainer>
                             </div>
-                            <div className="block md:hidden">
+                            <div className="flex items-center md:hidden">
                                 <button onClick={() => setOpen(!isOpen)}>
                                     <Image alt="menu" src="/icons/bars.svg" width={25} height={25} />
                                 </button>
