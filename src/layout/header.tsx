@@ -6,9 +6,11 @@ import Image from "next/image";
 const HeaderBar = styled.header`
   background: white;
   position: sticky;
+  width: 100%;
+  left: 0;
   padding: 1rem;
   top: 0;
-  z-index: 1000;
+  z-index: 5000;
 `;
 
 const MenuContainer = styled.ul`
@@ -83,34 +85,38 @@ const Header = () => {
 
     return (
         <HeaderBar>
-            <div className="flex flex-wrap mx-0">
-                <div className="w-1/2 lg:w-1/4 flex items-center px-2">
-                    <Link passHref href="/">
-                        <a>
-                            <Image alt="Team bi0s" src="/branding/dark-logo.png" width={106} height={37} />
-                        </a>
-                    </Link>
-                </div>
-                <div className="w-1/2 lg:w-3/4 flex justify-end px-2">
-                    <div className="hidden md:block">
-                        <MenuContainer>
-                            {MENU_ITEMS.map((i) => (
-                                <MenuItem key={i.href} {...i} />
-                            ))}
-                        </MenuContainer>
+            <div className="flex justify-center">
+                <div style={{ width: '1100px', maxWidth: '100%' }}>
+                    <div className="flex flex-wrap mx-0">
+                        <div className="w-1/2 lg:w-1/4 flex items-center px-2">
+                            <Link passHref href="/">
+                                <a>
+                                    <Image alt="Team bi0s" src="/branding/dark-logo.png" width={106} height={37} />
+                                </a>
+                            </Link>
+                        </div>
+                        <div className="w-1/2 lg:w-3/4 flex justify-end px-2">
+                            <div className="hidden md:block">
+                                <MenuContainer>
+                                    {MENU_ITEMS.map((i) => (
+                                        <MenuItem key={i.href} {...i} />
+                                    ))}
+                                </MenuContainer>
+                            </div>
+                            <div className="block md:hidden">
+                                <button onClick={() => setOpen(!isOpen)}>
+                                    <Image alt="menu" src="/icons/bars.svg" width={25} height={25} />
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                    <div className="block md:hidden">
-                        <button onClick={() => setOpen(!isOpen)}>
-                            <Image alt="menu" src="/icons/bars.svg" width={25} height={25} />
-                        </button>
-                    </div>
+                    <MobileMenuContainer isOpen={isOpen} className={isOpen && "py-3"}>
+                        {MENU_ITEMS.map((i) => (
+                            <MenuItem key={i.href} {...i} />
+                        ))}
+                    </MobileMenuContainer>
                 </div>
             </div>
-            <MobileMenuContainer isOpen={isOpen} className={isOpen && "py-3"}>
-                {MENU_ITEMS.map((i) => (
-                    <MenuItem key={i.href} {...i} />
-                ))}
-            </MobileMenuContainer>
         </HeaderBar>
     );
 }

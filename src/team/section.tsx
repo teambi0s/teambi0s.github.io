@@ -3,7 +3,7 @@ import MemberCard from "./card";
 
 const StudentMemberSection = ({ members, title }) => (
     <div className="my-3 border-b-2 border-dashed">
-        <h4 className="text-xl font-semibold mt-4 mb-2">{title}</h4>
+        <h4 className="text-lg md:text-xl font-semibold mt-4 mb-2">{title}</h4>
         <div className="flex flex-wrap mx-0">
             {members.sort((s) => s.username).map((s) => (
                 <MemberCard key={s.username} {...s} />
@@ -14,7 +14,7 @@ const StudentMemberSection = ({ members, title }) => (
 
 const MemberSection = ({ members, title, id, isStudent = false, isAlumni = false }) => (
     <section id={id} className="py-8 px-3">
-        <h3 className="text-4xl font-bold mb-6">{title}</h3>
+        <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6">{title}</h3>
         {isStudent ? (
             <React.Fragment>
                 <StudentMemberSection members={members.filter((s) => s.year === 4)} title="Fourth Years" />

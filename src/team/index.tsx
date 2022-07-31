@@ -13,19 +13,22 @@ import STAFF from '../data/staff';
 const HeaderSection = styled.section`
   display: flex;
   align-items: center;
-  padding: 5vh 1rem;      
+  min-height: 35vmin;      
+  padding: 7.5vh 0 0 0;      
   h1 {
-    font-size: calc(2rem + 2.5vw);
+    font-size: calc(2rem + 3.5vw);
     font-weight: bold;
   }
 `;
 
 const TeamPage = () => (
     <Layout title="Team Members | team bi0s - India's No.1 Ranked CTF Team & Cyber Security Research Club">
-        <HeaderSection>
-            <h1>Our Team</h1>
-        </HeaderSection>
-        <TableOfContents />
+        <div className="px-3">
+                <HeaderSection>
+                        <h1>Our Team</h1>
+                </HeaderSection>
+                <TableOfContents />
+        </div>
         <MemberSection
             id="advisors"
             title="Advisors"
