@@ -6,8 +6,8 @@ const MemberCard = ({ name, surname, username = null, team = null, affiliation =
     <div className="w-100 md:w-1/2 lg:w-1/3 xl:w-1/4 p-3">
         {username && <div className="text-2xl">{username}</div>}
         <div className={`mb-1 uppercase ${!(username?.length > 0) ? 'text-xl' : null}`}>
-            <span className="font-semibold mr-1">{name}</span>
-            {surname}
+            <span className="font-semibold">{name}</span>
+            {' '}{surname}
         </div>
         {team && <div className="text-sm">{team}</div>}
         {affiliation && <div className="text-sm">{affiliation}</div>}

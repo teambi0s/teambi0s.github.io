@@ -12,8 +12,8 @@ const StudentMemberSection = ({ members, title }) => (
     </div>
 );
 
-const MemberSection = ({ members, title, id, isStudent = false }) => (
-    <section id={id} className="py-8">
+const MemberSection = ({ members, title, id, isStudent = false, isAlumni = false }) => (
+    <section id={id} className="py-8 px-3">
         <h3 className="text-4xl font-bold mb-6">{title}</h3>
         {isStudent ? (
             <React.Fragment>
@@ -21,6 +21,13 @@ const MemberSection = ({ members, title, id, isStudent = false }) => (
                 <StudentMemberSection members={members.filter((s) => s.year === 3)} title="Third Years" />
                 <StudentMemberSection members={members.filter((s) => s.year === 2)} title="Second Years" />
                 <StudentMemberSection members={members.filter((s) => s.year === 1)} title="First Years" />
+            </React.Fragment>
+        ) :
+        isAlumni ? (
+            <React.Fragment>
+                <StudentMemberSection members={members.filter((s) => s.batch === 2022)} title="2022 Batch" />
+                <StudentMemberSection members={members.filter((s) => s.batch === 2021)} title="2021 Batch" />
+                <StudentMemberSection members={members.filter((s) => s.batch === 2020)} title="2020 Batch" />
             </React.Fragment>
         ) : (
             <div className="flex flex-wrap mx-0">

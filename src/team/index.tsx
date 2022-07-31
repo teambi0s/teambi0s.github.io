@@ -11,11 +11,11 @@ import ALUMNI from '../data/alumni';
 import STAFF from '../data/staff';
 
 const HeaderSection = styled.section`
-  min-height: 45vh;
   display: flex;
   align-items: center;
+  padding: 5vh 1rem;      
   h1 {
-    font-size: calc(1.35rem + 2.5vw);
+    font-size: calc(2rem + 2.5vw);
     font-weight: bold;
   }
 `;
@@ -46,6 +46,7 @@ const TeamPage = () => (
             id="alumni"
             title="Alumni"
             members={ALUMNI}
+            isAlumni
         />
     </Layout>
 );

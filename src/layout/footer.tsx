@@ -7,7 +7,7 @@ const Footer = () => (
         <div className="w-100 md:w-1/2 flex items-center text-center md:text-left p-2 text-sm opacity-80">
             &copy; Team bi0s 2007 - {new Date().getFullYear()}. All rights reserved.
         </div>
-        <div className="w-100 md:w-1/2 p-2 flex justify-end items-center">
+        <div className="w-100 md:w-1/2 p-2 flex justify-center md:justify-end items-center">
             <Link passHref href="https://ctftime.org/team/662">
                 <a className="mr-2" target="_blank" rel="nofollow noreferrer">
                     <Image className="cursor-pointer" alt="CTFTime Profile" src="/ctftime.svg" width={90} height={45} />

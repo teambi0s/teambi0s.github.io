@@ -1,7 +1,7 @@
 import React from "react";
 
 const TableOfContents = () => (
-<div>
+<div className="p-3">
     <h2 className="font-semibold text-xl mb-2">Table of Contents</h2>
     <ul className="my-3">
         <li>
