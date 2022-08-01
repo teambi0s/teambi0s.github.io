@@ -20,7 +20,7 @@ const alumni = [
         "lastname": "",
         "team": "Forensics",
         "batch": 2022,
-        "affiliation": "",
+        "affiliation": "KPMG Global Services",
         "email": "bolisettynihith@gmail.com"
     },
     {
@@ -36,7 +36,7 @@ const alumni = [
         "lastname": "C",
         "team": "Binary Exploitation",
         "batch": 2022,
-        "affiliation": "",
+        "affiliation": "Purdue University",
         "email": "souragc2001@gmail.com"
     },
     {
@@ -44,7 +44,7 @@ const alumni = [
         "lastname": "Bino",
         "team": "Reverse Engineering",
         "batch": 2022,
-        "affiliation": "",
+        "affiliation": "HackerOne",
         "email": "sandrabinosb@gmail.com"
     },
     {
@@ -52,7 +52,7 @@ const alumni = [
         "lastname": "K Suresh",
         "team": "Reverse Engineering",
         "batch": 2022,
-        "affiliation": "",
+        "affiliation": "UC Santa Barbara",
         "email": "kssuraj15@gmail.com"
     },
     {
@@ -60,7 +60,7 @@ const alumni = [
         "lastname": "Vardhan Padala",
         "team": "Reverse Engineering",
         "batch": 2022,
-        "affiliation": "",
+        "affiliation": "Purdue University",
         "email": "padalaadityavardhan@gmail.com"
     },
     {
@@ -84,7 +84,7 @@ const alumni = [
         "lastname": "T",
         "team": "Binary Exploitation",
         "batch": 2022,
-        "affiliation": "",
+        "affiliation": "Purdue University",
         "email": "ritviktanksalkar@gmail.com"
     },
     {
@@ -92,7 +92,7 @@ const alumni = [
         "lastname": "Singh",
         "team": "Reverse Engineering",
         "batch": 2022,
-        "affiliation": "",
+        "affiliation": "Purdue University",
         "email": "008pranjalsingh@gmail.com"
     },
     {
