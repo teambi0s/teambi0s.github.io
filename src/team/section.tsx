@@ -35,7 +35,7 @@ const MemberSection = ({ members, title, id, isStudent = false, isAlumni = false
             </React.Fragment>
         ) : (
             <div className="flex flex-wrap mx-0">
-                {members.sort((s) => s?.username?.length > 0 ? s.username : s.firstname).map((s) => (
+                {members.sort((a, b) => a.firstname > b.firstname ? 1 : -1).map((s) => (
                     <MemberCard key={s.username} {...s} />
                 ))}
             </div>
