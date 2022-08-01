@@ -181,7 +181,7 @@ const alumni = [
         "lastname": "Hari Sarma",
         "team": "Binary Exploitation",
         "batch": 2021,
-        "affiliation": "Payatu",
+        "affiliation": "VU Amsterdam",
         "email": "maheshpdm2@gmail.com"
     },
     {
@@ -205,7 +205,7 @@ const alumni = [
         "lastname": "Dev TJ",
         "team": "Binary Exploitation",
         "batch": 2021,
-        "affiliation": "",
+        "affiliation": "VU Amsterdam",
         "email": "vishnudevtj@gmail.com"
     },
     {
