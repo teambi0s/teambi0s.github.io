@@ -1,5 +1,5 @@
 import Head from "next/head";
-import React, {useEffect, useState} from "react";
+import React, {useEffect, useLayoutEffect, useState} from "react";
 
 import Header from "./header";
 import Footer from "./footer";
@@ -19,15 +19,18 @@ const LIGHT_THEME = {
 
 const useThemeDetector = () => {
 
-    const [isDarkTheme, setIsDarkTheme] = useState(null);
+    const [isDarkTheme, setIsDarkTheme] = useState(true);
 
     const mqListener = (e => {
         setIsDarkTheme(e.matches);
     });
 
-    useEffect(() => {
+    useLayoutEffect(() => {
         const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
         darkThemeMq.addListener(mqListener);
+        if (darkThemeMq.matches) {
+            setIsDarkTheme(true);
+        }
         return () => darkThemeMq.removeListener(mqListener);
     }, []);
 
@@ -38,6 +41,8 @@ const Layout = ({ children, title }) => {
 
     const isDark = useThemeDetector();
     const [isDarkTheme, setDarkTheme] = useState(isDark);
+
+    useEffect(() => { setDarkTheme(isDark) }, [isDark]);
 
     return (
         <React.Fragment>
