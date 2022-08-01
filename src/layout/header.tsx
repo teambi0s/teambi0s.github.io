@@ -6,6 +6,7 @@ import Image from "next/image";
 const HeaderBar = styled.header`
   background: ${({ theme }) => theme.background};
   color: ${({ theme }) => theme.text};
+  transition: 0.25s background ease-in-out;
   position: sticky;
   width: 100%;
   left: 0;

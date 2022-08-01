@@ -3,6 +3,7 @@ html, body {
   margin: 0;
   font-size: 16px;
   font-family: 'Fira Code', monospace;
+  transition: 0.25s background ease-in-out;
 }
 
 .w-100 {
