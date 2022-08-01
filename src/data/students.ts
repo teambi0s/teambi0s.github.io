@@ -18,7 +18,7 @@ const students = [
         "email": "adhithyasureshk@gmail.com"
     },
     {
-        "username": "alfin",
+        "username": "Alfin",
         "firstname": "Alfin",
         "lastname": "Joseph",
         "team": "Web Exploitation",
