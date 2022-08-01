@@ -4,7 +4,8 @@ import styled from "@emotion/styled";
 import Image from "next/image";
 
 const HeaderBar = styled.header`
-  background: white;
+  background: ${({ theme }) => theme.background};
+  color: ${({ theme }) => theme.text};
   position: sticky;
   width: 100%;
   left: 0;
@@ -84,7 +85,7 @@ const MenuItem = ({ href, label }) => (
   </li>
 );
 
-const Header = () => {
+const Header = ({ isDarkTheme, setDarkTheme = (_b) => {} }) => {
 
     const [isOpen, setOpen] = useState(false);
 
@@ -107,10 +108,26 @@ const Header = () => {
                                         {MENU_ITEMS.map((i) => (
                                             <MenuItem key={i.href} {...i} />
                                         ))}
+                                        <button className="ml-4 flex items-center text-sm" onClick={() => setDarkTheme(!isDarkTheme)}>
+                                            <Image
+                                                alt="Switch Theme"
+                                                src={isDarkTheme ? "/icons/sun.svg" : "/icons/moon.svg"}
+                                                width={30}
+                                                height={30}
+                                            />
+                                        </button>
                                     </MenuContainer>
                                 </div>
                                 <div className="flex items-center md:hidden">
-                                    <button onClick={() => setOpen(!isOpen)}>
+                                    <button className="mr-3 flex items-center text-sm" onClick={() => setDarkTheme(!isDarkTheme)}>
+                                        <Image
+                                            alt="Switch Theme"
+                                            src={isDarkTheme ? "/icons/sun.svg" : "/icons/moon.svg"}
+                                            width={30}
+                                            height={30}
+                                        />
+                                    </button>
+                                    <button className="flex items-center" onClick={() => setOpen(!isOpen)}>
                                         <Image alt="menu" src="/icons/bars.svg" width={25} height={25} />
                                     </button>
                                 </div>

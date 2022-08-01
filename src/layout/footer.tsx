@@ -10,7 +10,7 @@ const Footer = () => (
         <div className="w-100 md:w-1/2 p-2 flex justify-center md:justify-end items-center">
             <Link passHref href="https://ctftime.org/team/662">
                 <a className="mr-2" target="_blank" rel="nofollow noreferrer">
-                    <Image className="cursor-pointer" alt="CTFTime Profile" src="/ctftime.svg" width={90} height={45} />
+                    <Image className="cursor-pointer filter-none" alt="CTFTime Profile" src="/ctftime.svg" width={90} height={45} />
                 </a>
             </Link>
             <Link href="mailto:amritabi0s1@gmail.com" passHref>
