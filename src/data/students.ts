@@ -315,6 +315,100 @@ const students = [
         "linkedin": "yadhukrishnam",
         "github": "yadhukrishnam",
         "email": "yadhukrishna.mpm@gmail.com"
+    },
+    {
+        "username": "A7HUL",
+        "firstname": "Athul",
+        "lastname": "Menon",
+        "category": "Hardware Security",
+        "year": 4,
+        "twitter": "athulmenon_",
+        "linkedin": "athulmenon17",
+        "github": "athul-menon",
+        "email": "athulmenon17@gmail.com"
+    },
+    {
+        "username": "IndyGod",
+        "firstname": "Indraraj",
+        "lastname": "Biswas",
+        "category": "Hardware Security",
+        "year": 4,
+        "email": "saket.biswas@gmail.com"
+    },
+    {
+        "username": "whrs_makey",
+        "firstname": "Kiran",
+        "lastname": "S Pillai",
+        "category": "Hardware Security",
+        "year": 3,
+        "twitter": "ks_pillai02",
+        "linkedin": "kiranspillai02",
+        "github": "kirkiosk",
+        "email": "kiransp2002@gmai.com"
+    },
+    {
+        "username": "Chainfire73",
+        "firstname": "Sreesankar",
+        "lastname": "S",
+        "category": "Hardware Security",
+        "year": 3,
+        "twitter": "SreeSankr",
+        "linkedin": "ssreesankar",
+        "github": "Chainfire73",
+        "email": "chainfire73@gmail.com"
+    },
+    {
+        "username": "narikodanhridul",
+        "firstname": "Nariokdan",
+        "lastname": "Hridul",
+        "category": "Hardware Security",
+        "year": 3,
+        "twitter": "narikodanhridul",
+        "linkedin": "narikodanhridul",
+        "github": "narikodanhridul",
+        "email": "narikodanhridul@gmail.com"
+    },
+    {
+        "username": "V!p3r",
+        "firstname": "Ranit",
+        "lastname": "Pradhan",
+        "category": "Hardware Security",
+        "year": 4,
+        "twitter": "pradhan_ranit",
+        "linkedin": "ranit-pradhan",
+        "github": "RanitPradhan",
+        "email": "pradhanranit0019@gmail.com"
+    },
+    {
+        "username": "ONEV_2",
+        "firstname": "Prakhar",
+        "lastname": "Agrawal",
+        "category": "Hardware Security",
+        "year": 4,
+        "linkedin": "prakhar-agrawal",
+        "github": "ONEV2",
+        "email": "prakhar.agrawal001@gmail.com"
+    },
+    {
+        "username": "MiHawk",
+        "firstname": "C P",
+        "lastname": "Ghanshyam",
+        "category": "Hardware Security",
+        "year": 3,
+        "twitter": "GhanShyam917",
+        "github": "shyam917",
+        "email": "shyamku917@gmail.com"
+    },
+    {
+        "username": "KⒶꓘ",
+        "firstname": "Archit",
+        "lastname": "Kak",
+        "category": "Hardware Security",
+        "year": 3,
+        "twitter": "",
+        "linkedin": "",
+        "github": "",
+        "email": "4rch1tk4k@gmail.com"
     }
 ]
 

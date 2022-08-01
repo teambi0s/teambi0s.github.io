@@ -18,5 +18,10 @@ export default [
         firstname: 'Season',
         lastname: 'Cherian',
         team: 'Hardware Security'
+    },
+    {
+        firstname: 'Varun',
+        lastname: 'Nair',
+        team: 'Offensive Security'
     }
 ]
