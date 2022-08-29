@@ -19,7 +19,7 @@ const TestimonialsContainer = styled.section`
 `;
 
 const Testimonials = () => (
-    <TestimonialsContainer>
+    <TestimonialsContainer id="testimonials">
         <h2 className="font-semibold text-xl md:text-2xl mb-4 lg:text-3xl xl:text-4xl">
             Here&apos;s what recruiters had to say about us
         </h2>

@@ -48,7 +48,7 @@ const Layout = ({ children, title }) => {
         <React.Fragment>
             <Head>
                 <title>{title}</title>
-                <link rel="icon" href="/branding/favicon.png"/>
+                <link rel="icon" href="/favicon.png"/>
             </Head>
             <ThemeContext.Provider value={isDarkTheme ? DARK_THEME : LIGHT_THEME}>
                 <Global

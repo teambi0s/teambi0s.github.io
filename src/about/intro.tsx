@@ -1,7 +1,7 @@
 import React from "react";
 
 const IntroductionSection = () => (
-    <section className="py-8">
+    <section id="introduction" className="py-8">
         <p>
             Team bi0s is a cyber-security enthusiast club and research group from Amrita Vishwa Vidyapeetham (University),
             India. The team was formally launched as a CTF team in 2007 under the mentorship of Vipin Pavithran, a

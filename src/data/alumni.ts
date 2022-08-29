@@ -2,7 +2,8 @@ const alumni = [
     {
         "firstname": "Meenakshi",
         "lastname": "SL",
-        "team": "Cryptography",
+        "category": "Cryptography",
+        "team": "CTF",
         "batch": 2022,
         "affiliation": "VMware",
         "email": "mail2slmeenu@gmail.com"
@@ -10,7 +11,8 @@ const alumni = [
     {
         "firstname": "Chandu",
         "lastname": "Kona",
-        "team": "Cryptography",
+        "category": "Cryptography",
+        "team": "CTF",
         "batch": 2022,
         "affiliation": "",
         "email": "Chandukona12345@gmail.com"
@@ -18,7 +20,7 @@ const alumni = [
     {
         "firstname": "Nihith",
         "lastname": "",
-        "team": "Forensics",
+        "category": "Forensics", "team": "CTF",
         "batch": 2022,
         "affiliation": "KPMG Global Services",
         "email": "bolisettynihith@gmail.com"
@@ -26,7 +28,7 @@ const alumni = [
     {
         "firstname": "Jaswanth",
         "lastname": "Bommidi",
-        "team": "Forensics",
+        "category": "Forensics", "team": "CTF",
         "batch": 2022,
         "affiliation": "",
         "email": "jassu.bommidi@gmail.com"
@@ -34,7 +36,7 @@ const alumni = [
     {
         "firstname": "Sourag",
         "lastname": "C",
-        "team": "Binary Exploitation",
+        "category": "Binary Exploitation", "team": "CTF",
         "batch": 2022,
         "affiliation": "Purdue University",
         "email": "souragc2001@gmail.com"
@@ -42,7 +44,8 @@ const alumni = [
     {
         "firstname": "Sandra",
         "lastname": "Bino",
-        "team": "Reverse Engineering",
+        "category": "Reverse Engineering",
+        "team": "CTF",
         "batch": 2022,
         "affiliation": "HackerOne",
         "email": "sandrabinosb@gmail.com"
@@ -50,7 +53,8 @@ const alumni = [
     {
         "firstname": "Suraj",
         "lastname": "K Suresh",
-        "team": "Reverse Engineering",
+        "category": "Reverse Engineering",
+        "team": "CTF",
         "batch": 2022,
         "affiliation": "UC Santa Barbara",
         "email": "kssuraj15@gmail.com"
@@ -58,7 +62,8 @@ const alumni = [
     {
         "firstname": "Aditya",
         "lastname": "Vardhan Padala",
-        "team": "Reverse Engineering",
+        "category": "Reverse Engineering",
+        "team": "CTF",
         "batch": 2022,
         "affiliation": "Purdue University",
         "email": "padalaadityavardhan@gmail.com"
@@ -66,7 +71,8 @@ const alumni = [
     {
         "firstname": "Gopika",
         "lastname": "S",
-        "team": "Web Exploitation",
+        "category": "Web Exploitation",
+        "team": "CTF",
         "batch": 2022,
         "affiliation": "PhonePe",
         "email": "gopikamalux5@gmail.com"
@@ -74,7 +80,8 @@ const alumni = [
     {
         "firstname": "Nikhil",
         "lastname": "Nair",
-        "team": "Web Exploitation",
+        "category": "Web Exploitation",
+        "team": "CTF",
         "batch": 2022,
         "affiliation": "VMware",
         "email": "jasonnair83@gmail.com"
@@ -82,7 +89,8 @@ const alumni = [
     {
         "firstname": "Ritvik",
         "lastname": "T",
-        "team": "Binary Exploitation",
+        "category": "Binary Exploitation",
+        "team": "CTF",
         "batch": 2022,
         "affiliation": "Purdue University",
         "email": "ritviktanksalkar@gmail.com"
@@ -90,7 +98,8 @@ const alumni = [
     {
         "firstname": "Pranjal",
         "lastname": "Singh",
-        "team": "Reverse Engineering",
+        "category": "Reverse Engineering",
+        "team": "CTF",
         "batch": 2022,
         "affiliation": "Purdue University",
         "email": "008pranjalsingh@gmail.com"
@@ -98,7 +107,8 @@ const alumni = [
     {
         "firstname": "Vishnu",
         "lastname": "Madhav",
-        "team": "Reverse Engineering",
+        "category": "Reverse Engineering",
+        "team": "CTF",
         "batch": 2022,
         "affiliation": "Zimperium",
         "email": ""
@@ -107,7 +117,8 @@ const alumni = [
         "firstname": "Yaswanth",
         "lastname": "R",
         "username": "az3z3l",
-        "team": "Web Exploitation",
+        "category": "Web Exploitation",
+        "team": "CTF",
         "batch": 2022,
         "affiliation": "VMware",
         "email": "yaswant.yme@gmail.com"
@@ -115,7 +126,7 @@ const alumni = [
     {
         "firstname": "Rahul",
         "lastname": "Sani",
-        "team": "Android",
+        "category": "Android", "team": "CTF",
         "batch": 2021,
         "affiliation": "CRED",
         "email": "sani.rahul999@gmail.com"
@@ -123,7 +134,7 @@ const alumni = [
     {
         "firstname": "Sowmya",
         "lastname": "Potluri",
-        "team": "Cryptography",
+        "category": "Cryptography", "team": "CTF",
         "batch": 2021,
         "affiliation": "Marvell",
         "email": "sowmya6320@gmail.com"
@@ -131,7 +142,7 @@ const alumni = [
     {
         "firstname": "Sayooj",
         "lastname": "Samuel",
-        "team": "Cryptography",
+        "category": "Cryptography", "team": "CTF",
         "batch": 2021,
         "affiliation": "Norton",
         "email": "sayoojsamuelgreat@gmail.com"
@@ -139,7 +150,7 @@ const alumni = [
     {
         "firstname": "Vivek",
         "lastname": "N J",
-        "team": "Cryptography",
+        "category": "Cryptography", "team": "CTF",
         "batch": 2021,
         "affiliation": "",
         "email": "viveknj719@gmail.com"
@@ -147,7 +158,7 @@ const alumni = [
     {
         "firstname": "Abhiram",
         "lastname": "Kumar",
-        "team": "Forensics",
+        "category": "Forensics", "team": "CTF",
         "batch": 2021,
         "affiliation": "Kroll",
         "email": "abhiram1999@gmail.com"
@@ -155,7 +166,8 @@ const alumni = [
     {
         "firstname": "Season",
         "lastname": "Cherian",
-        "team": "Hardware Security",
+        "category": "Hardware Security",
+        "team": "Hardware",
         "batch": 2021,
         "affiliation": "Traboda",
         "email": "seasoncherian@gmail.com"
@@ -163,7 +175,8 @@ const alumni = [
     {
         "firstname": "Kartheek",
         "lastname": "Lade",
-        "team": "Hardware Security",
+        "category": "Hardware Security",
+        "team": "Hardware",
         "batch": 2021,
         "affiliation": "Payatu",
         "email": "kartheekmanga@gmail.com"
@@ -171,7 +184,8 @@ const alumni = [
     {
         "firstname": "Hariprasad",
         "lastname": "K V",
-        "team": "Hardware Security",
+        "category": "Hardware Security",
+        "team": "Hardware",
         "batch": 2021,
         "affiliation": "",
         "email": "kannankv78@gmail.com"
@@ -179,7 +193,7 @@ const alumni = [
     {
         "firstname": "Mahesh",
         "lastname": "Hari Sarma",
-        "team": "Binary Exploitation",
+        "category": "Binary Exploitation", "team": "CTF",
         "batch": 2021,
         "affiliation": "VU Amsterdam",
         "email": "maheshpdm2@gmail.com"
@@ -187,7 +201,7 @@ const alumni = [
     {
         "firstname": "Shruti",
         "lastname": "Dixit",
-        "team": "Binary Exploitation",
+        "category": "Binary Exploitation", "team": "CTF",
         "batch": 2021,
         "affiliation": "Zscaler",
         "email": "dixitshweta22@gmail.com"
@@ -195,7 +209,7 @@ const alumni = [
     {
         "firstname": "Geethna",
         "lastname": "T K",
-        "team": "Binary Exploitation",
+        "category": "Binary Exploitation", "team": "CTF",
         "batch": 2021,
         "affiliation": "HackerOne",
         "email": "geethna.teekey@gmail.com"
@@ -203,7 +217,7 @@ const alumni = [
     {
         "firstname": "Vishnu",
         "lastname": "Dev TJ",
-        "team": "Binary Exploitation",
+        "category": "Binary Exploitation", "team": "CTF",
         "batch": 2021,
         "affiliation": "VU Amsterdam",
         "email": "vishnudevtj@gmail.com"
@@ -211,7 +225,7 @@ const alumni = [
     {
         "firstname": "Akul",
         "lastname": "Pillai",
-        "team": "Reverse Engineering",
+        "category": "Reverse Engineering", "team": "CTF",
         "batch": 2021,
         "affiliation": "Purdue University",
         "email": "vishnu@akulpillai.com"
@@ -219,7 +233,7 @@ const alumni = [
     {
         "firstname": "Ashwathi",
         "lastname": "Sasi",
-        "team": "Reverse Engineering",
+        "category": "Reverse Engineering", "team": "CTF",
         "batch": 2021,
         "affiliation": "ThreatLabZ",
         "email": "sasiashwathi@gmail.com"
@@ -227,7 +241,7 @@ const alumni = [
     {
         "firstname": "Ayushi",
         "lastname": "Sharma",
-        "team": "Reverse Engineering",
+        "category": "Reverse Engineering", "team": "CTF",
         "batch": 2021,
         "affiliation": "Purdue University",
         "email": "as.sharma7235@gmail.com"
@@ -235,7 +249,7 @@ const alumni = [
     {
         "firstname": "Ashwin",
         "lastname": "S Shenoi",
-        "team": "Web Exploitation",
+        "category": "Web Exploitation", "team": "CTF",
         "batch": 2021,
         "affiliation": "CRED",
         "email": "sashwinshenoi@gmail.com"
@@ -243,7 +257,7 @@ const alumni = [
     {
         "firstname": "Nimisha",
         "lastname": "Dughyala",
-        "team": "Web Exploitation",
+        "category": "Web Exploitation", "team": "CTF",
         "batch": 2021,
         "affiliation": "VMware",
         "email": "nimishadugyala@gmail.com"
@@ -251,7 +265,7 @@ const alumni = [
     {
         "firstname": "Aathira",
         "lastname": "Dineshan",
-        "team": "Hardware Security",
+        "category": "Hardware Security",
         "batch": 2021,
         "affiliation": "IBM",
         "email": "aathira2017@gmail.com"
@@ -259,7 +273,7 @@ const alumni = [
     {
         "firstname": "Ashutosh",
         "lastname": "Ahelleya",
-        "team": "Cryptography",
+        "category": "Cryptography", "team": "CTF",
         "batch": 2020,
         "affiliation": "Capsule Social",
         "email": "ashutosh.ahelleya@gmail.com"
@@ -267,7 +281,7 @@ const alumni = [
     {
         "firstname": "Kartik",
         "lastname": "Nambiar",
-        "team": "Forensics",
+        "category": "Forensics", "team": "CTF",
         "batch": 2020,
         "affiliation": "",
         "email": "kartik997@gmail.com"
@@ -275,7 +289,8 @@ const alumni = [
     {
         "firstname": "Ashwin",
         "lastname": "Nambiar",
-        "team": "Hardware Security",
+        "category": "Hardware Security",
+        "team": "Hardware",
         "batch": 2020,
         "affiliation": "Purdue University",
         "email": "ashwin0nambiar@gmail.com"
@@ -283,7 +298,7 @@ const alumni = [
     {
         "firstname": "Vignesh",
         "lastname": "Rao",
-        "team": "Binary Exploitation",
+        "category": "Binary Exploitation", "team": "CTF",
         "batch": 2020,
         "affiliation": "Exodus Intelligence",
         "email": "vigneshsrao5@gmail.com"
@@ -291,7 +306,7 @@ const alumni = [
     {
         "firstname": "Saastha",
         "lastname": "Vasan",
-        "team": "Reverse Engineering",
+        "category": "Reverse Engineering", "team": "CTF",
         "batch": 2020,
         "affiliation": "UC Santa Barbara",
         "email": "saasthavasan@gmail.com"
@@ -299,7 +314,7 @@ const alumni = [
     {
         "firstname": "Siddharth",
         "lastname": "Muralee",
-        "team": "Reverse Engineering",
+        "category": "Reverse Engineering", "team": "CTF",
         "batch": 2020,
         "affiliation": "Purdue University",
         "email": "siddharth.muralee@gmail.com"
@@ -307,7 +322,7 @@ const alumni = [
     {
         "firstname": "Tarunkant",
         "lastname": "Gupta",
-        "team": "Web Exploitation",
+        "category": "Web Exploitation", "team": "CTF",
         "batch": 2020,
         "affiliation": "Disney Hotstar",
         "email": "tarunkant05@gmail.com"
@@ -315,70 +330,70 @@ const alumni = [
     {
         "firstname": "Gokul",
         "lastname": "Krishna P",
-        "team": "Web Exploitation",
+        "category": "Web Exploitation", "team": "CTF",
         "batch": 2018,
         "affiliation": "Arizona State University",
     },
     {
         "firstname": "Jayakrishna",
         "lastname": "Menon",
-        "team": "Binary Exploitation",
+        "category": "Binary Exploitation", "team": "CTF",
         "batch": 2018,
         "affiliation": "Arizona State University"
     },
     {
         "firstname": "Abhishek",
         "lastname": "JM",
-        "team": "Android",
+        "category": "Android", "team": "CTF",
         "batch": 2017,
         "affiliation": "CRED",
     },
     {
         "firstname": "Heeraj",
         "lastname": "Nair",
-        "team": "Web Exploitation",
+        "category": "Web Exploitation", "team": "CTF",
         "batch": 2018,
         "affiliation": "DoctorOnCall",
     },
     {
         "firstname": "Shivakrishna",
         "lastname": "Anil",
-        "team": "Forensics",
+        "category": "Forensics", "team": "CTF",
         "batch": 2018,
         "affiliation": "EC Council",
     },
     {
         "firstname": "Aswin",
         "lastname": "M Guptha",
-        "team": "Web Exploitation",
+        "category": "Web Exploitation", "team": "CTF",
         "batch": 2019,
         "affiliation": "Traboda",
     },
     {
         "firstname": "Akshay",
         "lastname": "Ajayan",
-        "team": "Reverse Engineering",
+        "category": "Reverse Engineering", "team": "CTF",
         "batch": 2019,
         "affiliation": "ASU",
     },
     {
         "firstname": "Akhil",
         "lastname": "Mahendra",
-        "team": "Web Exploitation",
+        "category": "Web Exploitation", "team": "CTF",
         "batch": 2017,
         "affiliation": "CRED",
     },
     {
         "firstname": "Arjun",
         "lastname": "TU",
-        "team": "Reverse Engineering",
+        "category": "Reverse Engineering", "team": "CTF",
         "batch": 2016,
         "affiliation": "Traboda",
     },
     {
         "firstname": "Anirudh",
         "lastname": "Anand",
-        "team": "Web Exploitation",
+        "category": "Web Exploitation", "team": "CTF",
         "batch": 2016,
         "affiliation": "CRED",
     }

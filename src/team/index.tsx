@@ -10,6 +10,7 @@ import ADVISORS from '../data/advisors';
 import ALUMNI from '../data/alumni';
 import STAFF from '../data/staff';
 import MemberCard from "./card";
+import FounderSection from "./founder";
 
 const HeaderSection = styled.section`
   display: flex;
@@ -21,6 +22,13 @@ const HeaderSection = styled.section`
 const TeamPage = () => {
 
     const [selection, setSelection] = useState('ALL');
+    const [team, setTeam] = useState('ALL');
+    const [keyword, setKeyword] = useState('');
+
+    const filterMembers = (members) => members.filter((m) =>
+        (team == 'ALL' || team == m.team) &&
+        (m?.firstname?.toLowerCase().startsWith(keyword) || m?.lastname?.toLowerCase().startsWith(keyword) || m?.username?.toLowerCase().startsWith(keyword))
+    );
 
     return (
         <Layout title="Team Members | team bi0s - India's No.1 Ranked CTF Team & Cyber Security Research Club">
@@ -32,38 +40,40 @@ const TeamPage = () => {
             <div className="flex flex-wrap mx-0">
                 <div className="w-100 lg:w-1/4 xl:w-1/5 px-2">
                     <div className="sticky top-0" style={{ paddingTop: '7vh' }}>
-                        <TableOfContents setType={setSelection} type={selection} />
+                        <TableOfContents
+                            setType={setSelection}
+                            type={selection}
+                            setTeam={setTeam}
+                            team={team}
+                            setKeyword={(k) => setKeyword(k.toLowerCase())}
+                            keyword={keyword}
+                        />
                     </div>
                 </div>
                 <div className="w-100 lg:w-3/4 xl:w-4/5 px-2">
                     <div style={{ height: '7.5vh' }} />
                     {(selection === 'ALL') && (
-                        <MemberCard
-                            firstname="Vipin"
-                            lastname="Pavithran"
-                            username="Th3_M3nt0r"
-                            affiliation="Chief Mentor & Founder"
-                        />
+                        <FounderSection />
                     )}
                     {(selection === 'ALL' || selection === 'ADVISORS') && (
                         <MemberSection
                             id="advisors"
                             title="Advisors"
-                            members={ADVISORS}
+                            members={filterMembers(ADVISORS)}
                         />
                     )}
                     {(selection === 'ALL' || selection === 'STAFF') && (
                         <MemberSection
                             id="staff"
                             title="Staff Mentors"
-                            members={STAFF}
+                            members={filterMembers(STAFF)}
                         />
                     )}
                     {(selection === 'ALL' || selection === 'STUDENTS') && (
                         <MemberSection
                             id="students"
                             title="Student Members"
-                            members={STUDENTS}
+                            members={filterMembers(STUDENTS)}
                             isStudent
                         />
                     )}
@@ -71,7 +81,7 @@ const TeamPage = () => {
                         <MemberSection
                             id="alumni"
                             title="Alumni"
-                            members={ALUMNI}
+                            members={filterMembers(ALUMNI)}
                             isAlumni
                         />
                     )}

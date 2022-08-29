@@ -6,6 +6,7 @@ import IntroductionSection from "./intro";
 import Testimonials from "./testimonials";
 import WhatWeDoSection from "./what-we-do";
 import HowItFunctions from "./how-it-functions";
+import Teams from "./teams";
 
 const HeaderSection = styled('section')`
   min-height: 35vmin;
@@ -24,6 +25,7 @@ const AboutPage = () => (
         <IntroductionSection />
         <HowItFunctions />
         <WhatWeDoSection />
+        <Teams />
         <Testimonials />
     </Layout>
 );

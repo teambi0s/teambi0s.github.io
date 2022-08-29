@@ -2,26 +2,31 @@ export default [
     {
         firstname: 'Arjun',
         lastname: 'TU',
-        team: 'Reverse Engineering'
+        category: 'Reverse Engineering',
+        team: 'CTF'
     },
     {
         firstname: 'Abhinand',
         lastname: '',
-        team: 'Android Security'
+        category: 'Android Security',
+        team: 'CTF'
     },
     {
         firstname: 'Aswin',
         lastname: 'M Guptha',
-        team: 'Web Security'
+        category: 'Web Security',
+        team: 'CTF'
     },
     {
         firstname: 'Season',
         lastname: 'Cherian',
-        team: 'Hardware Security'
+        category: 'Hardware Security',
+        team: 'Hardware'
     },
     {
         firstname: 'Varun',
         lastname: 'Nair',
-        team: 'Offensive Security'
+        category: 'Offensive Security',
+        team: 'Pentest'
     }
 ]

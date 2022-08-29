@@ -99,7 +99,7 @@ const Header = ({ isDarkTheme, setDarkTheme = (_b) => {} }) => {
                             <div className="w-1/2 lg:w-1/4 flex items-center px-2">
                                 <Link passHref href="/">
                                     <a>
-                                        <Image alt="Team bi0s" src="/branding/dark-logo.png" width={106} height={37} />
+                                        <Image alt="Team bi0s" src="/dark-logo.png" width={106} height={37} />
                                     </a>
                                 </Link>
                             </div>
