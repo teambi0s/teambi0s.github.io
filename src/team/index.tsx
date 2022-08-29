@@ -9,6 +9,7 @@ import STUDENTS from '../data/students';
 import ADVISORS from '../data/advisors';
 import ALUMNI from '../data/alumni';
 import STAFF from '../data/staff';
+import MemberCard from "./card";
 
 const HeaderSection = styled.section`
   display: flex;
@@ -36,6 +37,14 @@ const TeamPage = () => {
                 </div>
                 <div className="w-100 lg:w-3/4 xl:w-4/5 px-2">
                     <div style={{ height: '7.5vh' }} />
+                    {(selection === 'ALL') && (
+                        <MemberCard
+                            firstname="Vipin"
+                            lastname="Pavithran"
+                            username="Th3_M3nt0r"
+                            affiliation="Chief Mentor & Founder"
+                        />
+                    )}
                     {(selection === 'ALL' || selection === 'ADVISORS') && (
                         <MemberSection
                             id="advisors"

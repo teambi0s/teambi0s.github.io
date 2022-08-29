@@ -2,7 +2,7 @@ import React from "react";
 import styled from "@emotion/styled";
 
 const HeaderSection = styled.header`
-    min-height: 75vh;
+    min-height: 65vh;
     display: flex;
     align-items: center;
     padding: 1rem;

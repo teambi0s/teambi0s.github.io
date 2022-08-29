@@ -355,6 +355,13 @@ const alumni = [
         "affiliation": "Traboda",
     },
     {
+        "firstname": "Akshay",
+        "lastname": "Ajayan",
+        "team": "Reverse Engineering",
+        "batch": 2019,
+        "affiliation": "ASU",
+    },
+    {
         "firstname": "Akhil",
         "lastname": "Mahendra",
         "team": "Web Exploitation",

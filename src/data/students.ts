@@ -380,16 +380,6 @@ const students = [
         "email": "pradhanranit0019@gmail.com"
     },
     {
-        "username": "ONEV_2",
-        "firstname": "Prakhar",
-        "lastname": "Agrawal",
-        "category": "Hardware Security",
-        "year": 4,
-        "linkedin": "prakhar-agrawal",
-        "github": "ONEV2",
-        "email": "prakhar.agrawal001@gmail.com"
-    },
-    {
         "username": "MiHawk",
         "firstname": "C P",
         "lastname": "Ghanshyam",
