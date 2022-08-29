@@ -25,7 +25,7 @@ const MenuContainer = styled.ul`
     padding: 0.25rem 0.5rem;
     border-radius: 7px;
     &:hover {
-      background: rgba(0, 0, 0, 0.05);
+      background: ${({ theme }) =>  theme.isDarkTheme ? 'rgba(255,255,255,0.05)' : 'rgba(0, 0, 0, 0.05)' };
     }
   }
   li:last-of-type {

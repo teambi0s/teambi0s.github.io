@@ -22,11 +22,13 @@ const AboutPage = () => (
                 About bi0s
             </h1>
         </HeaderSection>
-        <IntroductionSection />
-        <HowItFunctions />
-        <WhatWeDoSection />
-        <Teams />
-        <Testimonials />
+        <div className="p-3">
+            <IntroductionSection />
+            <HowItFunctions />
+            <WhatWeDoSection />
+            <Teams />
+            <Testimonials />
+        </div>
     </Layout>
 );
 
