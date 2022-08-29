@@ -1,4 +1,4 @@
-export default [
+const staff = [
     {
         firstname: 'Arjun',
         lastname: 'TU',
@@ -29,4 +29,6 @@ export default [
         category: 'Offensive Security',
         team: 'Pentest'
     }
-]
+];
+
+export default staff;

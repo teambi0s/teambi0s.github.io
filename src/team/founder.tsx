@@ -18,7 +18,7 @@ const FounderSection = () => (
                 over 10 years in the software industry in the USA & UK. Being passionate about helping students to
                 develop their talent and to make them reach their potential, he founded the internationally recognised
                 student clubs - amFOSS, Team bi0s and Team Shakti, and today mentors over 300 engineering students
-                directly through these clubs. team bi0s was amongst India's first CTF team when it was formed in 2007,
+                directly through these clubs. team bi0s was amongst India&apos;s first CTF team when it was formed in 2007,
                 and it was this team that founded the InCTF in 2010, which was the first-ever CTF contest to be
                 organized in India.
             </p>

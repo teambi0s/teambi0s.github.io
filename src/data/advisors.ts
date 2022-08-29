@@ -1,4 +1,4 @@
-export default [
+const advisors =  [
     {
         firstname: 'Arvind',
         lastname: 'S Raj',
@@ -14,4 +14,6 @@ export default [
         lastname: 'Chalakkal',
         affiliation: 'Siemens'
     }
-]
+];
+
+export default advisors;
